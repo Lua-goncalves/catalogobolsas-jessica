@@ -1,0 +1,495 @@
+import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import { ChevronDown, ChevronUp } from "lucide-react";
+import { useState } from "react";
+import bag1 from "@/images/bag-1.jpeg";
+import bag2 from "@/images/bag-2.jpeg";
+import bag3 from "@/images/bag-3.jpeg";
+import bag4 from "@/images/bag-4.jpeg";
+import bag5 from "@/images/bag-5.jpeg";
+import bag6 from "@/images/bag-6.jpeg";
+import bag7 from "@/images/bag-7.jpeg";
+import bag8 from "@/images/bag-8.jpeg";
+import bag9 from "@/images/bag-9.jpeg";
+import bag10 from "@/images/bag-10.jpeg";
+import bag11 from "@/images/bag-11.jpeg";
+import bag12 from "@/images/bag-12.jpeg";
+import bag13 from "@/images/bag-13.jpeg";
+import bag14 from "@/images/bag-14.jpeg";
+import bag15 from "@/images/bag-15.jpeg";
+import bag16 from "@/images/bag-16.jpeg";
+import bag17 from "@/images/bag-17.jpeg";
+import bag18 from "@/images/bag-18.jpeg";
+import bag19 from "@/images/bag-19.jpeg";
+import bag20 from "@/images/bag-20.jpeg";
+import bag21 from "@/images/bag-21.jpeg";
+import bag22 from "@/images/bag-22.jpeg";
+import bag23 from "@/images/bag-23.jpeg";
+import bag24 from "@/images/bag-24.jpeg";
+import bag25 from "@/images/bag-25.jpeg";
+import bag26 from "@/images/bag-26.jpeg";
+import bag27 from "@/images/bag-27.jpeg";
+import bag28 from "@/images/bag-28.jpeg";
+import bag29 from "@/images/bag-29.jpeg";
+import bag30 from "@/images/bag-30.jpeg";
+import bag31 from "@/images/bag-31.jpeg";
+import bag32 from "@/images/bag-32.jpeg";
+import bag33 from "@/images/bag-33.jpeg";
+import bag34 from "@/images/bag-34.jpeg";
+import bag35 from "@/images/bag-35.jpeg";
+import bag36 from "@/images/bag-36.jpeg";
+import bag37 from "@/images/bag-37.jpeg";
+import bag38 from "@/images/bag-38.jpeg";
+import bag39 from "@/images/bag-39.jpeg";
+import bag40 from "@/images/bag-40.jpeg";
+import bag41 from "@/images/bag-41.jpeg";
+import bag42 from "@/images/bag-42.jpeg";
+import bag43 from "@/images/bag-43.jpeg";
+import bag44 from "@/images/bag-44.jpeg";
+import bag45 from "@/images/bag-1.1.jpeg"
+import bag46 from "@/images/bag-46.jpeg";
+import bag47 from "@/images/bag-47.jpeg";
+import bag48 from "@/images/bag-47.1.jpeg";
+import bag49 from "@/images/bag-47.2.jpeg";
+import bag50 from "@/images/bag-48.jpeg";
+import bag51 from "@/images/bag-49.jpeg";
+import bag52 from "@/images/bag-50.jpeg";
+import bag53 from "@/images/bag-51.jpeg";
+import bag54 from "@/images/bag-52.jpeg";
+import bag55 from "@/images/bag-53.jpeg";
+import bag56 from "@/images/bag-54.jpeg";
+import bag57 from "@/images/bag-55.jpeg";
+import bag58 from "@/images/bag-56.jpeg";
+import bag59 from "@/images/bag-57.jpeg";
+
+import { fromTheme } from "tailwind-merge";
+
+const products = [
+  {
+    id: 1,
+    name: "Bolsa Tote Caramelo com Lenço Decorativo",
+    price: "R$ 135,00",
+    description:
+      "Bolsa em couro sintético na cor caramelo, modelo tote com alças duplas e lenço decorativo. Possui zíper frontal dourado e design versátil, que combina com diversos estilos.O lenço é um detalhe moderno e personalizável, ma tendência popular que permite transformar o visual da bolsa, podendo ser amarrado de diferentes maneiras para criar estilos variados.",
+    media: [
+      { type: "image", src: bag45 },
+      { type: "image", src: bag1 },
+      { type: "video", src: "/videos/bag-1.1.mp4" },
+    ],
+  },
+  {
+    id: 2,
+    name: "Bolsa Chicago",
+    price: "R$ 135,00",
+    description:
+      "Modelo elegante em couro sintético, com alça de mão franzida (ou plissada) e alça transversal que une estilo e praticidade.Disponível nas cores preta e bege.",
+    media: [
+      { type: "image", src: bag2 },
+      { type: "image", src: bag3 },
+      { type: "image", src: bag4 },
+      { type: "image", src: bag5 },
+      { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+  {
+    id: 3,
+    name: "Bolsa Compacta e Versátil",
+    price: "R$ 90,00",
+    description:
+      "Bolsa de design compacto, que também pode ser usada como bolsa de ombro. Prática e elegante, é perfeita para o dia a dia.",
+    media: [
+      { type: "image", src: bag6 },
+      { type: "image", src: bag7 },
+      { type: "image", src: bag8 },
+      // { type: "video", src: "" },
+    ],
+  },
+  {
+    id: 4,
+    name: "Bolsa de Couro Sintético",
+    price: "R$ 99,00 a R$ 149,00",
+    description:
+      " Peça atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões.Disponível nos tamanhos pequeno R$ 99,00 , médio R$ 129,00 e grande R$ 149,00 e também na cor preta.",
+    media: [
+      { type: "image", src: bag9 },
+      { type: "image", src: bag10 },
+      { type: "image", src: bag11 },
+      { type: "video", src: "/videos/bag4.1.mp4" },
+    ],
+  },
+  {
+    id: 5,
+    name: "Bolsas Grandes Elegantes",
+    price: "R$ 165,00",
+    description:
+      "Bolsas grandes com designs modernos, versáteis e elegantes, acabamento impecável e detalhes sofisticados em metal. Possuem alças ajustáveis para uso no ombro ou transversal, oferecendo praticidade para o dia a dia. A bolsa exibida na foto acompanha uma pequena bolsinha pendurada, ideal como porta-moedas. Perfeitas para diversas ocasiões, desde looks casuais até os mais elegantes.Disponível nas cores preta, marrom, caramelo e vinho.",
+    media: [
+      { type: "image", src: bag12 },
+      { type: "image", src: bag13 },
+      { type: "image", src: bag14 },
+      { type: "image", src: bag15 },
+      { type: "video", src: "/videos/bag5.1.mp4" },
+      { type: "video", src: "/videos/bag5.2.mp4" },
+    ],
+  },
+  {
+    id: 6,
+    name: "Bolsa Hobo Caramelo",
+    price: "R$ 165,00",
+    description:
+      "Bolsa em formato meia-lua, confeccionada em material sintético maleável e desestruturado, que adquire um caimento natural ao ser apoiada. Versátil e casual, é perfeita para o uso diário, proporcionando um visual moderno e despojado.",
+    media: [
+      { type: "image", src: bag16 },
+      { type: "image", src: bag17 },
+      { type: "video", src: "/videos/bag6.1.mp4" },
+    ],
+  },
+  {
+    id: 7,
+    name: "Bolsa Hobo Grande",
+    price: "R$ 139,00",
+    description:
+      "Bolsa Hobo de design curvado na parte superior, com alça de ombro ajustável, zíperes laterais com puxadores decorativos e detalhe de metal dourado na parte frontal. Disponível nas cores prata metálico e marrom, combina estilo e praticidade para o dia a dia.",
+    media: [
+      { type: "image", src: bag18 },
+      { type: "image", src: bag19 },
+      { type: "video", src: "/videos/bag7.1.mp4" },
+    ],
+  },
+  {
+    id: 8,
+    name: "Bolsa de Mão Bicolor",
+    price: "R$ 135,00",
+    description:
+      " Bolsa em couro sintético com alça de mão, apresentando design bicolor elegante, parte superior em bege e inferior em azul claro com textura. Sofisticada e moderna, ideal para diversas ocasiões.",
+    media: [
+      { type: "image", src: bag50 },
+      { type: "video", src: "/videos/bag-8.1.mp4" },
+    ],
+  },
+
+  {
+    id: 9,
+    name: "Bolsa Hobo Preta",
+    price: "R$ 139,00",
+    description:
+      " Bolsa grande em couro sintético, com alça de ombro trançada e detalhes dourados que acrescentam sofisticação. Elegante e espaçosa, perfeita para o dia a dia ou ocasiões especiais.",
+    media: [
+      { type: "image", src: bag20 },
+      // { type: "video", src: "" },
+    ],
+  },
+  {
+    id: 10,
+    name: "Bolsa de Ombro Média Bicolor",
+    price: "R$ 135,00",
+    description:
+      "Bolsa média com alça superior e fecho de aba, com design bicolor elegante. Disponível nas combinações creme e preto e creme e cinza. Versátil e sofisticada, perfeita para o dia a dia.",
+    media: [
+      { type: "image", src: bag21 },
+      { type: "image", src: bag22 },
+      // { type: "video", src: "" },
+    ],
+  },
+  {
+    id: 11,
+    name: "Bolsa de Mão Média Marrom",
+    price: "R$ 140,00",
+    description:
+      "Bolsa de formato baú, com design moderno e elegante. Possui alça de mão trançada e alça transversal ajustável, ambas na cor marrom, oferecendo estilo e praticidade para o dia a dia.",
+    media: [
+      { type: "image", src: bag23 },
+      { type: "video", src: "/videos/bag11.1.mp4" },
+    ],
+  },
+  {
+    id: 12,
+    name: "Bolsa Média Marrom",
+    price: "R$ 149,00",
+    description:
+      "Bolsa média em couro sintético de alta qualidade, com design moderno e estruturado. Conta com três repartições internas, incluindo uma com zíper, oferecendo praticidade e organização. Versátil, perfeita para o dia a dia de trabalho ou ocasiões casuais.",
+    media: [
+      { type: "image", src: bag24 },
+      { type: "image", src: bag25 },
+      { type: "video", src: "/videos/bag12.1.mp4" },
+    ],
+  },
+  {
+    id: 13,
+    name: "Bolsa Média Preta",
+    price: "R$ 135,00",
+    description:
+      "Bolsa de design moderno e elegante, com acabamento sofisticado. Possui alça transversal ajustável e removível, além de fechamento com zíper para mais praticidade e segurança.",
+    media: [
+      { type: "image", src: bag26 },
+      { type: "video", src: "/videos/bag13.1.mp4" },
+    ],
+  },
+  {
+    id: 14,
+    name: "Bolsa Pequena Bege",
+    price: "R$ 140,00",
+    description:
+      " Bolsa de alça dupla de mão, confeccionada em material sintético, com alça de ombro removível e design delicado. Acompanha um lenço estampado que complementa o visual com charme e elegância.",
+    media: [
+      { type: "image", src: bag27 },
+      { type: "image", src: bag28 },
+      { type: "video", src: "/videos/bag14.1.mp4" },
+    ],
+  },
+  {
+    id: 15,
+    name: "Bolsa Preta Compacta",
+    price: "R$ 120,00",
+    description:
+      "Bolsa pequena e elegante em couro sintético, com aba sofisticada e alça de ombro longa e ajustável. Versátil e prática, ideal para ocasiões casuais e formais.",
+    media: [
+      { type: "image", src: bag29 },
+      { type: "image", src: bag30 },
+      // { type: "video", src: "" },
+    ],
+  },
+  {
+    id: 16,
+    name: "Bolsa Social Preta",
+    price: "R$ 165,00",
+    description:
+      " Bolsa social em courino sintético, com alça de mão e alça transversal ajustável e removível. Apresenta detalhes em tressê na parte frontal, unindo elegância e praticidade para ocasiões formais ou do dia a dia.",
+    media: [
+      { type: "image", src: bag31 },
+      { type: "video", src: "/videos/bag16.1.mp4" },
+    ],
+  },
+  {
+    id: 17,
+    name: "Bolsa Tiracolo em Couro Sintético",
+    price: "R$ 59,90",
+    description:
+      "Bolsa tiracolo de estilo clássico e versátil, ideal para uso durante o dia ou à noite. Confeccionada em couro sintético, possui fecho em metal e alça de corrente preta que adiciona um toque moderno e elegante.Disponível nas cores branco, bege, caramelo e creme.",
+    media: [
+      { type: "image", src: bag32 },
+      { type: "image", src: bag33 },
+      { type: "image", src: bag34 },
+      { type: "image", src: bag35 },
+      // { type: "video", src: "" },
+    ],
+  },
+  {
+    id: 18,
+    name: "Bolsa Tote Branca Texturizada com Nécessaire",
+    price: "R$ 149,00",
+    description:
+      "Conjunto elegante composto por uma bolsa de ombro tipo tote e uma nécessaire removível. A bolsa principal possui formato espaçoso, alças curtas e acabamento texturizado que imita couro de crocodilo, confeccionada em couro sintético de alta qualidade. Perfeita para quem busca praticidade e sofisticação no dia a dia.",
+    media: [
+      { type: "image", src: bag36 },
+      { type: "image", src: bag37 },
+      { type: "video", src: "/videos/bag18.1.mp4" },
+    ],
+  },
+  {
+    id: 19,
+    name: "Bolsa Tote",
+    price: "R$ 139,90",
+    description:
+      "Modelo espaçoso e prático, ideal para o dia a dia. Possui design moderno e funcional, perfeito para carregar todos os seus itens com estilo e elegância.Disponível nas cores marrom e preta.",
+    media: [
+      { type: "image", src: bag38 },
+      { type: "image", src: bag39 },
+      { type: "image", src: bag40 },
+      { type: "video", src: "/videos/bag19.1.mp4" },
+    ],
+  },
+  {
+    id: 20,
+    name: "Conjunto de Bolsas Femininas Pretas",
+    price: "R$ 149,00",
+    description:
+      "Conjuntocomposto por duas bolsas elegantes:•	Bolsa Tote Grande: Design de cesta trançada com alças curtas, confeccionada em couro sintético com textura trançada. Espaçosa e versátil, perfeita para o dia a dia ou compromissos mais formais.•	Bolsa Crossbody Menor: Modelo transversal com alça longa e ajustável, ideal para praticidade e estilo no dia a dia.A bolsa menor é inclusa como brinde, tornando este conjunto ainda mais atraente.",
+    media: [
+      { type: "image", src: bag41, bag42 },
+      // { type: "video", src: "" },
+    ],
+  },
+  {
+    id: 21,
+    name: "Bolsa Satchel Bicolor",
+    price: "R$ 135,00",
+    description:
+      "  Bolsa de mão com alça superior, apresentando design bicolor elegante, parte superior em tom creme e inferior em azul claro. Possui fecho de metal dourado, que adiciona um toque sofisticado. Versátil e atemporal, é perfeita tanto para o dia a dia quanto para eventos mais formais.",
+    media: [
+      { type: "image", src: bag47 },
+      { type: "image", src: bag49 },
+      { type: "image", src: bag48 },
+      // { type: "video", src: "/videos/bag21.1" },
+    ],
+  },
+  {
+    id: 22,
+    name: "Mochila Urbana Preta Feminina",
+    price: "R$ 95,00",
+    description:
+      "Mochila feminina em couro sintético, com alças duplas para maior conforto. Possui bolsos frontais com zíper e bolsos laterais, oferecendo praticidade e organização para o dia a dia urbano.",
+    media: [
+      { type: "image", src: bag43 },
+      { type: "image", src: bag44 },
+      { type: "video", src: "/videos/bag21.1.mp4" },
+    ],
+  },
+  {
+    id: 23,
+    name: "Bolsa de Couro Sintético Bege",
+    price: "R$ 149,00",
+    description:
+      " Bolsa em couro sintético, tamanho pequeno, com alças de mão e alça de ombro longa, unindo praticidade e elegância em um design delicado e versátil. ",
+    media: [
+      { type: "image", src: bag46 },
+      { type: "video", src: "/videos/bag23.1.mp4" },
+    ],
+  },
+  {
+    id: 24,
+    name: "Bolsa Quilted Satchel Marrom",
+    price: "R$ 135,00",
+    description:
+      "Bolsa média em couro sintético, com textura matelassê e design clássico. Possui alças de mão e alça transversal removível, oferecendo praticidade e elegância. O tecido acolchoado confere um toque sofisticado, tornando-a uma peça versátil que combina com diversas ocasiões e looks refinados.",
+    media: [
+      { type: "image", src: bag51 },
+      { type: "image", src: bag52 },
+      { type: "image", src: bag53 },
+      // { type: "video", src: "/videos/bag-8.1.mp4" },
+    ],
+  },
+  {
+    id: 25,
+    name: "Bolsa Satchel Média Preta",
+    price: "R$ 140,00",
+    description:
+      " Bolsa em couro sintético, estilo satchel, com estrutura firme e design elegante. Possui alças curtas e alça longa removível, além de detalhes em corrente dourada que adicionam um toque sofisticado e moderno.",
+    media: [
+      { type: "image", src: bag54 },
+      { type: "image", src: bag55 },
+      // { type: "video", src: "/videos/bag-8.1.mp4" },
+    ],
+  },
+  {
+    id: 26,
+    name: "Bolsa Tote Média",
+    price: "R$ 140,00",
+    description:
+      " Bolsa em couro sintético, modelo tote de tamanho médio, com alças de mão e formato estruturado. Acompanha uma bolsa menor, que pode ser usada como carteira ou porta-moedas, além de uma alça transversal removível e ajustável.O conjunto é versátil, prático e elegante, ideal para o dia a dia, o trabalho ou eventos casuais.Disponível nas cores caramelo e preta.",
+    media: [
+      { type: "image", src: bag56 },
+      { type: "image", src: bag57 },
+      { type: "image", src: bag58 },
+      { type: "image", src: bag59 },
+      // { type: "video", src: "/videos/bag-8.1.mp4" },
+    ],
+  },
+];
+
+const Products = () => {
+  const [expandedProduct, setExpandedProduct] = useState<number | null>(null);
+
+  const handleWhatsAppClick = (productName: string) => {
+    const message = encodeURIComponent(`Olá! Tenho interesse na ${productName}`);
+    window.open(`https://wa.me/5519998449681?text=${message}`, "_blank");
+  };
+
+  const toggleDescription = (productId: number) => {
+    setExpandedProduct(expandedProduct === productId ? null : productId);
+  };
+
+  return (
+    <section id="produtos" className="py-20 md:py-32 bg-background">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Nossa Coleção</h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Peças exclusivas que combinam qualidade premium com design sofisticado
+          </p>
+        </div>
+
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {products.map((product, index) => (
+            <Card 
+              key={product.id}
+              className="overflow-hidden border-0 shadow-lg hover:shadow-2xl transition-all duration-300 animate-fade-up bg-card"
+              style={{ animationDelay: `${index * 100}ms` }}
+            >
+              {/* Carousel */}
+              <Carousel className="w-full">
+                <CarouselContent>
+                  {product.media.map((media, index) => (
+                    <CarouselItem key={index}>
+                      <div 
+                        className="relative aspect-square cursor-pointer"
+                        onClick={() => media.type === "image" && handleWhatsAppClick(product.name)}
+                      >
+                        {media.type === "image" ? (
+                        <img 
+                          src={media.src} 
+                          alt={`${product.name} - imagem ${index + 1}`}
+                          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                        />) : (
+                          <video
+                          src={media.src}
+                          className="w-full h-full object-cover"
+                          controls
+                          />
+                        )}
+                      </div>
+                  
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <CarouselPrevious className="left-2" />
+                <CarouselNext className="right-2" />
+              </Carousel>
+
+              {/* Content */}
+              <div className="p-6 space-y-4">
+                <div className="text-center space-y-2">
+                  <h3 className="text-xl font-semibold">{product.name}</h3>
+                  <p className="text-2xl font-bold text-luxury">{product.price}</p>
+                </div>
+
+                {/* Description Toggle */}
+                <div>
+                  <button
+                    onClick={() => toggleDescription(product.id)}
+                    className="w-full flex items-center justify-center gap-2 text-sm text-muted-foreground hover:text-luxury transition-colors"
+                  >
+                    Ver Descrição
+                    {expandedProduct === product.id ? (
+                      <ChevronUp className="w-4 h-4" />
+                    ) : (
+                      <ChevronDown className="w-4 h-4" />
+                    )}
+                  </button>
+                  
+                  {expandedProduct === product.id && (
+                    <div className="mt-3 text-sm text-muted-foreground animate-fade-in">
+                      {product.description}
+                    </div>
+                  )}
+                </div>
+
+                {/* WhatsApp Button */}
+                <Button
+                  variant="luxury"
+                  className="w-full"
+                  onClick={() => handleWhatsAppClick(product.name)}
+                >
+                  Compre Agora
+                </Button>
+              </div>
+            </Card>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Products;
