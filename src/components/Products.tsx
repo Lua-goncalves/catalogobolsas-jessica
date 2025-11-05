@@ -4,15 +4,21 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
 import bag1 from "@/images/bag-1.jpeg";
+import bag79 from "@/images/bag1.2.jpeg";
+import bag60 from "@/images/bag-1.3.jpeg";
 import bag2 from "@/images/bag-2.jpeg";
 import bag3 from "@/images/bag-3.jpeg";
+import bag61 from "@/images/bag-3.1.jpeg";
 import bag4 from "@/images/bag-4.jpeg";
+import bag62 from "@/images/bag-4.1.jpeg";
 import bag5 from "@/images/bag-5.jpeg";
 import bag6 from "@/images/bag-6.jpeg";
+import bag63 from "@/images/bag-6.1.jpeg";
 import bag7 from "@/images/bag-7.jpeg";
 import bag8 from "@/images/bag-8.jpeg";
 import bag9 from "@/images/bag-9.jpeg";
 import bag10 from "@/images/bag-10.jpeg";
+import bag64 from "@/images/bag-10.1.jpeg";
 import bag11 from "@/images/bag-11.jpeg";
 import bag12 from "@/images/bag-12.jpeg";
 import bag13 from "@/images/bag-13.jpeg";
@@ -21,8 +27,10 @@ import bag15 from "@/images/bag-15.jpeg";
 import bag16 from "@/images/bag-16.jpeg";
 import bag17 from "@/images/bag-17.jpeg";
 import bag18 from "@/images/bag-18.jpeg";
+import bag65 from "@/images/bag-18.1.jpeg";
 import bag19 from "@/images/bag-19.jpeg";
 import bag20 from "@/images/bag-20.jpeg";
+import bag66 from "@/images/bag-20.1.jpeg";
 import bag21 from "@/images/bag-21.jpeg";
 import bag22 from "@/images/bag-22.jpeg";
 import bag23 from "@/images/bag-23.jpeg";
@@ -32,6 +40,7 @@ import bag26 from "@/images/bag-26.jpeg";
 import bag27 from "@/images/bag-27.jpeg";
 import bag28 from "@/images/bag-28.jpeg";
 import bag29 from "@/images/bag-29.jpeg";
+import bag67 from "@/images/bag-29.1.jpeg";
 import bag30 from "@/images/bag-30.jpeg";
 import bag31 from "@/images/bag-31.jpeg";
 import bag32 from "@/images/bag-32.jpeg";
@@ -39,29 +48,41 @@ import bag33 from "@/images/bag-33.jpeg";
 import bag34 from "@/images/bag-34.jpeg";
 import bag35 from "@/images/bag-35.jpeg";
 import bag36 from "@/images/bag-36.jpeg";
+import bag68 from "@/images/bag-36.1.jpeg";
 import bag37 from "@/images/bag-37.jpeg";
 import bag38 from "@/images/bag-38.jpeg";
+import bag69 from "@/images/bag-38.1.jpeg";
 import bag39 from "@/images/bag-39.jpeg";
 import bag40 from "@/images/bag-40.jpeg";
 import bag41 from "@/images/bag-41.jpeg";
+import bag70 from "@/images/bag-41.1.jpeg";
 import bag42 from "@/images/bag-42.jpeg";
 import bag43 from "@/images/bag-43.jpeg";
+import bag71 from "@/images/bag-43.1.jpeg";
 import bag44 from "@/images/bag-44.jpeg";
 import bag45 from "@/images/bag-1.1.jpeg"
 import bag46 from "@/images/bag-46.jpeg";
 import bag47 from "@/images/bag-47.jpeg";
+import bag72 from "@/images/bag-47.3.jpeg";
 import bag48 from "@/images/bag-47.1.jpeg";
 import bag49 from "@/images/bag-47.2.jpeg";
 import bag50 from "@/images/bag-48.jpeg";
 import bag51 from "@/images/bag-49.jpeg";
 import bag52 from "@/images/bag-50.jpeg";
 import bag53 from "@/images/bag-51.jpeg";
+import bag73 from "@/images/bag-51.1.jpeg";
+import bag74 from "@/images/bag-51.2.jpeg";
 import bag54 from "@/images/bag-52.jpeg";
 import bag55 from "@/images/bag-53.jpeg";
+import bag75 from "@/images/bag-53.1.jpeg";
 import bag56 from "@/images/bag-54.jpeg";
 import bag57 from "@/images/bag-55.jpeg";
+import bag76 from "@/images/bag-55.1.jpeg";
 import bag58 from "@/images/bag-56.jpeg";
 import bag59 from "@/images/bag-57.jpeg";
+import bag77 from "@/images/bag-58.jpeg";
+import bag78 from "@/images/bag-59.jpeg";
+
 
 import { fromTheme } from "tailwind-merge";
 
@@ -75,6 +96,8 @@ const products = [
     media: [
       { type: "image", src: bag45 },
       { type: "image", src: bag1 },
+      { type: "image", src: bag79 },
+      { type: "image", src: bag60 },
       { type: "video", src: "/videos/bag-1.1.mp4" },
     ],
   },
@@ -87,7 +110,9 @@ const products = [
     media: [
       { type: "image", src: bag2 },
       { type: "image", src: bag3 },
+      { type: "image", src: bag61 },
       { type: "image", src: bag4 },
+      { type: "image", src: bag62 },
       { type: "image", src: bag5 },
       { type: "video", src: "/videos/bag2.2.mp4" },
     ],
@@ -100,6 +125,7 @@ const products = [
       "Bolsa de design compacto, que também pode ser usada como bolsa de ombro. Prática e elegante, é perfeita para o dia a dia.",
     media: [
       { type: "image", src: bag6 },
+      { type: "image", src: bag63 },
       { type: "image", src: bag7 },
       { type: "image", src: bag8 },
       // { type: "video", src: "" },
@@ -114,6 +140,7 @@ const products = [
     media: [
       { type: "image", src: bag9 },
       { type: "image", src: bag10 },
+      { type: "image", src: bag64 },
       { type: "image", src: bag11 },
       { type: "video", src: "/videos/bag4.1.mp4" },
     ],
@@ -153,6 +180,7 @@ const products = [
       "Bolsa Hobo de design curvado na parte superior, com alça de ombro ajustável, zíperes laterais com puxadores decorativos e detalhe de metal dourado na parte frontal. Disponível nas cores prata metálico e marrom, combina estilo e praticidade para o dia a dia.",
     media: [
       { type: "image", src: bag18 },
+      { type: "image", src: bag65 },
       { type: "image", src: bag19 },
       { type: "video", src: "/videos/bag7.1.mp4" },
     ],
@@ -177,6 +205,7 @@ const products = [
       " Bolsa grande em couro sintético, com alça de ombro trançada e detalhes dourados que acrescentam sofisticação. Elegante e espaçosa, perfeita para o dia a dia ou ocasiões especiais.",
     media: [
       { type: "image", src: bag20 },
+      { type: "image", src: bag66 },
       // { type: "video", src: "" },
     ],
   },
@@ -246,6 +275,7 @@ const products = [
       "Bolsa pequena e elegante em couro sintético, com aba sofisticada e alça de ombro longa e ajustável. Versátil e prática, ideal para ocasiões casuais e formais.",
     media: [
       { type: "image", src: bag29 },
+      { type: "image", src: bag67 },
       { type: "image", src: bag30 },
       // { type: "video", src: "" },
     ],
@@ -283,6 +313,7 @@ const products = [
       "Conjunto elegante composto por uma bolsa de ombro tipo tote e uma nécessaire removível. A bolsa principal possui formato espaçoso, alças curtas e acabamento texturizado que imita couro de crocodilo, confeccionada em couro sintético de alta qualidade. Perfeita para quem busca praticidade e sofisticação no dia a dia.",
     media: [
       { type: "image", src: bag36 },
+      { type: "image", src: bag68 },
       { type: "image", src: bag37 },
       { type: "video", src: "/videos/bag18.1.mp4" },
     ],
@@ -295,6 +326,7 @@ const products = [
       "Modelo espaçoso e prático, ideal para o dia a dia. Possui design moderno e funcional, perfeito para carregar todos os seus itens com estilo e elegância.Disponível nas cores marrom e preta.",
     media: [
       { type: "image", src: bag38 },
+      { type: "image", src: bag69 },
       { type: "image", src: bag39 },
       { type: "image", src: bag40 },
       { type: "video", src: "/videos/bag19.1.mp4" },
@@ -307,7 +339,9 @@ const products = [
     description:
       "Conjuntocomposto por duas bolsas elegantes:•	Bolsa Tote Grande: Design de cesta trançada com alças curtas, confeccionada em couro sintético com textura trançada. Espaçosa e versátil, perfeita para o dia a dia ou compromissos mais formais.•	Bolsa Crossbody Menor: Modelo transversal com alça longa e ajustável, ideal para praticidade e estilo no dia a dia.A bolsa menor é inclusa como brinde, tornando este conjunto ainda mais atraente.",
     media: [
-      { type: "image", src: bag41, bag42 },
+      { type: "image", src: bag41 },
+      { type: "image", src: bag42 },
+      { type: "image", src: bag70 },
       // { type: "video", src: "" },
     ],
   },
@@ -319,9 +353,10 @@ const products = [
       "  Bolsa de mão com alça superior, apresentando design bicolor elegante, parte superior em tom creme e inferior em azul claro. Possui fecho de metal dourado, que adiciona um toque sofisticado. Versátil e atemporal, é perfeita tanto para o dia a dia quanto para eventos mais formais.",
     media: [
       { type: "image", src: bag47 },
+      { type: "image", src: bag72 },
       { type: "image", src: bag49 },
       { type: "image", src: bag48 },
-      // { type: "video", src: "/videos/bag21.1" },
+      { type: "video", src: "/videos/bag21.3.mp4" },
     ],
   },
   {
@@ -332,6 +367,7 @@ const products = [
       "Mochila feminina em couro sintético, com alças duplas para maior conforto. Possui bolsos frontais com zíper e bolsos laterais, oferecendo praticidade e organização para o dia a dia urbano.",
     media: [
       { type: "image", src: bag43 },
+      { type: "image", src: bag71 },
       { type: "image", src: bag44 },
       { type: "video", src: "/videos/bag21.1.mp4" },
     ],
@@ -355,8 +391,11 @@ const products = [
       "Bolsa média em couro sintético, com textura matelassê e design clássico. Possui alças de mão e alça transversal removível, oferecendo praticidade e elegância. O tecido acolchoado confere um toque sofisticado, tornando-a uma peça versátil que combina com diversas ocasiões e looks refinados.",
     media: [
       { type: "image", src: bag51 },
+      { type: "image", src: bag73 },
+      { type: "image", src: bag74 },
       { type: "image", src: bag52 },
       { type: "image", src: bag53 },
+      { type: "image", src: bag75 },
       // { type: "video", src: "/videos/bag-8.1.mp4" },
     ],
   },
@@ -369,6 +408,7 @@ const products = [
     media: [
       { type: "image", src: bag54 },
       { type: "image", src: bag55 },
+      { type: "image", src: bag76 },
       // { type: "video", src: "/videos/bag-8.1.mp4" },
     ],
   },
@@ -382,7 +422,9 @@ const products = [
       { type: "image", src: bag56 },
       { type: "image", src: bag57 },
       { type: "image", src: bag58 },
+      { type: "image", src: bag77 },
       { type: "image", src: bag59 },
+      { type: "image", src: bag78 },
       // { type: "video", src: "/videos/bag-8.1.mp4" },
     ],
   },

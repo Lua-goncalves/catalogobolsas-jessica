@@ -25,7 +25,7 @@ const Header = () => {
           {/* Logo Space */}
           <div className="flex items-center ml-0">
             <div className="w-40 h-20 bg-gradient-to-r rounded flex  justify-center">
-              <img className="h-[90px] w-auto mr-3" src="/logo.png" alt="" />
+              <img className="h-[90px] w-auto mr-3" src="/logo.jpeg" alt="" />
             <p className=" flex whitespace-nowrap mt-8 text-lg text-gray-800 font-light ">Lua Bolsas</p>
             </div>
           </div>
