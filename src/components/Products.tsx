@@ -258,7 +258,7 @@ const products = [
   {
     id: 14,
     name: "Bolsa Pequena Bege",
-    price: "R$ 140,00",
+    price: "R$ 95,00",
     description:
       " Bolsa de alça dupla de mão, confeccionada em material sintético, com alça de ombro removível e design delicado. Acompanha um lenço estampado que complementa o visual com charme e elegância.",
     media: [
