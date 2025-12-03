@@ -44,9 +44,21 @@ import bag67 from "@/images/bag-29.1.jpeg";
 import bag30 from "@/images/bag-30.jpeg";
 import bag31 from "@/images/bag-31.jpeg";
 import bag32 from "@/images/bag-32.jpeg";
+import bag81 from "@/images/bag-32.2.jpeg";
+import bag80 from "@/images/bag-32.1.jpeg";
 import bag33 from "@/images/bag-33.jpeg";
+import bag82 from "@/images/bag-33.1.jpeg";
+import bag83 from "@/images/bag-33.2.jpeg";
+import bag84 from "@/images/bag-33.3.jpeg";
 import bag34 from "@/images/bag-34.jpeg";
+import bag85 from "@/images/bag-34.1.jpeg";
 import bag35 from "@/images/bag-35.jpeg";
+import bag86 from "@/images/bag-35.1.jpeg";
+import bag87 from "@/images/bag-35.2.jpeg";
+import bag88 from "@/images/bag-35.3.jpeg";
+import bag89 from "@/images/bag-35.4.jpeg";
+import bag90 from "@/images/bag-35.5.jpeg";
+import bag91 from "@/images/bag-35.6.jpeg";
 import bag36 from "@/images/bag-36.jpeg";
 import bag68 from "@/images/bag-36.1.jpeg";
 import bag37 from "@/images/bag-37.jpeg";
@@ -299,9 +311,21 @@ const products = [
       "Bolsa tiracolo de estilo clássico e versátil, ideal para uso durante o dia ou à noite. Confeccionada em couro sintético, possui fecho em metal e alça de corrente preta que adiciona um toque moderno e elegante.Disponível nas cores branco, bege, caramelo e creme.",
     media: [
       { type: "image", src: bag32 },
+      { type: "image", src: bag80 },
+      { type: "image", src: bag81 },
       { type: "image", src: bag33 },
+      { type: "image", src: bag82 },
+      { type: "image", src: bag83 },
+      { type: "image", src: bag84 },
       { type: "image", src: bag34 },
+      { type: "image", src: bag85 },
       { type: "image", src: bag35 },
+      { type: "image", src: bag86 },
+      { type: "image", src: bag87 },
+      { type: "image", src: bag88 },
+      { type: "image", src: bag89 },
+      { type: "image", src: bag90 },
+      { type: "image", src: bag91 },
       // { type: "video", src: "" },
     ],
   },
