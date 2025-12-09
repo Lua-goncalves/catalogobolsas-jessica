@@ -94,6 +94,25 @@ import bag58 from "@/images/bag-56.jpeg";
 import bag59 from "@/images/bag-57.jpeg";
 import bag77 from "@/images/bag-58.jpeg";
 import bag78 from "@/images/bag-59.jpeg";
+import bag92 from "@/images/bag-60.webp";
+import bag93 from "@/images/bag-60.1.webp";
+import bag94 from "@/images/bag-60.2.webp";
+import bag95 from "@/images/bag-60.3.webp";
+import bag96 from "@/images/bag-60.4.webp";
+import bag97 from "@/images/bag-60.5.webp";
+import bag98 from "@/images/bag-60.6.webp";
+import bag99 from "@/images/bag-60.7.webp";
+import bag100 from "@/images/bag-60.8.webp";
+import bag101 from "@/images/bag-60.9.webp";
+import bag102 from "@/images/bag-61.webp";
+import bag103 from "@/images/bag-61.1.webp";
+import bag104 from "@/images/bag-61.2.webp";
+import bag105 from "@/images/bag-61.3.webp";
+import bag106 from "@/images/bag-61.4.webp";
+import bag107 from "@/images/bag-61.5.webp";
+import bag108 from "@/images/bag-61.6.webp";
+import bag109 from "@/images/bag-61.7.webp";
+
 
 
 import { fromTheme } from "tailwind-merge";
@@ -450,6 +469,44 @@ const products = [
       { type: "image", src: bag59 },
       { type: "image", src: bag78 },
       // { type: "video", src: "/videos/bag-8.1.mp4" },
+    ],
+  },
+  {
+    id: 27,
+    name: "Mala T60",
+    price: "R$ 89,90",
+    description:
+      " A T60 é um modelo versátil de mala/mochila esportiva e de viagem, reconhecida por sua alta capacidade e praticidade. Fabricada em tecido espessado composto (T60), é resistente, durável e muitas vezes impermeável — ideal para diferentes ambientes e rotinas intensas.Principais Características:•	Capacidade aproximada de 60 litros, perfeita para viagens curtas, treinos, academia ou atividades esportivas.•	Design multifuncional: pode ser usada como bolsa transversal, mala de mão ou mochila, graças às alças versáteis e, em muitos modelos, removíveis.	•	Material resistente e impermeável: produzida majoritariamente em poliéster reforçado, com costuras resistentes para uso frequente.•	Organização inteligente: múltiplos compartimentos, incluindo bolso exclusivo para calçados, garantindo mais higiene e organização interna.•	Bolsos externos: bolsos frontais e laterais com zíper para itens pequenos como celular, chaves e documentos.•	Design unissex, popular entre atletas, estudantes, viajantes e profissionais.•	Modelo genérico, podendo ser encontrado por diferentes marcas e fabricantes.Cores disponíveis: Rosa, Vermelha, Marrom, Preta, Azul marinho, Rosa bebê, Verde água e Cinza.",
+    media: [
+      { type: "image", src: bag92 },
+      { type: "image", src: bag93 },
+      { type: "image", src: bag94 },
+      { type: "image", src: bag95 },
+      { type: "image", src: bag96 },
+      { type: "image", src: bag97 },
+      { type: "image", src: bag98 },
+      { type: "image", src: bag99 },
+      { type: "image", src: bag100 },
+      { type: "image", src: bag101 },
+      // { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+  {
+    id: 28,
+    name: "Mala Zaoqiu",
+    price: "R$ 89,90",
+    description:
+      "Mala esportiva e de viagem com design de grande capacidade, ideal para quem busca organização e praticidade. Possui divisão inteligente entre zona seca e zona molhada, além de compartimento independente para calçados.Feita em tecido texturizado resistente ao desgaste e a riscos, garantindo durabilidade. Na parte traseira, conta com encaixe para haste de mala de rodinhas, facilitando o transporte em viagens.Principais Características:	•	Bolsa de mão com alça transversal removível e regulável;•	2 compartimentos principais, sendo um específico para roupas sujas ou molhadas;•	Bolso principal espaçoso, ideal para carteira, nécessaire, cadernos, roupas e itens do dia a dia;•	Bolso lateral para celular, canetas e objetos menores;•	Bolso lateral exclusivo para calçado;•	Bolso frontal com zíper para acesso rápido;•	Compartimento traseiro para acoplar na mala de viagem;•	Alça lateral de mão para facilitar o carregamento;	•	Material impermeável com acabamento e metais de alta qualidade.Cores disponíveis: Azul claro, Verde água, Rosa bebê e Preto.",
+    media: [
+      { type: "image", src: bag102 },
+      { type: "image", src: bag103 },
+      { type: "image", src: bag104 },
+      { type: "image", src: bag105 },
+      { type: "image", src: bag106 },
+      { type: "image", src: bag107},
+      { type: "image", src: bag108 },
+      { type: "image", src: bag109 },
+      // { type: "video", src: "/videos/bag2.2.mp4" },
     ],
   },
 ];
