@@ -112,6 +112,8 @@ import bag106 from "@/images/bag-61.4.webp";
 import bag107 from "@/images/bag-61.5.webp";
 import bag108 from "@/images/bag-61.6.webp";
 import bag109 from "@/images/bag-61.7.webp";
+import bag110 from "@/images/bag-62.webp";
+import bag111 from "@/images/bag-62.1.webp";
 
 
 
@@ -174,6 +176,7 @@ const products = [
       { type: "image", src: bag64 },
       { type: "image", src: bag11 },
       { type: "video", src: "/videos/bag4.1.mp4" },
+      { type: "video", src: "/videos/bag4.mp4" },
     ],
   },
   {
@@ -189,6 +192,7 @@ const products = [
       { type: "image", src: bag15 },
       { type: "video", src: "/videos/bag5.1.mp4" },
       { type: "video", src: "/videos/bag5.2.mp4" },
+      { type: "video", src: "/videos/bag5.mp4" },
     ],
   },
   {
@@ -217,14 +221,15 @@ const products = [
     ],
   },
   {
-    id: 8,
-    name: "Bolsa de Mão Bicolor",
-    price: "R$ 135,00",
+    id: 29,
+    name: "Bolsa Meia-Lua",
+    price: "R$ 120,00",
     description:
-      " Bolsa em couro sintético com alça de mão, apresentando design bicolor elegante, parte superior em bege e inferior em azul claro com textura. Sofisticada e moderna, ideal para diversas ocasiões.",
+      " Bolsa média estilo hobo, em couro sintético, com formato de meia-lua e corpo curvado. Possui alça de ombro curta e grossa e fecho em zíper, ideal para o dia a dia por ser leve e espaçosa.Acompanha um pingente de pelúcia removível pendurado na alça, deixando o modelo mais moderno e estiloso.Cores disponíveis: Preta | Caramelo",
     media: [
-      { type: "image", src: bag50 },
-      { type: "video", src: "/videos/bag-8.1.mp4" },
+      { type: "image", src: bag110 },
+      { type: "image", src: bag111 },
+      { type: "video", src: "/videos/bag-29.mp4" },
     ],
   },
 
@@ -238,6 +243,17 @@ const products = [
       { type: "image", src: bag20 },
       { type: "image", src: bag66 },
       // { type: "video", src: "" },
+    ],
+  },
+  {
+    id: 8,
+    name: "Bolsa de Mão Bicolor",
+    price: "R$ 135,00",
+    description:
+      " Bolsa em couro sintético com alça de mão, apresentando design bicolor elegante, parte superior em bege e inferior em azul claro com textura. Sofisticada e moderna, ideal para diversas ocasiões.",
+    media: [
+      { type: "image", src: bag50 },
+      { type: "video", src: "/videos/bag-8.1.mp4" },
     ],
   },
   {
@@ -476,7 +492,7 @@ const products = [
     name: "Mala T60",
     price: "R$ 89,90",
     description:
-      " A T60 é um modelo versátil de mala/mochila esportiva e de viagem, reconhecida por sua alta capacidade e praticidade. Fabricada em tecido espessado composto (T60), é resistente, durável e muitas vezes impermeável — ideal para diferentes ambientes e rotinas intensas.Principais Características:•	Capacidade aproximada de 60 litros, perfeita para viagens curtas, treinos, academia ou atividades esportivas.•	Design multifuncional: pode ser usada como bolsa transversal, mala de mão ou mochila, graças às alças versáteis e, em muitos modelos, removíveis.	•	Material resistente e impermeável: produzida majoritariamente em poliéster reforçado, com costuras resistentes para uso frequente.•	Organização inteligente: múltiplos compartimentos, incluindo bolso exclusivo para calçados, garantindo mais higiene e organização interna.•	Bolsos externos: bolsos frontais e laterais com zíper para itens pequenos como celular, chaves e documentos.•	Design unissex, popular entre atletas, estudantes, viajantes e profissionais.•	Modelo genérico, podendo ser encontrado por diferentes marcas e fabricantes.Cores disponíveis: Rosa, Vermelha, Marrom, Preta, Azul marinho, Rosa bebê, Verde água e Cinza.",
+      " A T60 é um modelo versátil de mala/mochila esportiva e de viagem, reconhecida por sua alta capacidade e praticidade. Fabricada em tecido espessado composto (T60), é resistente, durável e muitas vezes impermeável — ideal para diferentes ambientes e rotinas intensas.Principais Características:•	Capacidade aproximada de 60 litros, perfeita para viagens curtas, treinos, academia ou atividades esportivas.•	Design multifuncional: pode ser usada como bolsa transversal, mala de mão ou mochila, graças às alças versáteis e, em muitos modelos, removíveis.	•	Material resistente e impermeável: produzida majoritariamente em poliéster reforçado, com costuras resistentes para uso frequente.•	Organização inteligente: múltiplos compartimentos, incluindo bolso exclusivo para calçados, garantindo mais higiene e organização interna.•	Bolsos externos: bolsos frontais e laterais com zíper para itens pequenos como celular, chaves e documentos.•	Design unissex, popular entre atletas, estudantes, viajantes e profissionais.•	Modelo genérico, podendo ser encontrado por diferentes marcas e fabricantes.",
     media: [
       { type: "image", src: bag92 },
       { type: "image", src: bag93 },
@@ -496,16 +512,16 @@ const products = [
     name: "Mala Zaoqiu",
     price: "R$ 89,90",
     description:
-      "Mala esportiva e de viagem com design de grande capacidade, ideal para quem busca organização e praticidade. Possui divisão inteligente entre zona seca e zona molhada, além de compartimento independente para calçados.Feita em tecido texturizado resistente ao desgaste e a riscos, garantindo durabilidade. Na parte traseira, conta com encaixe para haste de mala de rodinhas, facilitando o transporte em viagens.Principais Características:	•	Bolsa de mão com alça transversal removível e regulável;•	2 compartimentos principais, sendo um específico para roupas sujas ou molhadas;•	Bolso principal espaçoso, ideal para carteira, nécessaire, cadernos, roupas e itens do dia a dia;•	Bolso lateral para celular, canetas e objetos menores;•	Bolso lateral exclusivo para calçado;•	Bolso frontal com zíper para acesso rápido;•	Compartimento traseiro para acoplar na mala de viagem;•	Alça lateral de mão para facilitar o carregamento;	•	Material impermeável com acabamento e metais de alta qualidade.Cores disponíveis: Azul claro, Verde água, Rosa bebê e Preto.",
+      "Mala esportiva e de viagem com design de grande capacidade, ideal para quem busca organização e praticidade. Possui divisão inteligente entre zona seca e zona molhada, além de compartimento independente para calçados.Feita em tecido texturizado resistente ao desgaste e a riscos, garantindo durabilidade. Na parte traseira, conta com encaixe para haste de mala de rodinhas, facilitando o transporte em viagens.Principais Características:	•	Bolsa de mão com alça transversal removível e regulável;•	2 compartimentos principais, sendo um específico para roupas sujas ou molhadas;•	Bolso principal espaçoso, ideal para carteira, nécessaire, cadernos, roupas e itens do dia a dia;•	Bolso lateral para celular, canetas e objetos menores;•	Bolso lateral exclusivo para calçado;•	Bolso frontal com zíper para acesso rápido;•	Compartimento traseiro para acoplar na mala de viagem;•	Alça lateral de mão para facilitar o carregamento;	•	Material impermeável com acabamento e metais de alta qualidade.",
     media: [
+      { type: "image", src: bag109 },
       { type: "image", src: bag102 },
       { type: "image", src: bag103 },
       { type: "image", src: bag104 },
       { type: "image", src: bag105 },
       { type: "image", src: bag106 },
-      { type: "image", src: bag107},
+      { type: "image", src: bag107 },
       { type: "image", src: bag108 },
-      { type: "image", src: bag109 },
       // { type: "video", src: "/videos/bag2.2.mp4" },
     ],
   },
