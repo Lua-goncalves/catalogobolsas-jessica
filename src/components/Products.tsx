@@ -114,7 +114,39 @@ import bag108 from "@/images/bag-61.6.webp";
 import bag109 from "@/images/bag-61.7.webp";
 import bag110 from "@/images/bag-62.webp";
 import bag111 from "@/images/bag-62.1.webp";
-
+import bag112 from "@/images/bag-63.webp";
+import bag113 from "@/images/bag-63.1.webp";
+import bag114 from "@/images/bag-63.2.webp";
+import bag115 from "@/images/bag-63.3.webp";
+import bag116 from "@/images/bag-63.4.webp";
+import bag117 from "@/images/bag-63.5.webp";
+import bag118 from "@/images/bag-64.webp";
+import bag119 from "@/images/bag-64.1.webp";
+import bag120 from "@/images/bag-64.2.webp";
+import bag121 from "@/images/bag-64.3.webp";
+import bag122 from "@/images/bag-65.webp";
+import bag123 from "@/images/bag-65.1.webp";
+import bag124 from "@/images/bag-65.2.webp";
+import bag125 from "@/images/bag-65.3.webp";
+import bag126 from "@/images/bag-65.4.webp";
+import bag127 from "@/images/bag-66.webp";
+import bag128 from "@/images/bag-66.1.webp";
+import bag129 from "@/images/bag-66.2.webp";
+import bag130 from "@/images/bag-66.3.webp";
+import bag131 from "@/images/bag-67.webp";
+import bag132 from "@/images/bag-67.1.webp";
+import bag133 from "@/images/bag-67.2.webp";
+import bag134 from "@/images/bag-68.webp";
+import bag135 from "@/images/bag-68.1.webp";
+import bag136 from "@/images/bag-68.2.webp";
+import bag137 from "@/images/bag-68.3.webp";
+import bag138 from "@/images/bag-69.webp";
+import bag139 from "@/images/bag-70.webp";
+import bag140 from "@/images/bag-21.1.webp";
+import bag141 from "@/images/bag-21.2.webp";
+import bag142 from "@/images/bag-22.1.webp";
+import bag143 from "@/images/bag-22.2.webp";
+// import bag144 from "@/images/bag-62.2.webp";
 
 
 import { fromTheme } from "tailwind-merge";
@@ -148,6 +180,48 @@ const products = [
       { type: "image", src: bag62 },
       { type: "image", src: bag5 },
       { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+  {
+    id: 32,
+    name: "Bolsa Baú Caramelo",
+    price: "R$ 99,00",
+    description:
+      " Bolsa estilo baú, tamanho pequeno, na cor caramelo, com design charmoso e funcional. Acompanha laço animal print (onça-pintada), alça de mão e alça transversal ajustável e removível, permitindo diferentes formas de uso. Possui forro interno em tecido, compartimentos organizados e fechamento em zíper, unindo praticidade e estilo para o dia a dia ou ocasiões especiais. ",
+    media: [
+      { type: "image", src: bag123 },
+      { type: "image", src: bag122 },
+      { type: "image", src: bag124 },
+      { type: "image", src: bag125 },
+      { type: "image", src: bag126 },
+      // { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+
+  {
+    id: 33,
+    name: "Bolsa Baú Café",
+    price: "R$ 99,00",
+    description:
+      " Bolsa estilo baú, tamanho pequeno, na cor café, com design elegante e funcional. Acompanha laço decorativo, alça de mão e alça transversal ajustável e removível, oferecendo versatilidade no uso. Possui forro interno em tecido, compartimentos organizados e fechamento em zíper, ideal para o dia a dia ou ocasiões especiais.",
+    media: [
+      { type: "image", src: bag130 },
+      { type: "image", src: bag128 },
+      { type: "image", src: bag127 },
+      { type: "image", src: bag129 },
+      // { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+  {
+    id: 37,
+    name: "Bolsa Baú Preta",
+    price: "R$ 99,00",
+    description:
+      "Bolsa estilo baú, tamanho pequeno, na cor preta, com design elegante e funcional. Acompanha laço decorativo, alça de mão e alça transversal ajustável e removível, oferecendo versatilidade no uso. Possui forro interno em tecido, compartimentos organizados e fechamento em zíper, ideal para o dia a dia ou ocasiões especiais.",
+    media: [
+      { type: "image", src: bag139 },
+
+      // { type: "video", src: "/videos/bag2.2.mp4" },
     ],
   },
   {
@@ -229,7 +303,9 @@ const products = [
     media: [
       { type: "image", src: bag110 },
       { type: "image", src: bag111 },
+      // { type: "image", src: bag144 },
       { type: "video", src: "/videos/bag-29.mp4" },
+      { type: "video", src: "/videos/bag62.mp4" },
     ],
   },
 
@@ -264,8 +340,12 @@ const products = [
       "Bolsa média com alça superior e fecho de aba, com design bicolor elegante. Disponível nas combinações creme e preto e creme e cinza. Versátil e sofisticada, perfeita para o dia a dia.",
     media: [
       { type: "image", src: bag21 },
+      { type: "image", src: bag140 },
+      { type: "image", src: bag141 },
+      { type: "image", src: bag142 },
       { type: "image", src: bag22 },
-      // { type: "video", src: "" },
+      { type: "image", src: bag143 },
+      { type: "video", src: "/videos/bag22.mp4" },
     ],
   },
   {
@@ -488,6 +568,23 @@ const products = [
     ],
   },
   {
+    id: 30,
+    name: "Bolsa Crossbody",
+    price: "R$ 90,00",
+    description:
+      "Bolsa pequena estilo crossbody (tiracolo), com formato quadrado tipo caixa e textura matelassê (acolchoada) na parte externa. Possui fechamento com zíper duplo, garantindo praticidade e segurança.Acompanha alça de mão curta decorativa, com mistura de elos de corrente brancos e bolas verdes, além de alça transversal/ombro ajustável na cor verde (embalada separadamente) O design une elementos clássicos, como o matelassê e o formato estruturado, com detalhes modernos e despojados nas alças, tornando a peça versátil para looks casuais ou mais arrumados.",
+    media: [
+      { type: "image", src: bag112 },
+      { type: "image", src: bag113 },
+      { type: "image", src: bag114 },
+      { type: "image", src: bag115 },
+      { type: "image", src: bag116 },
+      { type: "image", src: bag117 },
+
+      { type: "video", src: "/videos/bag63.mp4" },
+    ],
+  },
+  {
     id: 27,
     name: "Mala T60",
     price: "R$ 89,90",
@@ -522,6 +619,63 @@ const products = [
       { type: "image", src: bag106 },
       { type: "image", src: bag107 },
       { type: "image", src: bag108 },
+      // { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+
+  // {
+  //   id: 31,
+  //   name: "Mala Zaoqiu",
+  //   price: "R$ 89,90",
+  //   description:
+  //     "Mala esportiva e de viagem com design de grande capacidade, ideal para quem busca organização e praticidade. Possui divisão inteligente entre zona seca e zona molhada, além de compartimento independente para calçados.Feita em tecido texturizado resistente ao desgaste e a riscos, garantindo durabilidade. Na parte traseira, conta com encaixe para haste de mala de rodinhas, facilitando o transporte em viagens.Principais Características:	•	Bolsa de mão com alça transversal removível e regulável;•	2 compartimentos principais, sendo um específico para roupas sujas ou molhadas;•	Bolso principal espaçoso, ideal para carteira, nécessaire, cadernos, roupas e itens do dia a dia;•	Bolso lateral para celular, canetas e objetos menores;•	Bolso lateral exclusivo para calçado;•	Bolso frontal com zíper para acesso rápido;•	Compartimento traseiro para acoplar na mala de viagem;•	Alça lateral de mão para facilitar o carregamento;	•	Material impermeável com acabamento e metais de alta qualidade.",
+  //   media: [
+  //     { type: "image", src: bag118 },
+  //     { type: "image", src: bag119 },
+  //     { type: "image", src: bag120 },
+  //     { type: "image", src: bag121 },
+  //     // { type: "video", src: "/videos/bag2.2.mp4" },
+  //   ],
+  // },
+
+  {
+    id: 34,
+    name: "Carteira Feminina Grande",
+    price: "R$ 59,90",
+    description:
+      " Carteira em couro sintético, tamanho grande, com múltiplas repartições internas e porta-cartões, oferecendo ótima organização. Possui fecho em zíper para moedas e design elegante, além de pingente de franja (tassel) que adiciona um toque moderno e sofisticado.",
+    media: [
+      { type: "image", src: bag131 },
+      { type: "image", src: bag132 },
+      { type: "image", src: bag133 },
+      // { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+
+  {
+    id: 35,
+    name: "Carteira Preta em Couro Sintético",
+    price: "R$ 59,90",
+    description:
+      "Carteira confeccionada em couro sintético, na cor preta, com textura em relevo que agrega sofisticação ao design. Possui fecho de fivela e detalhe de tassel (pendão) colorido, trazendo um toque moderno e elegante.Funcional e prática, conta com compartimentos internos para cartões, documentos e moedas, podendo acomodar também o celular, conforme o modelo.",
+    media: [
+      { type: "image", src: bag134 },
+      { type: "image", src: bag135 },
+      { type: "image", src: bag136 },
+      { type: "image", src: bag137 },
+      // { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+
+  {
+    id: 36,
+    name: "Carteira Feminina Compacta",
+    price: "R$ 59,90",
+    description:
+      "Carteira com design compacto, equipada com aba frontal e fecho de fivela decorativa. Confeccionada em material com textura levemente granulada, apresenta um visual elegante e moderno. Possui pingente de franjas (tassel) na lateral, que adiciona charme ao acessório.O interior é forrado e conta com divisões para cartões e documentos, unindo praticidade e estilo para o dia a dia.",
+    media: [
+      { type: "image", src: bag138 },
+
       // { type: "video", src: "/videos/bag2.2.mp4" },
     ],
   },
