@@ -146,7 +146,7 @@ import bag140 from "@/images/bag-21.1.webp";
 import bag141 from "@/images/bag-21.2.webp";
 import bag142 from "@/images/bag-22.1.webp";
 import bag143 from "@/images/bag-22.2.webp";
-// import bag144 from "@/images/bag-62.2.webp";
+import bag144 from "@/images/bag-62.2.webp";
 
 
 import { fromTheme } from "tailwind-merge";
@@ -221,6 +221,21 @@ const products = [
     media: [
       { type: "image", src: bag139 },
 
+      // { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+
+  {
+    id: 31,
+    name: "Bolsa Transversal Crossbody",
+    price: "R$ 90,00",
+    description:
+      "Bolsa pequena em couro sintético, na cor caramelo, com design moderno e muito funcional. Destaca-se pela alça de fita larga ajustável, que garante conforto e versatilidade no uso, podendo ser utilizada como transversal ou de ombro.Possui múltiplos compartimentos com zíperes dourados, geralmente três bolsos frontais — ideais para organizar itens essenciais como celular, carteira e documentos. Em alguns modelos, acompanha chaveiro de ursinho, que adiciona um toque charmoso e descontraído ao acessório.",
+    media: [
+      { type: "image", src: bag118 },
+      { type: "image", src: bag119 },
+      { type: "image", src: bag120 },
+      { type: "image", src: bag121 },
       // { type: "video", src: "/videos/bag2.2.mp4" },
     ],
   },
@@ -301,11 +316,12 @@ const products = [
     description:
       " Bolsa média estilo hobo, em couro sintético, com formato de meia-lua e corpo curvado. Possui alça de ombro curta e grossa e fecho em zíper, ideal para o dia a dia por ser leve e espaçosa.Acompanha um pingente de pelúcia removível pendurado na alça, deixando o modelo mais moderno e estiloso.Cores disponíveis: Preta | Caramelo",
     media: [
+      { type: "image", src: bag144 },
       { type: "image", src: bag110 },
       { type: "image", src: bag111 },
-      // { type: "image", src: bag144 },
       { type: "video", src: "/videos/bag-29.mp4" },
       { type: "video", src: "/videos/bag62.mp4" },
+      { type: "video", src: "/videos/bag62.1.mp4" },
     ],
   },
 
@@ -574,12 +590,12 @@ const products = [
     description:
       "Bolsa pequena estilo crossbody (tiracolo), com formato quadrado tipo caixa e textura matelassê (acolchoada) na parte externa. Possui fechamento com zíper duplo, garantindo praticidade e segurança.Acompanha alça de mão curta decorativa, com mistura de elos de corrente brancos e bolas verdes, além de alça transversal/ombro ajustável na cor verde (embalada separadamente) O design une elementos clássicos, como o matelassê e o formato estruturado, com detalhes modernos e despojados nas alças, tornando a peça versátil para looks casuais ou mais arrumados.",
     media: [
-      { type: "image", src: bag112 },
       { type: "image", src: bag113 },
-      { type: "image", src: bag114 },
       { type: "image", src: bag115 },
-      { type: "image", src: bag116 },
       { type: "image", src: bag117 },
+      { type: "image", src: bag112 },
+      { type: "image", src: bag114 },
+      { type: "image", src: bag116 },
 
       { type: "video", src: "/videos/bag63.mp4" },
     ],
@@ -622,21 +638,6 @@ const products = [
       // { type: "video", src: "/videos/bag2.2.mp4" },
     ],
   },
-
-  // {
-  //   id: 31,
-  //   name: "Mala Zaoqiu",
-  //   price: "R$ 89,90",
-  //   description:
-  //     "Mala esportiva e de viagem com design de grande capacidade, ideal para quem busca organização e praticidade. Possui divisão inteligente entre zona seca e zona molhada, além de compartimento independente para calçados.Feita em tecido texturizado resistente ao desgaste e a riscos, garantindo durabilidade. Na parte traseira, conta com encaixe para haste de mala de rodinhas, facilitando o transporte em viagens.Principais Características:	•	Bolsa de mão com alça transversal removível e regulável;•	2 compartimentos principais, sendo um específico para roupas sujas ou molhadas;•	Bolso principal espaçoso, ideal para carteira, nécessaire, cadernos, roupas e itens do dia a dia;•	Bolso lateral para celular, canetas e objetos menores;•	Bolso lateral exclusivo para calçado;•	Bolso frontal com zíper para acesso rápido;•	Compartimento traseiro para acoplar na mala de viagem;•	Alça lateral de mão para facilitar o carregamento;	•	Material impermeável com acabamento e metais de alta qualidade.",
-  //   media: [
-  //     { type: "image", src: bag118 },
-  //     { type: "image", src: bag119 },
-  //     { type: "image", src: bag120 },
-  //     { type: "image", src: bag121 },
-  //     // { type: "video", src: "/videos/bag2.2.mp4" },
-  //   ],
-  // },
 
   {
     id: 34,
