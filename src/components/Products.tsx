@@ -205,6 +205,24 @@ const products = [
   },
 
   {
+    id: 30,
+    name: "Bolsa Crossbody",
+    price: "R$ 90,00",
+    description:
+      "Bolsa pequena estilo crossbody (tiracolo), com formato quadrado tipo caixa e textura matelassê (acolchoada) na parte externa. Possui fechamento com zíper duplo, garantindo praticidade e segurança.Acompanha alça de mão curta decorativa, com mistura de elos de corrente brancos e bolas verdes, além de alça transversal/ombro ajustável na cor verde (embalada separadamente) O design une elementos clássicos, como o matelassê e o formato estruturado, com detalhes modernos e despojados nas alças, tornando a peça versátil para looks casuais ou mais arrumados.",
+    media: [
+      { type: "image", src: bag113 },
+      { type: "image", src: bag115 },
+      { type: "image", src: bag117 },
+      { type: "image", src: bag112 },
+      { type: "image", src: bag114 },
+      { type: "image", src: bag116 },
+
+      { type: "video", src: "/videos/bag63.mp4" },
+    ],
+  },
+
+  {
     id: 1,
     name: "Bolsa Tote Caramelo com Lenço Decorativo",
     price: "R$ 135,00",
@@ -622,23 +640,7 @@ const products = [
       { type: "video", src: "/videos/bag-39.mp4" },
     ],
   },
-  {
-    id: 30,
-    name: "Bolsa Crossbody",
-    price: "R$ 90,00",
-    description:
-      "Bolsa pequena estilo crossbody (tiracolo), com formato quadrado tipo caixa e textura matelassê (acolchoada) na parte externa. Possui fechamento com zíper duplo, garantindo praticidade e segurança.Acompanha alça de mão curta decorativa, com mistura de elos de corrente brancos e bolas verdes, além de alça transversal/ombro ajustável na cor verde (embalada separadamente) O design une elementos clássicos, como o matelassê e o formato estruturado, com detalhes modernos e despojados nas alças, tornando a peça versátil para looks casuais ou mais arrumados.",
-    media: [
-      { type: "image", src: bag113 },
-      { type: "image", src: bag115 },
-      { type: "image", src: bag117 },
-      { type: "image", src: bag112 },
-      { type: "image", src: bag114 },
-      { type: "image", src: bag116 },
 
-      { type: "video", src: "/videos/bag63.mp4" },
-    ],
-  },
   {
     id: 27,
     name: "Mala T60",
