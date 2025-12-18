@@ -153,6 +153,7 @@ import bag147 from "@/images/bag-71.1.webp";
 import bag148 from "@/images/bag-71.2.webp";
 import bag149 from "@/images/bag-71.3.webp";
 import bag150 from "@/images/bag-71.4.webp";
+import bag151 from "@/images/bag-55.2.webp";
 
 
 import { fromTheme } from "tailwind-merge";
@@ -617,7 +618,7 @@ const products = [
     description:
       " Bolsa em couro sintético, modelo tote de tamanho médio, com alças de mão e formato estruturado. Acompanha uma bolsa menor, que pode ser usada como carteira ou porta-moedas, além de uma alça transversal removível e ajustável.O conjunto é versátil, prático e elegante, ideal para o dia a dia, o trabalho ou eventos casuais.",
     media: [
-      
+      { type: "image", src: bag151 },
       { type: "video", src: "/videos/bag-39.mp4" },
     ],
   },
