@@ -43,22 +43,23 @@ import bag29 from "@/images/bag-29.jpeg";
 import bag67 from "@/images/bag-29.1.jpeg";
 import bag30 from "@/images/bag-30.jpeg";
 import bag31 from "@/images/bag-31.jpeg";
-import bag32 from "@/images/bag-32.jpeg";
-import bag81 from "@/images/bag-32.2.jpeg";
-import bag80 from "@/images/bag-32.1.jpeg";
-import bag33 from "@/images/bag-33.jpeg";
-import bag82 from "@/images/bag-33.1.jpeg";
-import bag83 from "@/images/bag-33.2.jpeg";
-import bag84 from "@/images/bag-33.3.jpeg";
-import bag34 from "@/images/bag-34.jpeg";
-import bag85 from "@/images/bag-34.1.jpeg";
-import bag35 from "@/images/bag-35.jpeg";
-import bag86 from "@/images/bag-35.1.jpeg";
-import bag87 from "@/images/bag-35.2.jpeg";
-import bag88 from "@/images/bag-35.3.jpeg";
-import bag89 from "@/images/bag-35.4.jpeg";
-import bag90 from "@/images/bag-35.5.jpeg";
-import bag91 from "@/images/bag-35.6.jpeg";
+import bag32 from "@/images/bag-32.webp";
+import bag81 from "@/images/bag-32.2.webp";
+import bag80 from "@/images/bag-32.1.webp";
+import bag33 from "@/images/bag-33.webp";
+import bag82 from "@/images/bag-33.1.webp";
+import bag83 from "@/images/bag-33.2.webp";
+import bag84 from "@/images/bag-33.3.webp";
+import bag34 from "@/images/bag-34.webp";
+import bag85 from "@/images/bag-34.1.webp";
+import bag35 from "@/images/bag-35.webp";
+import bag86 from "@/images/bag-35.1.webp";
+import bag87 from "@/images/bag-35.2.webp";
+import bag88 from "@/images/bag-35.3.webp";
+import bag89 from "@/images/bag-35.4.webp";
+import bag90 from "@/images/bag-35.5.webp";
+import bag91 from "@/images/bag-35.6.webp";
+import bag145 from "@/images/bag-35.7.webp";
 import bag36 from "@/images/bag-36.jpeg";
 import bag68 from "@/images/bag-36.1.jpeg";
 import bag37 from "@/images/bag-37.jpeg";
@@ -146,12 +147,62 @@ import bag140 from "@/images/bag-21.1.webp";
 import bag141 from "@/images/bag-21.2.webp";
 import bag142 from "@/images/bag-22.1.webp";
 import bag143 from "@/images/bag-22.2.webp";
-import bag144 from "@/images/bag-62.2.webp";
+import bag144 from "@/images/bag-62.2.webp";  
+import bag146 from "@/images/bag-71.webp";
+import bag147 from "@/images/bag-71.1.webp";
+import bag148 from "@/images/bag-71.2.webp";
+import bag149 from "@/images/bag-71.3.webp";
+import bag150 from "@/images/bag-71.4.webp";
 
 
 import { fromTheme } from "tailwind-merge";
 
 const products = [
+  {
+    id: 37,
+    name: "Bolsa Tiracolo Modelo Especial - Ideal para Presente",
+    price: "R$ 69,90",
+    // description:
+    //   "Bolsa tiracolo de estilo clássico e versátil, ideal para uso durante o dia ou à noite. Confeccionada em couro sintético, possui fecho em metal e alça de corrente preta que adiciona um toque moderno e elegante.Disponível nas cores branco, bege, caramelo e creme.",
+    media: [
+      { type: "image", src: bag147 },
+      { type: "image", src: bag146 },
+      { type: "image", src: bag148 },
+      { type: "image", src: bag149 },
+      { type: "image", src: bag150 },
+
+      // { type: "video", src: "" },
+    ],
+  },
+
+  {
+    id: 17,
+    name: "Bolsa Tiracolo em Couro Sintético",
+    price: "R$ 59,90",
+    description:
+      "Bolsa tiracolo de estilo clássico e versátil, ideal para uso durante o dia ou à noite. Confeccionada em couro sintético, possui fecho em metal e alça de corrente preta que adiciona um toque moderno e elegante.Disponível nas cores branco, bege, caramelo e creme.",
+    media: [
+      { type: "image", src: bag32 },
+      { type: "image", src: bag80 },
+      { type: "image", src: bag81 },
+      { type: "image", src: bag33 },
+      { type: "image", src: bag82 },
+      { type: "image", src: bag83 },
+      { type: "image", src: bag84 },
+      { type: "image", src: bag34 },
+      { type: "image", src: bag85 },
+      { type: "image", src: bag35 },
+      { type: "image", src: bag86 },
+      { type: "image", src: bag87 },
+      { type: "image", src: bag88 },
+      { type: "image", src: bag89 },
+      { type: "image", src: bag90 },
+      { type: "image", src: bag91 },
+      { type: "image", src: bag145 },
+      // { type: "video", src: "" },
+    ],
+  },
+
   {
     id: 1,
     name: "Bolsa Tote Caramelo com Lenço Decorativo",
@@ -355,12 +406,12 @@ const products = [
     description:
       "Bolsa média com alça superior e fecho de aba, com design bicolor elegante. Disponível nas combinações creme e preto e creme e cinza. Versátil e sofisticada, perfeita para o dia a dia.",
     media: [
-      { type: "image", src: bag21 },
-      { type: "image", src: bag140 },
-      { type: "image", src: bag141 },
       { type: "image", src: bag142 },
       { type: "image", src: bag22 },
       { type: "image", src: bag143 },
+      { type: "image", src: bag21 },
+      { type: "image", src: bag140 },
+      { type: "image", src: bag141 },
       { type: "video", src: "/videos/bag22.mp4" },
     ],
   },
@@ -434,32 +485,7 @@ const products = [
       { type: "video", src: "/videos/bag16.1.mp4" },
     ],
   },
-  {
-    id: 17,
-    name: "Bolsa Tiracolo em Couro Sintético",
-    price: "R$ 59,90",
-    description:
-      "Bolsa tiracolo de estilo clássico e versátil, ideal para uso durante o dia ou à noite. Confeccionada em couro sintético, possui fecho em metal e alça de corrente preta que adiciona um toque moderno e elegante.Disponível nas cores branco, bege, caramelo e creme.",
-    media: [
-      { type: "image", src: bag32 },
-      { type: "image", src: bag80 },
-      { type: "image", src: bag81 },
-      { type: "image", src: bag33 },
-      { type: "image", src: bag82 },
-      { type: "image", src: bag83 },
-      { type: "image", src: bag84 },
-      { type: "image", src: bag34 },
-      { type: "image", src: bag85 },
-      { type: "image", src: bag35 },
-      { type: "image", src: bag86 },
-      { type: "image", src: bag87 },
-      { type: "image", src: bag88 },
-      { type: "image", src: bag89 },
-      { type: "image", src: bag90 },
-      { type: "image", src: bag91 },
-      // { type: "video", src: "" },
-    ],
-  },
+
   {
     id: 18,
     name: "Bolsa Tote Branca Texturizada com Nécessaire",
@@ -572,7 +598,7 @@ const products = [
     name: "Bolsa Tote Média",
     price: "R$ 140,00",
     description:
-      " Bolsa em couro sintético, modelo tote de tamanho médio, com alças de mão e formato estruturado. Acompanha uma bolsa menor, que pode ser usada como carteira ou porta-moedas, além de uma alça transversal removível e ajustável.O conjunto é versátil, prático e elegante, ideal para o dia a dia, o trabalho ou eventos casuais.Disponível nas cores caramelo e preta.",
+      " Bolsa em couro sintético, modelo tote de tamanho médio, com alças de mão e formato estruturado. Acompanha uma bolsa menor, que pode ser usada como carteira ou porta-moedas, além de uma alça transversal removível e ajustável.O conjunto é versátil, prático e elegante, ideal para o dia a dia, o trabalho ou eventos casuais.Disponível nas cores caramelo e café.",
     media: [
       { type: "image", src: bag56 },
       { type: "image", src: bag57 },
@@ -581,6 +607,18 @@ const products = [
       { type: "image", src: bag59 },
       { type: "image", src: bag78 },
       // { type: "video", src: "/videos/bag-8.1.mp4" },
+    ],
+  },
+
+  {
+    id: 39,
+    name: "Bolsa Tote Média",
+    price: "R$ 140,00",
+    description:
+      " Bolsa em couro sintético, modelo tote de tamanho médio, com alças de mão e formato estruturado. Acompanha uma bolsa menor, que pode ser usada como carteira ou porta-moedas, além de uma alça transversal removível e ajustável.O conjunto é versátil, prático e elegante, ideal para o dia a dia, o trabalho ou eventos casuais.",
+    media: [
+      
+      { type: "video", src: "/videos/bag-39.mp4" },
     ],
   },
   {
