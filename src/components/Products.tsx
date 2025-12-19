@@ -766,7 +766,7 @@ const products = [
     ],
   },
   {
-    id: 36,
+    id: 40,
     name: "Carteira Média Lisa",
     price: "R$ 59,90",
     // description:
@@ -781,7 +781,7 @@ const products = [
   },
 
   {
-    id: 36,
+    id: 41,
     name: "Carteira Pequena",
     price: "R$ 59,90",
     // description:
