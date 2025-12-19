@@ -137,11 +137,15 @@ import bag130 from "@/images/bag-66.3.webp";
 import bag131 from "@/images/bag-67.webp";
 import bag132 from "@/images/bag-67.1.webp";
 import bag133 from "@/images/bag-67.2.webp";
+import bag169 from "@/images/bag-67.3.webp";
+import bag170 from "@/images/bag-67.4.webp";
 import bag134 from "@/images/bag-68.webp";
 import bag135 from "@/images/bag-68.1.webp";
 import bag136 from "@/images/bag-68.2.webp";
 import bag137 from "@/images/bag-68.3.webp";
+import bag167 from "@/images/bag-68.4.webp";
 import bag138 from "@/images/bag-69.webp";
+import bag168 from "@/images/bag-69.1.webp";
 import bag139 from "@/images/bag-70.webp";
 import bag140 from "@/images/bag-21.1.webp";
 import bag141 from "@/images/bag-21.2.webp";
@@ -154,6 +158,22 @@ import bag148 from "@/images/bag-71.2.webp";
 import bag149 from "@/images/bag-71.3.webp";
 import bag150 from "@/images/bag-71.4.webp";
 import bag151 from "@/images/bag-55.2.webp";
+import bag171 from "@/images/bag-55.3.webp";
+import bag152 from "@/images/bag-72.1.webp";
+import bag153 from "@/images/bag-72.2.webp";
+import bag154 from "@/images/bag-72.3.webp";
+import bag155 from "@/images/bag-72.4.webp";
+import bag156 from "@/images/bag-72.5.webp";
+import bag157 from "@/images/bag-72.6.webp";
+import bag158 from "@/images/bag-72.7.webp";
+import bag159 from "@/images/bag-73.webp";
+import bag160 from "@/images/bag-73.1.webp";
+import bag161 from "@/images/bag-73.2.webp";
+import bag162 from "@/images/bag-74.webp";
+import bag163 from "@/images/bag-74.1.webp";
+import bag164 from "@/images/bag-74.2.webp";
+import bag165 from "@/images/bag-74.3.webp";
+import bag166 from "@/images/bag-74.4.webp";
 
 
 import { fromTheme } from "tailwind-merge";
@@ -161,7 +181,7 @@ import { fromTheme } from "tailwind-merge";
 const products = [
   {
     id: 37,
-    name: "Bolsa Tiracolo Modelo Especial - Ideal para Presente",
+    name: "Bolsa Tiracolo, Alça Removível, Modelo Especial - Ideal para Presente",
     price: "R$ 69,90",
     // description:
     //   "Bolsa tiracolo de estilo clássico e versátil, ideal para uso durante o dia ou à noite. Confeccionada em couro sintético, possui fecho em metal e alça de corrente preta que adiciona um toque moderno e elegante.Disponível nas cores branco, bege, caramelo e creme.",
@@ -171,6 +191,25 @@ const products = [
       { type: "image", src: bag148 },
       { type: "image", src: bag149 },
       { type: "image", src: bag150 },
+
+      // { type: "video", src: "" },
+    ],
+  },
+
+  {
+    id: 39,
+    name: "Bolsa Tiracolo Modelo Especial - Ideal para Presente",
+    price: "R$ 69,90",
+    // description:
+    //   "Bolsa tiracolo de estilo clássico e versátil, ideal para uso durante o dia ou à noite. Confeccionada em couro sintético, possui fecho em metal e alça de corrente preta que adiciona um toque moderno e elegante.Disponível nas cores branco, bege, caramelo e creme.",
+    media: [
+      { type: "image", src: bag152 },
+      { type: "image", src: bag153 },
+      { type: "image", src: bag154 },
+      { type: "image", src: bag155 },
+      { type: "image", src: bag156 },
+      { type: "image", src: bag157 },
+      { type: "image", src: bag158 },
 
       // { type: "video", src: "" },
     ],
@@ -218,7 +257,7 @@ const products = [
       { type: "image", src: bag114 },
       { type: "image", src: bag116 },
 
-      { type: "video", src: "/videos/bag63.mp4" },
+      { type: "video", src: "/videos/opt-bag63.mp4" },
     ],
   },
 
@@ -233,7 +272,7 @@ const products = [
       { type: "image", src: bag1 },
       { type: "image", src: bag79 },
       { type: "image", src: bag60 },
-      { type: "video", src: "/videos/bag-1.1.mp4" },
+      { type: "video", src: "/videos/opt-bag-1.1.mp4" },
     ],
   },
   {
@@ -249,7 +288,7 @@ const products = [
       { type: "image", src: bag4 },
       { type: "image", src: bag62 },
       { type: "image", src: bag5 },
-      { type: "video", src: "/videos/bag2.2.mp4" },
+      { type: "video", src: "/videos/opt-bag2.2.mp4" },
     ],
   },
   {
@@ -334,8 +373,8 @@ const products = [
       { type: "image", src: bag10 },
       { type: "image", src: bag64 },
       { type: "image", src: bag11 },
-      { type: "video", src: "/videos/bag4.1.mp4" },
-      { type: "video", src: "/videos/bag4.mp4" },
+      { type: "video", src: "/videos/opt-bag4.1.mp4" },
+      { type: "video", src: "/videos/opt-bag4.mp4" },
     ],
   },
   {
@@ -349,9 +388,9 @@ const products = [
       { type: "image", src: bag13 },
       { type: "image", src: bag14 },
       { type: "image", src: bag15 },
-      { type: "video", src: "/videos/bag5.1.mp4" },
-      { type: "video", src: "/videos/bag5.2.mp4" },
-      { type: "video", src: "/videos/bag5.mp4" },
+      { type: "video", src: "/videos/opt-bag5.1.mp4" },
+      { type: "video", src: "/videos/opt-bag5.2.mp4" },
+      { type: "video", src: "/videos/opt-bag5.mp4" },
     ],
   },
   {
@@ -363,7 +402,7 @@ const products = [
     media: [
       { type: "image", src: bag16 },
       { type: "image", src: bag17 },
-      { type: "video", src: "/videos/bag6.1.mp4" },
+      { type: "video", src: "/videos/opt-bag6.1.mp4" },
     ],
   },
   {
@@ -376,7 +415,7 @@ const products = [
       { type: "image", src: bag18 },
       { type: "image", src: bag65 },
       { type: "image", src: bag19 },
-      { type: "video", src: "/videos/bag7.1.mp4" },
+      { type: "video", src: "/videos/opt-bag7.1.mp4" },
     ],
   },
   {
@@ -389,9 +428,9 @@ const products = [
       { type: "image", src: bag144 },
       { type: "image", src: bag110 },
       { type: "image", src: bag111 },
-      { type: "video", src: "/videos/bag-29.mp4" },
-      { type: "video", src: "/videos/bag62.mp4" },
-      { type: "video", src: "/videos/bag62.1.mp4" },
+      { type: "video", src: "/videos/opt-bag-29.mp4" },
+      { type: "video", src: "/videos/opt-bag62.mp4" },
+      { type: "video", src: "/videos/opt-bag62.1.mp4" },
     ],
   },
 
@@ -415,7 +454,7 @@ const products = [
       " Bolsa em couro sintético com alça de mão, apresentando design bicolor elegante, parte superior em bege e inferior em azul claro com textura. Sofisticada e moderna, ideal para diversas ocasiões.",
     media: [
       { type: "image", src: bag50 },
-      { type: "video", src: "/videos/bag-8.1.mp4" },
+      { type: "video", src: "/videos/opt-bag-8.1.mp4" },
     ],
   },
   {
@@ -431,7 +470,7 @@ const products = [
       { type: "image", src: bag21 },
       { type: "image", src: bag140 },
       { type: "image", src: bag141 },
-      { type: "video", src: "/videos/bag22.mp4" },
+      { type: "video", src: "/videos/opt-bag22.mp4" },
     ],
   },
   {
@@ -442,7 +481,7 @@ const products = [
       "Bolsa de formato baú, com design moderno e elegante. Possui alça de mão trançada e alça transversal ajustável, ambas na cor marrom, oferecendo estilo e praticidade para o dia a dia.",
     media: [
       { type: "image", src: bag23 },
-      { type: "video", src: "/videos/bag11.1.mp4" },
+      { type: "video", src: "/videos/opt-bag11.1.mp4" },
     ],
   },
   {
@@ -454,7 +493,7 @@ const products = [
     media: [
       { type: "image", src: bag24 },
       { type: "image", src: bag25 },
-      { type: "video", src: "/videos/bag12.1.mp4" },
+      { type: "video", src: "/videos/opt-bag12.1.mp4" },
     ],
   },
   {
@@ -465,7 +504,7 @@ const products = [
       "Bolsa de design moderno e elegante, com acabamento sofisticado. Possui alça transversal ajustável e removível, além de fechamento com zíper para mais praticidade e segurança.",
     media: [
       { type: "image", src: bag26 },
-      { type: "video", src: "/videos/bag13.1.mp4" },
+      { type: "video", src: "/videos/opt-bag13.1.mp4" },
     ],
   },
   {
@@ -477,7 +516,7 @@ const products = [
     media: [
       { type: "image", src: bag27 },
       { type: "image", src: bag28 },
-      { type: "video", src: "/videos/bag14.1.mp4" },
+      { type: "video", src: "/videos/opt-bag14.1.mp4" },
     ],
   },
   {
@@ -501,7 +540,7 @@ const products = [
       " Bolsa social em courino sintético, com alça de mão e alça transversal ajustável e removível. Apresenta detalhes em tressê na parte frontal, unindo elegância e praticidade para ocasiões formais ou do dia a dia.",
     media: [
       { type: "image", src: bag31 },
-      { type: "video", src: "/videos/bag16.1.mp4" },
+      { type: "video", src: "/videos/opt-bag16.1.mp4" },
     ],
   },
 
@@ -515,7 +554,7 @@ const products = [
       { type: "image", src: bag36 },
       { type: "image", src: bag68 },
       { type: "image", src: bag37 },
-      { type: "video", src: "/videos/bag18.1.mp4" },
+      { type: "video", src: "/videos/opt-bag18.1.mp4" },
     ],
   },
   {
@@ -529,7 +568,7 @@ const products = [
       { type: "image", src: bag69 },
       { type: "image", src: bag39 },
       { type: "image", src: bag40 },
-      { type: "video", src: "/videos/bag19.1.mp4" },
+      { type: "video", src: "/videos/opt-bag19.1.mp4" },
     ],
   },
   {
@@ -556,7 +595,7 @@ const products = [
       { type: "image", src: bag72 },
       { type: "image", src: bag49 },
       { type: "image", src: bag48 },
-      { type: "video", src: "/videos/bag21.3.mp4" },
+      { type: "video", src: "/videos/opt-bag21.3.mp4" },
     ],
   },
   {
@@ -569,7 +608,7 @@ const products = [
       { type: "image", src: bag43 },
       { type: "image", src: bag71 },
       { type: "image", src: bag44 },
-      { type: "video", src: "/videos/bag21.1.mp4" },
+      { type: "video", src: "/videos/opt-bag21.1.mp4" },
     ],
   },
   {
@@ -580,7 +619,7 @@ const products = [
       " Bolsa em couro sintético, tamanho pequeno, com alças de mão e alça de ombro longa, unindo praticidade e elegância em um design delicado e versátil. ",
     media: [
       { type: "image", src: bag46 },
-      { type: "video", src: "/videos/bag23.1.mp4" },
+      { type: "video", src: "/videos/opt-bag23.1.mp4" },
     ],
   },
   {
@@ -636,8 +675,9 @@ const products = [
     description:
       " Bolsa em couro sintético, modelo tote de tamanho médio, com alças de mão e formato estruturado. Acompanha uma bolsa menor, que pode ser usada como carteira ou porta-moedas, além de uma alça transversal removível e ajustável.O conjunto é versátil, prático e elegante, ideal para o dia a dia, o trabalho ou eventos casuais.",
     media: [
+      { type: "image", src: bag171 },
       { type: "image", src: bag151 },
-      { type: "video", src: "/videos/bag-39.mp4" },
+      { type: "video", src: "/videos/opt-bag-39.mp4" },
     ],
   },
 
@@ -687,6 +727,8 @@ const products = [
     description:
       " Carteira em couro sintético, tamanho grande, com múltiplas repartições internas e porta-cartões, oferecendo ótima organização. Possui fecho em zíper para moedas e design elegante, além de pingente de franja (tassel) que adiciona um toque moderno e sofisticado.",
     media: [
+      { type: "image", src: bag169 },
+      { type: "image", src: bag170 },
       { type: "image", src: bag131 },
       { type: "image", src: bag132 },
       { type: "image", src: bag133 },
@@ -701,6 +743,7 @@ const products = [
     description:
       "Carteira confeccionada em couro sintético, na cor preta, com textura em relevo que agrega sofisticação ao design. Possui fecho de fivela e detalhe de tassel (pendão) colorido, trazendo um toque moderno e elegante.Funcional e prática, conta com compartimentos internos para cartões, documentos e moedas, podendo acomodar também o celular, conforme o modelo.",
     media: [
+      { type: "image", src: bag167 },
       { type: "image", src: bag134 },
       { type: "image", src: bag135 },
       { type: "image", src: bag136 },
@@ -716,7 +759,39 @@ const products = [
     description:
       "Carteira com design compacto, equipada com aba frontal e fecho de fivela decorativa. Confeccionada em material com textura levemente granulada, apresenta um visual elegante e moderno. Possui pingente de franjas (tassel) na lateral, que adiciona charme ao acessório.O interior é forrado e conta com divisões para cartões e documentos, unindo praticidade e estilo para o dia a dia.",
     media: [
+      { type: "image", src: bag168 },
       { type: "image", src: bag138 },
+
+      // { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+  {
+    id: 36,
+    name: "Carteira Média Lisa",
+    price: "R$ 59,90",
+    // description:
+    //   "Carteira com design compacto, equipada com aba frontal e fecho de fivela decorativa. Confeccionada em material com textura levemente granulada, apresenta um visual elegante e moderno. Possui pingente de franjas (tassel) na lateral, que adiciona charme ao acessório.O interior é forrado e conta com divisões para cartões e documentos, unindo praticidade e estilo para o dia a dia.",
+    media: [
+      { type: "image", src: bag159 },
+      { type: "image", src: bag160 },
+      { type: "image", src: bag161 },
+
+      // { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+
+  {
+    id: 36,
+    name: "Carteira Pequena",
+    price: "R$ 59,90",
+    // description:
+    //   "Carteira com design compacto, equipada com aba frontal e fecho de fivela decorativa. Confeccionada em material com textura levemente granulada, apresenta um visual elegante e moderno. Possui pingente de franjas (tassel) na lateral, que adiciona charme ao acessório.O interior é forrado e conta com divisões para cartões e documentos, unindo praticidade e estilo para o dia a dia.",
+    media: [
+      { type: "image", src: bag162 },
+      { type: "image", src: bag163 },
+      { type: "image", src: bag164 },
+      { type: "image", src: bag165 },
+      { type: "image", src: bag166 },
 
       // { type: "video", src: "/videos/bag2.2.mp4" },
     ],
