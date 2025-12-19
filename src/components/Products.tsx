@@ -181,7 +181,7 @@ import { fromTheme } from "tailwind-merge";
 const products = [
   {
     id: 37,
-    name: "Bolsa Tiracolo, Alça Removível, Modelo Especial - Ideal para Presente",
+    name: "Bolsa Tiracolo, Modelo Especial - Ideal para Presente",
     price: "R$ 69,90",
     // description:
     //   "Bolsa tiracolo de estilo clássico e versátil, ideal para uso durante o dia ou à noite. Confeccionada em couro sintético, possui fecho em metal e alça de corrente preta que adiciona um toque moderno e elegante.Disponível nas cores branco, bege, caramelo e creme.",
@@ -198,7 +198,7 @@ const products = [
 
   {
     id: 39,
-    name: "Bolsa Tiracolo Modelo Especial - Ideal para Presente",
+    name: "Bolsa Tiracolo Modelo Especial, Alça Removível - Ideal para Presente",
     price: "R$ 69,90",
     // description:
     //   "Bolsa tiracolo de estilo clássico e versátil, ideal para uso durante o dia ou à noite. Confeccionada em couro sintético, possui fecho em metal e alça de corrente preta que adiciona um toque moderno e elegante.Disponível nas cores branco, bege, caramelo e creme.",
