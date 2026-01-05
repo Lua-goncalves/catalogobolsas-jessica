@@ -8,6 +8,16 @@ import bag79 from "@/images/bag1.2.jpeg";
 import bag60 from "@/images/bag-1.3.jpeg";
 import bag2 from "@/images/bag-2.jpeg";
 import bag3 from "@/images/bag-3.jpeg";
+import bag176 from "@/images/bag-3.2.webp";
+import bag177 from "@/images/bag-3.3.webp";
+import bag178 from "@/images/bag-3.4.webp";
+import bag179 from "@/images/bag-3.5.webp";
+import bag180 from "@/images/bag-3.6.webp";
+import bag181 from "@/images/bag-3.7.webp";
+import bag182 from "@/images/bag-3.8.webp";
+import bag183 from "@/images/bag-3.9.webp";
+import bag184 from "@/images/bag-3.10.webp";
+import bag185 from "@/images/bag-3.11.webp";
 import bag61 from "@/images/bag-3.1.jpeg";
 import bag4 from "@/images/bag-4.jpeg";
 import bag62 from "@/images/bag-4.1.jpeg";
@@ -125,6 +135,10 @@ import bag118 from "@/images/bag-64.webp";
 import bag119 from "@/images/bag-64.1.webp";
 import bag120 from "@/images/bag-64.2.webp";
 import bag121 from "@/images/bag-64.3.webp";
+import bag172 from "@/images/bag-64.4.webp";
+import bag173 from "@/images/bag-64.5.webp";
+import bag174 from "@/images/bag-64.6.webp";
+import bag175 from "@/images/bag-64.7.webp";
 import bag122 from "@/images/bag-65.webp";
 import bag123 from "@/images/bag-65.1.webp";
 import bag124 from "@/images/bag-65.2.webp";
@@ -174,6 +188,11 @@ import bag163 from "@/images/bag-74.1.webp";
 import bag164 from "@/images/bag-74.2.webp";
 import bag165 from "@/images/bag-74.3.webp";
 import bag166 from "@/images/bag-74.4.webp";
+import bag186 from "@/images/bag-75.webp";
+import bag187 from "@/images/bag-75.1.webp";
+import bag188 from "@/images/bag-75.2.webp";
+import bag189 from "@/images/bag-75.3.webp";
+import bag190 from "@/images/bag-75.4.webp";
 
 
 import { fromTheme } from "tailwind-merge";
@@ -288,7 +307,33 @@ const products = [
       { type: "image", src: bag4 },
       { type: "image", src: bag62 },
       { type: "image", src: bag5 },
+      { type: "image", src: bag176 },
+      { type: "image", src: bag177 },
+      { type: "image", src: bag178 },
+      { type: "image", src: bag179 },
+      { type: "image", src: bag181 },
+      { type: "image", src: bag185 },
+      { type: "image", src: bag185 },
+      { type: "image", src: bag182 },
+      { type: "image", src: bag180 },
+      { type: "image", src: bag183 },
       { type: "video", src: "/videos/opt-bag2.2.mp4" },
+    ],
+  },
+
+  {
+    id: 42,
+    name: "Bolsa Baú Pequena Off-White",
+    price: "R$ 135,00",
+    description:
+      " Bolsa estilo baú, na cor off-white, com design estruturado e tamanho pequeno. Versátil, oferece múltiplas opções de uso para diferentes ocasiões.Possui alça de mão, ideal para um visual mais elegante e formal, e alça longa ajustável e removível, permitindo o uso transversal ou de ombro para maior praticidade no dia a dia.Acompanha lenço estampado amarrado na alça de mão, que adiciona um toque fashion ao acessório e pode ser removido ou usado de diferentes formas.",
+    media: [
+      { type: "image", src: bag187 },
+      { type: "image", src: bag188 },
+      { type: "image", src: bag189 },
+      { type: "image", src: bag186 },
+      { type: "image", src: bag190 },
+      // { type: "video", src: "/videos/opt-bag-1.1.mp4" },
     ],
   },
   {
@@ -339,12 +384,16 @@ const products = [
     name: "Bolsa Transversal Crossbody",
     price: "R$ 90,00",
     description:
-      "Bolsa pequena em couro sintético, na cor caramelo, com design moderno e muito funcional. Destaca-se pela alça de fita larga ajustável, que garante conforto e versatilidade no uso, podendo ser utilizada como transversal ou de ombro.Possui múltiplos compartimentos com zíperes dourados, geralmente três bolsos frontais — ideais para organizar itens essenciais como celular, carteira e documentos. Em alguns modelos, acompanha chaveiro de ursinho, que adiciona um toque charmoso e descontraído ao acessório.",
+      "Bolsa pequena em couro sintético, na cor caramelo, com design moderno e muito funcional. Destaca-se pela alça de fita larga ajustável, que garante conforto e versatilidade no uso, podendo ser utilizada como transversal ou de ombro.Possui múltiplos compartimentos com zíperes dourados, geralmente três bolsos frontais — ideais para organizar itens essenciais como celular, carteira e documentos. Em alguns modelos, acompanha chaveiro de ursinho, que adiciona um toque charmoso e descontraído ao acessório. Disponível na cor caramelo e caqui",
     media: [
       { type: "image", src: bag118 },
       { type: "image", src: bag119 },
       { type: "image", src: bag120 },
       { type: "image", src: bag121 },
+      { type: "image", src: bag172 },
+      { type: "image", src: bag173 },
+      { type: "image", src: bag175 },
+      { type: "image", src: bag174 },
       // { type: "video", src: "/videos/bag2.2.mp4" },
     ],
   },
