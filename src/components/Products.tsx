@@ -558,7 +558,7 @@ const products = [
   {
     id: 10,
     name: "PROMOÇÃO - Bolsa de Ombro Média Bicolor",
-    price: "R$ 135,00",
+    price: "R$ 99,00",
     description:
       "Bolsa média com alça superior e fecho de aba, com design bicolor elegante. Disponível nas combinações creme e preto e creme e cinza. Versátil e sofisticada, perfeita para o dia a dia.",
     media: [
