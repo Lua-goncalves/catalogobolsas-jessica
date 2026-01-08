@@ -223,26 +223,16 @@ import bag213 from "@/images/bag-83.webp";
 import bag214 from "@/images/bag-83.1.webp";
 import bag215 from "@/images/bag-83.2.webp";
 import bag216 from "@/images/bag-83.3.webp";
+import bag221 from "@/images/bag-82.webp";
+import bag222 from "@/images/bag-82.1.webp";
+import bag223 from "@/images/bag-82.2.webp";
+import bag224 from "@/images/bag-82.3.webp";
+import bag225 from "@/images/bag-82.4.webp";
 
 
 import { fromTheme } from "tailwind-merge";
 
 const products = [
-  {
-    id: 49,
-    name: "Bolsa Hobo Média – Azul Marinho",
-    price: "R$ 120,00",
-    description:
-      "Bolsa hobo média, também conhecida como bolsa de ombro, na cor azul marinho. Possui formato flexível em meia-lua e alça única, garantindo conforto para o uso diário. Modelo atemporal, com acabamento soft, que permite que a bolsa se curve e se ajuste naturalmente ao corpo.Design e Funcionalidade:•Design minimalista e elegante•	Fecho em zíper para maior segurança	•	Detalhes metálicos dourados nas junções da alça•	Interior espaçoso, ideal para carregar itens essenciaisMaterial de Alta Qualidade:Confeccionada em material sintético PU (Poliuretano) premium, resistente, flexível e de fácil limpeza, não racha nem descasca com facilidade.",
-    media: [
-      { type: "image", src: bag199 },
-      { type: "image", src: bag200 },
-      { type: "image", src: bag201 },
-
-      // { type: "video", src: "" },
-    ],
-  },
-
   {
     id: 37,
     name: "Bolsa Tiracolo, Modelo Especial - Ideal para Presente",
@@ -325,6 +315,20 @@ const products = [
     ],
   },
 
+  {
+    id: 49,
+    name: "Bolsa Hobo Média – Azul Marinho",
+    price: "R$ 120,00",
+    description:
+      "Bolsa hobo média, também conhecida como bolsa de ombro, na cor azul marinho. Possui formato flexível em meia-lua e alça única, garantindo conforto para o uso diário. Modelo atemporal, com acabamento soft, que permite que a bolsa se curve e se ajuste naturalmente ao corpo.Design e Funcionalidade:•Design minimalista e elegante•	Fecho em zíper para maior segurança	•	Detalhes metálicos dourados nas junções da alça•	Interior espaçoso, ideal para carregar itens essenciaisMaterial de Alta Qualidade:Confeccionada em material sintético PU (Poliuretano) premium, resistente, flexível e de fácil limpeza, não racha nem descasca com facilidade.",
+    media: [
+      { type: "image", src: bag199 },
+      { type: "image", src: bag200 },
+      { type: "image", src: bag201 },
+
+      // { type: "video", src: "" },
+    ],
+  },
   {
     id: 1,
     name: "Bolsa Tote Caramelo com Lenço Decorativo",
@@ -853,7 +857,22 @@ const products = [
       // { type: "video", src: "" },
     ],
   },
+  {
+    id: 60,
+    name: "Mala de Mão Viagem/Esportiva",
+    price: "R$ 99,00",
+    description:
+      "Mala de mão com design elegante na cor rosa, versátil e funcional. Ideal para academia, viagens curtas (inclusive como mala de bordo) ou para o uso diário.Características:•	Amplo espaço interno, com compartimentos internos e externos com zíper para melhor organização;•	Alça de mão fixa para transporte prático;•	Alça transversal removível e ajustável, proporcionando conforto e versatilidade no uso;•	Modelo leve e funcional, ideal para diferentes rotinas.",
+    media: [
+      { type: "image", src: bag221 },
+      { type: "image", src: bag222 },
+      { type: "image", src: bag223 },
+      { type: "image", src: bag224 },
+      { type: "image", src: bag225 },
 
+      // { type: "video", src: "" },
+    ],
+  },
   {
     id: 27,
     name: "Mala T60",
