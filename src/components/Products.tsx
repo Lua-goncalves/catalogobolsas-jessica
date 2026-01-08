@@ -47,6 +47,10 @@ import bag23 from "@/images/bag-23.jpeg";
 import bag24 from "@/images/bag-24.jpeg";
 import bag25 from "@/images/bag-25.jpeg";
 import bag26 from "@/images/bag-26.jpeg";
+import bag217 from "@/images/bag-26.1.webp";
+import bag218 from "@/images/bag-26.2.webp";
+import bag219 from "@/images/bag-26.3.webp";
+import bag220 from "@/images/bag-26.4.webp";
 import bag27 from "@/images/bag-27.jpeg";
 import bag28 from "@/images/bag-28.jpeg";
 import bag29 from "@/images/bag-29.jpeg";
@@ -208,43 +212,22 @@ import bag202 from "@/images/bag-78.webp";
 import bag203 from "@/images/bag-78.1.webp";
 import bag204 from "@/images/bag-78.2.webp";
 import bag205 from "@/images/bag-78.3.webp";
+import bag206 from "@/images/bag-81.webp";
+import bag207 from "@/images/bag-81.1.webp";
+import bag208 from "@/images/bag-81.2.webp";
+import bag209 from "@/images/bag-81.3.webp";
+import bag210 from "@/images/bag-81.4.webp";
+import bag211 from "@/images/bag-81.5.webp";
+import bag212 from "@/images/bag-80.webp";
+import bag213 from "@/images/bag-83.webp";
+import bag214 from "@/images/bag-83.1.webp";
+import bag215 from "@/images/bag-83.2.webp";
+import bag216 from "@/images/bag-83.3.webp";
 
 
 import { fromTheme } from "tailwind-merge";
 
 const products = [
-
-  
-  {
-    id: 50,
-    name: "Bolsa Pequena Chica Fiore – Caqui",
-    price: "R$ 140,00",
-    description:
-      "Bolsa pequena confeccionada em material sintético PU (Poliuretano) premium, reconhecido por sua resistência, flexibilidade e fácil limpeza, além de não rachar ou descascar com facilidade. Possui design moderno e sofisticado, com acabamento liso e tonalidade caqui/nude (marrom claro), versátil e elegante.Os detalhes minimalistas e o chaveiro decorativo em formato de árvore de Natal (ou similar) acrescentam charme ao acessório.Características:	•	Marca: Chica Fiore•	Material: PU premium	•	Cor: Caqui (nude/marrom claro)	•	Alças: Dupla de mão + alça longa ajustável e removível	•	Uso: Bolsa de mão, ombro ou transversal	•	Interior: Divisórias e bolsos internos, alguns com zíper, para melhor organizaçãoFuncional e elegante, é ideal para carregar itens essenciais como carteira, celular e chaves, adaptando-se a diversas ocasiões.",
-    media: [
-      { type: "image", src: bag202 },
-      { type: "image", src: bag203 },
-      { type: "image", src: bag204 },
-      { type: "image", src: bag205 },
-
-      // { type: "video", src: "" },
-    ],
-  },
-  {
-    id: 48,
-    name: "Bolsa Tote Média Chica Fiore – Creme",
-    price: "R$ 140,00 ",
-    description:
-      "Bolsa tote média em poliuretano (PU), na cor creme/bege, da marca Chica Fiore. Possui design clássico e estruturado, sendo espaçosa, prática e versátil — ideal para o dia a dia, trabalho ou estudos.Detalhes da Bolsa:•	Marca: Chica Fiore•	Modelo: Tote (bolsa de mão/ombro)•	Material: Poliuretano (PU)•	Cor: Creme/Bege•	Alças: Dupla de mão/ombro + alça transversal removível e ajustável•	Acompanha: Pequena carteira/porta-objetos destacávelFuncional e elegante, é perfeita para quem busca organização e estilo em um único acessório.",
-    media: [
-      { type: "image", src: bag195 },
-      { type: "image", src: bag196 },
-      { type: "image", src: bag197 },
-      { type: "image", src: bag198 },
-
-      // { type: "video", src: "" },
-    ],
-  },
   {
     id: 49,
     name: "Bolsa Hobo Média – Azul Marinho",
@@ -410,7 +393,7 @@ const products = [
       { type: "image", src: bag124 },
       { type: "image", src: bag125 },
       { type: "image", src: bag126 },
-      // { type: "video", src: "/videos/bag2.2.mp4" },
+      { type: "video", src: "/videos/opt-bag-65.mp4" },
     ],
   },
 
@@ -595,6 +578,7 @@ const products = [
       { type: "video", src: "/videos/opt-bag11.1.mp4" },
     ],
   },
+
   {
     id: 12,
     name: "Bolsa Média Marrom",
@@ -609,13 +593,44 @@ const products = [
   },
   {
     id: 13,
-    name: "Bolsa Média Preta",
+    name: "Bolsa Pequena Preta",
     price: "R$ 135,00",
     description:
       "Bolsa de design moderno e elegante, com acabamento sofisticado. Possui alça transversal ajustável e removível, além de fechamento com zíper para mais praticidade e segurança.",
     media: [
       { type: "image", src: bag26 },
+      { type: "image", src: bag217 },
+      { type: "image", src: bag218 },
+      { type: "image", src: bag219 },
+      { type: "image", src: bag220 },
       { type: "video", src: "/videos/opt-bag13.1.mp4" },
+    ],
+  },
+  {
+    id: 54,
+    name: "Bolsa Pequena Preta",
+    price: "R$ 135,00 ",
+    description:
+      "Bolsa pequena confeccionada em material sintético PU (Poliuretano) premium, reconhecido por sua alta qualidade, resistência, flexibilidade e fácil limpeza, além de não rachar ou descascar com facilidade. Apresenta design moderno e sofisticado, com acabamento liso na cor preta, ideal para diferentes estilos.Características:•	Material: PU premium•	Cor: Preta•	Alças: Dupla de mão + alça longa ajustável e removível•	Uso: Bolsa de mão, ombro ou transversal•	Interior: Divisórias e bolsos internos, alguns com zíper, para melhor organizaçãoVersátil e funcional, é perfeita para carregar itens essenciais como carteira, celular e chaves, adaptando-se a diversas ocasiões.",
+    media: [
+      { type: "image", src: bag212 },
+
+      // { type: "video", src: "" },
+    ],
+  },
+  {
+    id: 55,
+    name: "Bolsa Pequena Preta",
+    price: "R$ 135,00 ",
+    description:
+      "Bolsa pequena confeccionada em material sintético PU (Poliuretano) premium, reconhecido por sua alta qualidade, resistência, flexibilidade e fácil limpeza, além de não rachar ou descascar com facilidade. Apresenta design moderno e sofisticado, com acabamento liso na cor preta, ideal para diferentes estilos.Características:•	Material: PU premium•	Cor: Preta•	Alças: Dupla de mão + alça longa ajustável e removível•	Uso: Bolsa de mão, ombro ou transversal•	Interior: Divisórias e bolsos internos, alguns com zíper, para melhor organizaçãoVersátil e funcional, é perfeita para carregar itens essenciais como carteira, celular e chaves, adaptando-se a diversas ocasiões.",
+    media: [
+      { type: "image", src: bag216 },
+      { type: "image", src: bag213 },
+      { type: "image", src: bag214 },
+      { type: "image", src: bag215 },
+
+      // { type: "video", src: "" },
     ],
   },
   {
@@ -763,6 +778,36 @@ const products = [
     ],
   },
   {
+    id: 50,
+    name: "Bolsa Pequena Chica Fiore – Caqui",
+    price: "R$ 140,00",
+    description:
+      "Bolsa pequena confeccionada em material sintético PU (Poliuretano) premium, reconhecido por sua resistência, flexibilidade e fácil limpeza, além de não rachar ou descascar com facilidade. Possui design moderno e sofisticado, com acabamento liso e tonalidade caqui/nude (marrom claro), versátil e elegante.Os detalhes minimalistas e o chaveiro decorativo em formato de árvore de Natal (ou similar) acrescentam charme ao acessório.Características:	•	Marca: Chica Fiore•	Material: PU premium	•	Cor: Caqui (nude/marrom claro)	•	Alças: Dupla de mão + alça longa ajustável e removível	•	Uso: Bolsa de mão, ombro ou transversal	•	Interior: Divisórias e bolsos internos, alguns com zíper, para melhor organizaçãoFuncional e elegante, é ideal para carregar itens essenciais como carteira, celular e chaves, adaptando-se a diversas ocasiões.",
+    media: [
+      { type: "image", src: bag202 },
+      { type: "image", src: bag203 },
+      { type: "image", src: bag204 },
+      { type: "image", src: bag205 },
+
+      { type: "video", src: "/videos/opt-bag-78.mp4" },
+    ],
+  },
+  {
+    id: 48,
+    name: "Bolsa Tote Média Chica Fiore – Creme",
+    price: "R$ 140,00 ",
+    description:
+      "Bolsa tote média em poliuretano (PU), na cor creme/bege, da marca Chica Fiore. Possui design clássico e estruturado, sendo espaçosa, prática e versátil — ideal para o dia a dia, trabalho ou estudos.Detalhes da Bolsa:•	Marca: Chica Fiore•	Modelo: Tote (bolsa de mão/ombro)•	Material: Poliuretano (PU)•	Cor: Creme/Bege•	Alças: Dupla de mão/ombro + alça transversal removível e ajustável•	Acompanha: Pequena carteira/porta-objetos destacávelFuncional e elegante, é perfeita para quem busca organização e estilo em um único acessório.",
+    media: [
+      { type: "image", src: bag195 },
+      { type: "image", src: bag196 },
+      { type: "image", src: bag197 },
+      { type: "image", src: bag198 },
+
+      { type: "video", src: "/videos/opt-bag-76.mp4" },
+    ],
+  },
+  {
     id: 26,
     name: "Bolsa Tote Média",
     price: "R$ 140,00",
@@ -789,6 +834,23 @@ const products = [
       { type: "image", src: bag171 },
       { type: "image", src: bag151 },
       { type: "video", src: "/videos/opt-bag-39.mp4" },
+    ],
+  },
+  {
+    id: 53,
+    name: "Bolsa Tote Média Marrom",
+    price: "R$ 140,00 ",
+    description:
+      "Bolsa estilo tote, em couro sintético, tamanho médio, com design estruturado e elegante. Possui alças superiores fixas e detalhes metálicos dourados, que acrescentam sofisticação ao visual.Acompanha alça transversal longa ajustável e removível, permitindo o uso no ombro ou de forma transversal.Acessórios:Inclui uma pequena bolsa circular acessória, presa por corrente dourada, ideal para uso como porta-moedas ou chaveiro, agregando charme e funcionalidade ao conjunto.",
+    media: [
+      { type: "image", src: bag206 },
+      { type: "image", src: bag207 },
+      { type: "image", src: bag208 },
+      { type: "image", src: bag209 },
+      { type: "image", src: bag210 },
+      { type: "image", src: bag211 },
+
+      // { type: "video", src: "" },
     ],
   },
 
