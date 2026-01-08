@@ -193,11 +193,73 @@ import bag187 from "@/images/bag-75.1.webp";
 import bag188 from "@/images/bag-75.2.webp";
 import bag189 from "@/images/bag-75.3.webp";
 import bag190 from "@/images/bag-75.4.webp";
+import bag191 from "@/images/bag-79.webp";
+import bag192 from "@/images/bag-79.1.webp";
+import bag193 from "@/images/bag-79.2.webp";
+import bag194 from "@/images/bag-79.3.webp";
+import bag195 from "@/images/bag-76.webp";
+import bag196 from "@/images/bag-76.1.webp";
+import bag197 from "@/images/bag-76.2.webp";
+import bag198 from "@/images/bag-76.3.webp";
+import bag199 from "@/images/bag-77.webp";
+import bag200 from "@/images/bag-77.1.webp";
+import bag201 from "@/images/bag-77.2.webp";
+import bag202 from "@/images/bag-78.webp";
+import bag203 from "@/images/bag-78.1.webp";
+import bag204 from "@/images/bag-78.2.webp";
+import bag205 from "@/images/bag-78.3.webp";
 
 
 import { fromTheme } from "tailwind-merge";
 
 const products = [
+
+  
+  {
+    id: 50,
+    name: "Bolsa Pequena Chica Fiore – Caqui",
+    price: "R$ 140,00",
+    description:
+      "Bolsa pequena confeccionada em material sintético PU (Poliuretano) premium, reconhecido por sua resistência, flexibilidade e fácil limpeza, além de não rachar ou descascar com facilidade. Possui design moderno e sofisticado, com acabamento liso e tonalidade caqui/nude (marrom claro), versátil e elegante.Os detalhes minimalistas e o chaveiro decorativo em formato de árvore de Natal (ou similar) acrescentam charme ao acessório.Características:	•	Marca: Chica Fiore•	Material: PU premium	•	Cor: Caqui (nude/marrom claro)	•	Alças: Dupla de mão + alça longa ajustável e removível	•	Uso: Bolsa de mão, ombro ou transversal	•	Interior: Divisórias e bolsos internos, alguns com zíper, para melhor organizaçãoFuncional e elegante, é ideal para carregar itens essenciais como carteira, celular e chaves, adaptando-se a diversas ocasiões.",
+    media: [
+      { type: "image", src: bag202 },
+      { type: "image", src: bag203 },
+      { type: "image", src: bag204 },
+      { type: "image", src: bag205 },
+
+      // { type: "video", src: "" },
+    ],
+  },
+  {
+    id: 48,
+    name: "Bolsa Tote Média Chica Fiore – Creme",
+    price: "R$ 140,00 ",
+    description:
+      "Bolsa tote média em poliuretano (PU), na cor creme/bege, da marca Chica Fiore. Possui design clássico e estruturado, sendo espaçosa, prática e versátil — ideal para o dia a dia, trabalho ou estudos.Detalhes da Bolsa:•	Marca: Chica Fiore•	Modelo: Tote (bolsa de mão/ombro)•	Material: Poliuretano (PU)•	Cor: Creme/Bege•	Alças: Dupla de mão/ombro + alça transversal removível e ajustável•	Acompanha: Pequena carteira/porta-objetos destacávelFuncional e elegante, é perfeita para quem busca organização e estilo em um único acessório.",
+    media: [
+      { type: "image", src: bag195 },
+      { type: "image", src: bag196 },
+      { type: "image", src: bag197 },
+      { type: "image", src: bag198 },
+
+      // { type: "video", src: "" },
+    ],
+  },
+  {
+    id: 49,
+    name: "Bolsa Hobo Média – Azul Marinho",
+    price: "R$ 120,00",
+    description:
+      "Bolsa hobo média, também conhecida como bolsa de ombro, na cor azul marinho. Possui formato flexível em meia-lua e alça única, garantindo conforto para o uso diário. Modelo atemporal, com acabamento soft, que permite que a bolsa se curve e se ajuste naturalmente ao corpo.Design e Funcionalidade:•Design minimalista e elegante•	Fecho em zíper para maior segurança	•	Detalhes metálicos dourados nas junções da alça•	Interior espaçoso, ideal para carregar itens essenciaisMaterial de Alta Qualidade:Confeccionada em material sintético PU (Poliuretano) premium, resistente, flexível e de fácil limpeza, não racha nem descasca com facilidade.",
+    media: [
+      { type: "image", src: bag199 },
+      { type: "image", src: bag200 },
+      { type: "image", src: bag201 },
+
+      // { type: "video", src: "" },
+    ],
+  },
+
   {
     id: 37,
     name: "Bolsa Tiracolo, Modelo Especial - Ideal para Presente",
@@ -766,6 +828,22 @@ const products = [
       { type: "image", src: bag107 },
       { type: "image", src: bag108 },
       // { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+
+  {
+    id: 47,
+    name: "Mala de Mão, Courino",
+    price: "R$ 89,90",
+    // description:
+    //   "Bolsa tiracolo de estilo clássico e versátil, ideal para uso durante o dia ou à noite. Confeccionada em couro sintético, possui fecho em metal e alça de corrente preta que adiciona um toque moderno e elegante.Disponível nas cores branco, bege, caramelo e creme.",
+    media: [
+      { type: "image", src: bag193 },
+      { type: "image", src: bag191 },
+      { type: "image", src: bag192 },
+      { type: "image", src: bag194 },
+
+      // { type: "video", src: "" },
     ],
   },
 
