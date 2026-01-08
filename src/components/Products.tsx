@@ -546,8 +546,8 @@ const products = [
   },
   {
     id: 8,
-    name: "Bolsa de Mão Bicolor",
-    price: "R$ 135,00",
+    name: "PROMOÇÃO - Bolsa de Mão Bicolor",
+    price: "R$ 99,00",
     description:
       " Bolsa em couro sintético com alça de mão, apresentando design bicolor elegante, parte superior em bege e inferior em azul claro com textura. Sofisticada e moderna, ideal para diversas ocasiões.",
     media: [
@@ -557,7 +557,7 @@ const products = [
   },
   {
     id: 10,
-    name: "Bolsa de Ombro Média Bicolor",
+    name: "PROMOÇÃO - Bolsa de Ombro Média Bicolor",
     price: "R$ 135,00",
     description:
       "Bolsa média com alça superior e fecho de aba, com design bicolor elegante. Disponível nas combinações creme e preto e creme e cinza. Versátil e sofisticada, perfeita para o dia a dia.",
@@ -716,8 +716,8 @@ const products = [
   },
   {
     id: 21,
-    name: "Bolsa Satchel Bicolor",
-    price: "R$ 135,00",
+    name: "PROMOÇÃO - Bolsa Satchel Bicolor",
+    price: "R$ 99,00",
     description:
       "  Bolsa de mão com alça superior, apresentando design bicolor elegante, parte superior em tom creme e inferior em azul claro. Possui fecho de metal dourado, que adiciona um toque sofisticado. Versátil e atemporal, é perfeita tanto para o dia a dia quanto para eventos mais formais.",
     media: [
