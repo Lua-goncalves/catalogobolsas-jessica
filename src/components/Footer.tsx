@@ -33,8 +33,8 @@ const Footer = () => {
         </div>
         
         <div className="pt-8 border-t border-primary-foreground/20 text-center text-primary-foreground/80">
-          <p className="flex items-center justify-center gap-1">
-            Feito com <Heart className="w-3 h-4 fill-current text-gold" /> para mulheres que valorizam qualidade
+          <p className="flex items-center justify-center gap-1 text-xs sm:text-base whitespace-nowrap">
+            Feito com <Heart className="w-3 h-4 sm:w-4 sm:h-4 fill-current text-gold" /> para mulheres que valorizam qualidade
           </p>
           <p className="mt-2 text-sm">
             © 2025 Lua Bolsas. Todos os direitos reservados.
