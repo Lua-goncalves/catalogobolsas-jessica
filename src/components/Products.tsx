@@ -187,6 +187,8 @@ import bag158 from "@/images/bag-72.7.webp";
 import bag159 from "@/images/bag-73.webp";
 import bag160 from "@/images/bag-73.1.webp";
 import bag161 from "@/images/bag-73.2.webp";
+import bag226 from "@/images/bag-73.3.webp";
+import bag227 from "@/images/bag-73.4.webp";
 import bag162 from "@/images/bag-74.webp";
 import bag163 from "@/images/bag-74.1.webp";
 import bag164 from "@/images/bag-74.2.webp";
@@ -983,6 +985,8 @@ const products = [
       { type: "image", src: bag159 },
       { type: "image", src: bag160 },
       { type: "image", src: bag161 },
+      { type: "image", src: bag226 },
+      { type: "image", src: bag227 },
 
       // { type: "video", src: "/videos/bag2.2.mp4" },
     ],
