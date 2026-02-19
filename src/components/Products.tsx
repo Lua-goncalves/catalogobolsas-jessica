@@ -581,7 +581,8 @@ const products = [
       "Bolsa de formato baú, com design moderno e elegante. Possui alça de mão trançada e alça transversal ajustável, ambas na cor marrom, oferecendo estilo e praticidade para o dia a dia.",
     media: [
       { type: "image", src: bag23 },
-      { type: "video", src: "/videos/opt-bag11.1.mp4" },
+      { type: "video", src: "/videos/opt-bag-11.mp4" },
+      { type: "video", src: "/videos/opt-bag-11.1.mp4" },
     ],
   },
 
