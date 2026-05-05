@@ -235,6 +235,34 @@ import bag225 from "@/images/bag-82.4.webp";
 import { fromTheme } from "tailwind-merge";
 
 const products = [
+  // {
+  //   id: 21,
+  //   name: "PROMOÇÃO - Bolsa Satchel Bicolor",
+  //   price: "R$ 99,00",
+  //   description:
+  //     "  Bolsa de mão com alça superior, apresentando design bicolor elegante, parte superior em tom creme e inferior em azul claro. Possui fecho de metal dourado, que adiciona um toque sofisticado. Versátil e atemporal, é perfeita tanto para o dia a dia quanto para eventos mais formais.",
+  //   media: [
+  //     { type: "image", src: bag47 },
+  //     { type: "image", src: bag72 },
+  //     { type: "image", src: bag49 },
+  //     { type: "image", src: bag48 },
+  //     { type: "video", src: "/videos/opt-bag21.3.mp4" },
+  //   ],
+  // },
+
+  // {
+  //   id: 18,
+  //   name: "Bolsa Tote Branca Texturizada com Nécessaire",
+  //   price: "R$ 149,00",
+  //   description:
+  //     "Conjunto elegante composto por uma bolsa de ombro tipo tote e uma nécessaire removível. A bolsa principal possui formato espaçoso, alças curtas e acabamento texturizado que imita couro de crocodilo, confeccionada em couro sintético de alta qualidade. Perfeita para quem busca praticidade e sofisticação no dia a dia.",
+  //   media: [
+  //     { type: "image", src: bag36 },
+  //     { type: "image", src: bag68 },
+  //     { type: "image", src: bag37 },
+  //     { type: "video", src: "/videos/opt-bag18.1.mp4" },
+  //   ],
+  // },
   {
     id: 37,
     name: "Bolsa Tiracolo, Modelo Especial - Ideal para Presente",
@@ -448,20 +476,20 @@ const products = [
       // { type: "video", src: "/videos/bag2.2.mp4" },
     ],
   },
-  {
-    id: 3,
-    name: "Bolsa Compacta e Versátil",
-    price: "R$ 90,00",
-    description:
-      "Bolsa de design compacto, que também pode ser usada como bolsa de ombro. Prática e elegante, é perfeita para o dia a dia.",
-    media: [
-      { type: "image", src: bag6 },
-      { type: "image", src: bag63 },
-      { type: "image", src: bag7 },
-      { type: "image", src: bag8 },
-      // { type: "video", src: "" },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   name: "Bolsa Compacta e Versátil",
+  //   price: "R$ 90,00",
+  //   description:
+  //     "Bolsa de design compacto, que também pode ser usada como bolsa de ombro. Prática e elegante, é perfeita para o dia a dia.",
+  //   media: [
+  //     { type: "image", src: bag6 },
+  //     { type: "image", src: bag63 },
+  //     { type: "image", src: bag7 },
+  //     { type: "image", src: bag8 },
+  //     // { type: "video", src: "" },
+  //   ],
+  // },
   {
     id: 4,
     name: "Bolsa de Couro Sintético",
@@ -477,34 +505,34 @@ const products = [
       { type: "video", src: "/videos/opt-bag4.mp4" },
     ],
   },
-  {
-    id: 5,
-    name: "Bolsas Grandes Elegantes",
-    price: "R$ 165,00",
-    description:
-      "Bolsas grandes com designs modernos, versáteis e elegantes, acabamento impecável e detalhes sofisticados em metal. Possuem alças ajustáveis para uso no ombro ou transversal, oferecendo praticidade para o dia a dia. A bolsa exibida na foto acompanha uma pequena bolsinha pendurada, ideal como porta-moedas. Perfeitas para diversas ocasiões, desde looks casuais até os mais elegantes.Disponível nas cores preta, marrom, caramelo e vinho.",
-    media: [
-      { type: "image", src: bag12 },
-      { type: "image", src: bag13 },
-      { type: "image", src: bag14 },
-      { type: "image", src: bag15 },
-      { type: "video", src: "/videos/opt-bag5.1.mp4" },
-      { type: "video", src: "/videos/opt-bag5.2.mp4" },
-      { type: "video", src: "/videos/opt-bag5.mp4" },
-    ],
-  },
-  {
-    id: 6,
-    name: "Bolsa Hobo Caramelo",
-    price: "R$ 165,00",
-    description:
-      "Bolsa em formato meia-lua, confeccionada em material sintético maleável e desestruturado, que adquire um caimento natural ao ser apoiada. Versátil e casual, é perfeita para o uso diário, proporcionando um visual moderno e despojado.",
-    media: [
-      { type: "image", src: bag16 },
-      { type: "image", src: bag17 },
-      { type: "video", src: "/videos/opt-bag6.1.mp4" },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   name: "Bolsas Grandes Elegantes",
+  //   price: "R$ 165,00",
+  //   description:
+  //     "Bolsas grandes com designs modernos, versáteis e elegantes, acabamento impecável e detalhes sofisticados em metal. Possuem alças ajustáveis para uso no ombro ou transversal, oferecendo praticidade para o dia a dia. A bolsa exibida na foto acompanha uma pequena bolsinha pendurada, ideal como porta-moedas. Perfeitas para diversas ocasiões, desde looks casuais até os mais elegantes.Disponível nas cores preta, marrom, caramelo e vinho.",
+  //   media: [
+  //     { type: "image", src: bag12 },
+  //     { type: "image", src: bag13 },
+  //     { type: "image", src: bag14 },
+  //     { type: "image", src: bag15 },
+  //     { type: "video", src: "/videos/opt-bag5.1.mp4" },
+  //     { type: "video", src: "/videos/opt-bag5.2.mp4" },
+  //     { type: "video", src: "/videos/opt-bag5.mp4" },
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   name: "Bolsa Hobo Caramelo",
+  //   price: "R$ 165,00",
+  //   description:
+  //     "Bolsa em formato meia-lua, confeccionada em material sintético maleável e desestruturado, que adquire um caimento natural ao ser apoiada. Versátil e casual, é perfeita para o uso diário, proporcionando um visual moderno e despojado.",
+  //   media: [
+  //     { type: "image", src: bag16 },
+  //     { type: "image", src: bag17 },
+  //     { type: "video", src: "/videos/opt-bag6.1.mp4" },
+  //   ],
+  // },
   {
     id: 7,
     name: "Bolsa Hobo Grande",
@@ -557,22 +585,22 @@ const products = [
       { type: "video", src: "/videos/opt-bag-8.1.mp4" },
     ],
   },
-  {
-    id: 10,
-    name: "PROMOÇÃO - Bolsa de Ombro Média Bicolor",
-    price: "R$ 99,00",
-    description:
-      "Bolsa média com alça superior e fecho de aba, com design bicolor elegante. Disponível nas combinações creme e preto e creme e cinza. Versátil e sofisticada, perfeita para o dia a dia.",
-    media: [
-      { type: "image", src: bag142 },
-      { type: "image", src: bag22 },
-      { type: "image", src: bag143 },
-      { type: "image", src: bag21 },
-      { type: "image", src: bag140 },
-      { type: "image", src: bag141 },
-      { type: "video", src: "/videos/opt-bag22.mp4" },
-    ],
-  },
+  // {
+  //   id: 10,
+  //   name: "PROMOÇÃO - Bolsa de Ombro Média Bicolor",
+  //   price: "R$ 99,00",
+  //   description:
+  //     "Bolsa média com alça superior e fecho de aba, com design bicolor elegante. Disponível nas combinações creme e preto e creme e cinza. Versátil e sofisticada, perfeita para o dia a dia.",
+  //   media: [
+  //     { type: "image", src: bag142 },
+  //     { type: "image", src: bag22 },
+  //     { type: "image", src: bag143 },
+  //     { type: "image", src: bag21 },
+  //     { type: "image", src: bag140 },
+  //     { type: "image", src: bag141 },
+  //     { type: "video", src: "/videos/opt-bag22.mp4" },
+  //   ],
+  // },
   {
     id: 11,
     name: "Bolsa de Mão Média Marrom",
@@ -586,72 +614,72 @@ const products = [
     ],
   },
 
-  {
-    id: 12,
-    name: "Bolsa Média Marrom",
-    price: "R$ 149,00",
-    description:
-      "Bolsa média em couro sintético de alta qualidade, com design moderno e estruturado. Conta com três repartições internas, incluindo uma com zíper, oferecendo praticidade e organização. Versátil, perfeita para o dia a dia de trabalho ou ocasiões casuais.",
-    media: [
-      { type: "image", src: bag24 },
-      { type: "image", src: bag25 },
-      { type: "video", src: "/videos/opt-bag12.1.mp4" },
-    ],
-  },
-  {
-    id: 13,
-    name: "Bolsa Pequena Preta",
-    price: "R$ 135,00",
-    description:
-      "Bolsa de design moderno e elegante, com acabamento sofisticado. Possui alça transversal ajustável e removível, além de fechamento com zíper para mais praticidade e segurança.",
-    media: [
-      { type: "image", src: bag26 },
-      { type: "image", src: bag217 },
-      { type: "image", src: bag218 },
-      { type: "image", src: bag219 },
-      { type: "image", src: bag220 },
-      { type: "video", src: "/videos/opt-bag13.1.mp4" },
-    ],
-  },
-  {
-    id: 54,
-    name: "Bolsa Pequena Preta",
-    price: "R$ 135,00 ",
-    description:
-      "Bolsa pequena confeccionada em material sintético PU (Poliuretano) premium, reconhecido por sua alta qualidade, resistência, flexibilidade e fácil limpeza, além de não rachar ou descascar com facilidade. Apresenta design moderno e sofisticado, com acabamento liso na cor preta, ideal para diferentes estilos.Características:•	Material: PU premium•	Cor: Preta•	Alças: Dupla de mão + alça longa ajustável e removível•	Uso: Bolsa de mão, ombro ou transversal•	Interior: Divisórias e bolsos internos, alguns com zíper, para melhor organizaçãoVersátil e funcional, é perfeita para carregar itens essenciais como carteira, celular e chaves, adaptando-se a diversas ocasiões.",
-    media: [
-      { type: "image", src: bag212 },
+  // {
+  //   id: 12,
+  //   name: "Bolsa Média Marrom",
+  //   price: "R$ 149,00",
+  //   description:
+  //     "Bolsa média em couro sintético de alta qualidade, com design moderno e estruturado. Conta com três repartições internas, incluindo uma com zíper, oferecendo praticidade e organização. Versátil, perfeita para o dia a dia de trabalho ou ocasiões casuais.",
+  //   media: [
+  //     { type: "image", src: bag24 },
+  //     { type: "image", src: bag25 },
+  //     { type: "video", src: "/videos/opt-bag12.1.mp4" },
+  //   ],
+  // },
+  // {
+  //   id: 13,
+  //   name: "Bolsa Pequena Preta",
+  //   price: "R$ 135,00",
+  //   description:
+  //     "Bolsa de design moderno e elegante, com acabamento sofisticado. Possui alça transversal ajustável e removível, além de fechamento com zíper para mais praticidade e segurança.",
+  //   media: [
+  //     { type: "image", src: bag26 },
+  //     { type: "image", src: bag217 },
+  //     { type: "image", src: bag218 },
+  //     { type: "image", src: bag219 },
+  //     { type: "image", src: bag220 },
+  //     { type: "video", src: "/videos/opt-bag13.1.mp4" },
+  //   ],
+  // },
+  // {
+  //   id: 54,
+  //   name: "Bolsa Pequena Preta",
+  //   price: "R$ 135,00 ",
+  //   description:
+  //     "Bolsa pequena confeccionada em material sintético PU (Poliuretano) premium, reconhecido por sua alta qualidade, resistência, flexibilidade e fácil limpeza, além de não rachar ou descascar com facilidade. Apresenta design moderno e sofisticado, com acabamento liso na cor preta, ideal para diferentes estilos.Características:•	Material: PU premium•	Cor: Preta•	Alças: Dupla de mão + alça longa ajustável e removível•	Uso: Bolsa de mão, ombro ou transversal•	Interior: Divisórias e bolsos internos, alguns com zíper, para melhor organizaçãoVersátil e funcional, é perfeita para carregar itens essenciais como carteira, celular e chaves, adaptando-se a diversas ocasiões.",
+  //   media: [
+  //     { type: "image", src: bag212 },
 
-      // { type: "video", src: "" },
-    ],
-  },
-  {
-    id: 55,
-    name: "Bolsa Pequena Preta",
-    price: "R$ 135,00 ",
-    description:
-      "Bolsa pequena confeccionada em material sintético PU (Poliuretano) premium, reconhecido por sua alta qualidade, resistência, flexibilidade e fácil limpeza, além de não rachar ou descascar com facilidade. Apresenta design moderno e sofisticado, com acabamento liso na cor preta, ideal para diferentes estilos.Características:•	Material: PU premium•	Cor: Preta•	Alças: Dupla de mão + alça longa ajustável e removível•	Uso: Bolsa de mão, ombro ou transversal•	Interior: Divisórias e bolsos internos, alguns com zíper, para melhor organizaçãoVersátil e funcional, é perfeita para carregar itens essenciais como carteira, celular e chaves, adaptando-se a diversas ocasiões.",
-    media: [
-      { type: "image", src: bag216 },
-      { type: "image", src: bag213 },
-      { type: "image", src: bag214 },
-      { type: "image", src: bag215 },
+  //     // { type: "video", src: "" },
+  //   ],
+  // },
+  // {
+  //   id: 55,
+  //   name: "Bolsa Pequena Preta",
+  //   price: "R$ 135,00 ",
+  //   description:
+  //     "Bolsa pequena confeccionada em material sintético PU (Poliuretano) premium, reconhecido por sua alta qualidade, resistência, flexibilidade e fácil limpeza, além de não rachar ou descascar com facilidade. Apresenta design moderno e sofisticado, com acabamento liso na cor preta, ideal para diferentes estilos.Características:•	Material: PU premium•	Cor: Preta•	Alças: Dupla de mão + alça longa ajustável e removível•	Uso: Bolsa de mão, ombro ou transversal•	Interior: Divisórias e bolsos internos, alguns com zíper, para melhor organizaçãoVersátil e funcional, é perfeita para carregar itens essenciais como carteira, celular e chaves, adaptando-se a diversas ocasiões.",
+  //   media: [
+  //     { type: "image", src: bag216 },
+  //     { type: "image", src: bag213 },
+  //     { type: "image", src: bag214 },
+  //     { type: "image", src: bag215 },
 
-      // { type: "video", src: "" },
-    ],
-  },
-  {
-    id: 14,
-    name: "Bolsa Pequena Bege",
-    price: "R$ 95,00",
-    description:
-      " Bolsa de alça dupla de mão, confeccionada em material sintético, com alça de ombro removível e design delicado. Acompanha um lenço estampado que complementa o visual com charme e elegância.",
-    media: [
-      { type: "image", src: bag27 },
-      { type: "image", src: bag28 },
-      { type: "video", src: "/videos/opt-bag14.1.mp4" },
-    ],
-  },
+  //     // { type: "video", src: "" },
+  //   ],
+  // },
+  // {
+  //   id: 14,
+  //   name: "Bolsa Pequena Bege",
+  //   price: "R$ 95,00",
+  //   description:
+  //     " Bolsa de alça dupla de mão, confeccionada em material sintético, com alça de ombro removível e design delicado. Acompanha um lenço estampado que complementa o visual com charme e elegância.",
+  //   media: [
+  //     { type: "image", src: bag27 },
+  //     { type: "image", src: bag28 },
+  //     { type: "video", src: "/videos/opt-bag14.1.mp4" },
+  //   ],
+  // },
   {
     id: 15,
     name: "Bolsa Preta Compacta",
@@ -665,31 +693,18 @@ const products = [
       // { type: "video", src: "" },
     ],
   },
-  {
-    id: 16,
-    name: "Bolsa Social Preta",
-    price: "R$ 165,00",
-    description:
-      " Bolsa social em courino sintético, com alça de mão e alça transversal ajustável e removível. Apresenta detalhes em tressê na parte frontal, unindo elegância e praticidade para ocasiões formais ou do dia a dia.",
-    media: [
-      { type: "image", src: bag31 },
-      { type: "video", src: "/videos/opt-bag16.1.mp4" },
-    ],
-  },
+  // {
+  //   id: 16,
+  //   name: "Bolsa Social Preta",
+  //   price: "R$ 165,00",
+  //   description:
+  //     " Bolsa social em courino sintético, com alça de mão e alça transversal ajustável e removível. Apresenta detalhes em tressê na parte frontal, unindo elegância e praticidade para ocasiões formais ou do dia a dia.",
+  //   media: [
+  //     { type: "image", src: bag31 },
+  //     { type: "video", src: "/videos/opt-bag16.1.mp4" },
+  //   ],
+  // },
 
-  {
-    id: 18,
-    name: "Bolsa Tote Branca Texturizada com Nécessaire",
-    price: "R$ 149,00",
-    description:
-      "Conjunto elegante composto por uma bolsa de ombro tipo tote e uma nécessaire removível. A bolsa principal possui formato espaçoso, alças curtas e acabamento texturizado que imita couro de crocodilo, confeccionada em couro sintético de alta qualidade. Perfeita para quem busca praticidade e sofisticação no dia a dia.",
-    media: [
-      { type: "image", src: bag36 },
-      { type: "image", src: bag68 },
-      { type: "image", src: bag37 },
-      { type: "video", src: "/videos/opt-bag18.1.mp4" },
-    ],
-  },
   {
     id: 19,
     name: "Bolsa Tote",
@@ -704,57 +719,44 @@ const products = [
       { type: "video", src: "/videos/opt-bag19.1.mp4" },
     ],
   },
-  {
-    id: 20,
-    name: "Conjunto de Bolsas Femininas Pretas",
-    price: "R$ 149,00",
-    description:
-      "Conjuntocomposto por duas bolsas elegantes:•	Bolsa Tote Grande: Design de cesta trançada com alças curtas, confeccionada em couro sintético com textura trançada. Espaçosa e versátil, perfeita para o dia a dia ou compromissos mais formais.•	Bolsa Crossbody Menor: Modelo transversal com alça longa e ajustável, ideal para praticidade e estilo no dia a dia.A bolsa menor é inclusa como brinde, tornando este conjunto ainda mais atraente.",
-    media: [
-      { type: "image", src: bag41 },
-      { type: "image", src: bag42 },
-      { type: "image", src: bag70 },
-      // { type: "video", src: "" },
-    ],
-  },
-  {
-    id: 21,
-    name: "PROMOÇÃO - Bolsa Satchel Bicolor",
-    price: "R$ 99,00",
-    description:
-      "  Bolsa de mão com alça superior, apresentando design bicolor elegante, parte superior em tom creme e inferior em azul claro. Possui fecho de metal dourado, que adiciona um toque sofisticado. Versátil e atemporal, é perfeita tanto para o dia a dia quanto para eventos mais formais.",
-    media: [
-      { type: "image", src: bag47 },
-      { type: "image", src: bag72 },
-      { type: "image", src: bag49 },
-      { type: "image", src: bag48 },
-      { type: "video", src: "/videos/opt-bag21.3.mp4" },
-    ],
-  },
-  {
-    id: 22,
-    name: "Mochila Urbana Preta Feminina",
-    price: "R$ 95,00",
-    description:
-      "Mochila feminina em couro sintético, com alças duplas para maior conforto. Possui bolsos frontais com zíper e bolsos laterais, oferecendo praticidade e organização para o dia a dia urbano.",
-    media: [
-      { type: "image", src: bag43 },
-      { type: "image", src: bag71 },
-      { type: "image", src: bag44 },
-      { type: "video", src: "/videos/opt-bag21.1.mp4" },
-    ],
-  },
-  {
-    id: 23,
-    name: "Bolsa de Couro Sintético Bege",
-    price: "R$ 149,00",
-    description:
-      " Bolsa em couro sintético, tamanho pequeno, com alças de mão e alça de ombro longa, unindo praticidade e elegância em um design delicado e versátil. ",
-    media: [
-      { type: "image", src: bag46 },
-      { type: "video", src: "/videos/opt-bag23.1.mp4" },
-    ],
-  },
+  // {
+  //   id: 20,
+  //   name: "Conjunto de Bolsas Femininas Pretas",
+  //   price: "R$ 149,00",
+  //   description:
+  //     "Conjuntocomposto por duas bolsas elegantes:•	Bolsa Tote Grande: Design de cesta trançada com alças curtas, confeccionada em couro sintético com textura trançada. Espaçosa e versátil, perfeita para o dia a dia ou compromissos mais formais.•	Bolsa Crossbody Menor: Modelo transversal com alça longa e ajustável, ideal para praticidade e estilo no dia a dia.A bolsa menor é inclusa como brinde, tornando este conjunto ainda mais atraente.",
+  //   media: [
+  //     { type: "image", src: bag41 },
+  //     { type: "image", src: bag42 },
+  //     { type: "image", src: bag70 },
+  //     // { type: "video", src: "" },
+  //   ],
+  // },
+
+  // {
+  //   id: 22,
+  //   name: "Mochila Urbana Preta Feminina",
+  //   price: "R$ 95,00",
+  //   description:
+  //     "Mochila feminina em couro sintético, com alças duplas para maior conforto. Possui bolsos frontais com zíper e bolsos laterais, oferecendo praticidade e organização para o dia a dia urbano.",
+  //   media: [
+  //     { type: "image", src: bag43 },
+  //     { type: "image", src: bag71 },
+  //     { type: "image", src: bag44 },
+  //     { type: "video", src: "/videos/opt-bag21.1.mp4" },
+  //   ],
+  // },
+  // {
+  //   id: 23,
+  //   name: "Bolsa de Couro Sintético Bege",
+  //   price: "R$ 149,00",
+  //   description:
+  //     " Bolsa em couro sintético, tamanho pequeno, com alças de mão e alça de ombro longa, unindo praticidade e elegância em um design delicado e versátil. ",
+  //   media: [
+  //     { type: "image", src: bag46 },
+  //     { type: "video", src: "/videos/opt-bag23.1.mp4" },
+  //   ],
+  // },
   {
     id: 24,
     name: "Bolsa Quilted Satchel Marrom",
@@ -771,19 +773,19 @@ const products = [
       // { type: "video", src: "/videos/bag-8.1.mp4" },
     ],
   },
-  {
-    id: 25,
-    name: "Bolsa Satchel Média Preta",
-    price: "R$ 140,00",
-    description:
-      " Bolsa em couro sintético, estilo satchel, com estrutura firme e design elegante. Possui alças curtas e alça longa removível, além de detalhes em corrente dourada que adicionam um toque sofisticado e moderno.",
-    media: [
-      { type: "image", src: bag54 },
-      { type: "image", src: bag55 },
-      { type: "image", src: bag76 },
-      // { type: "video", src: "/videos/bag-8.1.mp4" },
-    ],
-  },
+  // {
+  //   id: 25,
+  //   name: "Bolsa Satchel Média Preta",
+  //   price: "R$ 140,00",
+  //   description:
+  //     " Bolsa em couro sintético, estilo satchel, com estrutura firme e design elegante. Possui alças curtas e alça longa removível, além de detalhes em corrente dourada que adicionam um toque sofisticado e moderno.",
+  //   media: [
+  //     { type: "image", src: bag54 },
+  //     { type: "image", src: bag55 },
+  //     { type: "image", src: bag76 },
+  //     // { type: "video", src: "/videos/bag-8.1.mp4" },
+  //   ],
+  // },
   {
     id: 50,
     name: "Bolsa Pequena Chica Fiore – Caqui",
@@ -814,22 +816,22 @@ const products = [
       { type: "video", src: "/videos/opt-bag-76.mp4" },
     ],
   },
-  {
-    id: 26,
-    name: "Bolsa Tote Média",
-    price: "R$ 140,00",
-    description:
-      " Bolsa em couro sintético, modelo tote de tamanho médio, com alças de mão e formato estruturado. Acompanha uma bolsa menor, que pode ser usada como carteira ou porta-moedas, além de uma alça transversal removível e ajustável.O conjunto é versátil, prático e elegante, ideal para o dia a dia, o trabalho ou eventos casuais.Disponível nas cores caramelo e café.",
-    media: [
-      { type: "image", src: bag56 },
-      { type: "image", src: bag57 },
-      { type: "image", src: bag58 },
-      { type: "image", src: bag77 },
-      { type: "image", src: bag59 },
-      { type: "image", src: bag78 },
-      // { type: "video", src: "/videos/bag-8.1.mp4" },
-    ],
-  },
+  // {
+  //   id: 26,
+  //   name: "Bolsa Tote Média",
+  //   price: "R$ 140,00",
+  //   description:
+  //     " Bolsa em couro sintético, modelo tote de tamanho médio, com alças de mão e formato estruturado. Acompanha uma bolsa menor, que pode ser usada como carteira ou porta-moedas, além de uma alça transversal removível e ajustável.O conjunto é versátil, prático e elegante, ideal para o dia a dia, o trabalho ou eventos casuais.Disponível nas cores caramelo e café.",
+  //   media: [
+  //     { type: "image", src: bag56 },
+  //     { type: "image", src: bag57 },
+  //     { type: "image", src: bag58 },
+  //     { type: "image", src: bag77 },
+  //     { type: "image", src: bag59 },
+  //     { type: "image", src: bag78 },
+  //     // { type: "video", src: "/videos/bag-8.1.mp4" },
+  //   ],
+  // },
 
   {
     id: 39,
