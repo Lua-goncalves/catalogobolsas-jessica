@@ -574,17 +574,17 @@ const products = [
       // { type: "video", src: "" },
     ],
   },
-  {
-    id: 8,
-    name: "PROMOÇÃO - Bolsa de Mão Bicolor",
-    price: "R$ 99,00",
-    description:
-      " Bolsa em couro sintético com alça de mão, apresentando design bicolor elegante, parte superior em bege e inferior em azul claro com textura. Sofisticada e moderna, ideal para diversas ocasiões.",
-    media: [
-      { type: "image", src: bag50 },
-      { type: "video", src: "/videos/opt-bag-8.1.mp4" },
-    ],
-  },
+  // {
+  //   id: 8,
+  //   name: "PROMOÇÃO - Bolsa de Mão Bicolor",
+  //   price: "R$ 99,00",
+  //   description:
+  //     " Bolsa em couro sintético com alça de mão, apresentando design bicolor elegante, parte superior em bege e inferior em azul claro com textura. Sofisticada e moderna, ideal para diversas ocasiões.",
+  //   media: [
+  //     { type: "image", src: bag50 },
+  //     { type: "video", src: "/videos/opt-bag-8.1.mp4" },
+  //   ],
+  // },
   // {
   //   id: 10,
   //   name: "PROMOÇÃO - Bolsa de Ombro Média Bicolor",

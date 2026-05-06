@@ -13,11 +13,23 @@ import bag1 from "@/images/bag-47.webp";
 import bag2 from "@/images/bag-47.1.webp";
 import bag3 from "@/images/bag-47.2.jpeg";
 import bag4 from "@/images/bag-47.3.jpeg";
+import bag5 from "@/images/bag-48.webp";
+import bag6 from "@/images/bag-48.1.webp";
+import bag7 from "@/images/bag-48.2.jpeg";
 import bag51 from "@/images/bag-36.webp";
 import bag52 from "@/images/bag-36.1.webp";
 import bag53 from "@/images/bag-37.webp";
 
 const saleProducts = [
+  {
+    id: "sale-3",
+    name: "KIT BOLSA SATCHEL",
+    oldPrice: "R$ 299,90",
+    price: "R$ 199,00",
+    description:
+      "Conjunto premium com bolsa em couro sintético resistente e carteira em couro legítimo. Design atemporal, perfeito para presentear ou renovar seu visual. Promoção válida enquanto durarem os estoques.",
+    images: [bag5, bag6, bag7],
+  },
   {
     id: "sale-1",
     name: "KIT BOLSA CROCO 🐊",
