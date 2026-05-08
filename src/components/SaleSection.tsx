@@ -89,7 +89,6 @@ const SaleSection = () => {
               className="overflow-hidden border-2 border-luxury/30 shadow-xl hover:shadow-2xl transition-all duration-300 animate-fade-up bg-card relative"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-
               <Carousel className="w-full">
                 <CarouselContent>
                   {product.images.map((image, imgIndex) => (
@@ -101,6 +100,8 @@ const SaleSection = () => {
                         <img
                           src={image}
                           alt={`${product.name} - imagem ${imgIndex + 1}`}
+                          loading="lazy"
+                          decoding="async"
                           className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                         />
                       </div>

@@ -1,12 +1,18 @@
+import { lazy, Suspense } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Products from "@/components/Products";
 import Payments from "@/components/Payments";
-import SaleSection from "@/components/SaleSection";
-import Features from "@/components/Features";
-import Testimonials from "@/components/Testimonials";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
+const SaleSection = lazy(() => import("@/components/SaleSection"));
+const Products = lazy(() => import("@/components/Products"));
+const Features = lazy(() => import("@/components/Features"));
+const Testimonials = lazy(() => import("@/components/Testimonials"));
+const Contact = lazy(() => import("@/components/Contact"));
+const Footer = lazy(() => import("@/components/Footer"));
+const SectionFallback = () => (
+  <div className="py-20 flex justify-center">
+    <div className="w-8 h-8 border-2 border-luxury/30 border-t-luxury rounded-full animate-spin" />
+  </div>
+);
 
 const Index = () => {
   return (
@@ -16,12 +22,14 @@ const Index = () => {
         <Hero />
       </div>
       <Payments />
-      <SaleSection />
-      <Products />
-      <Features />
-      <Testimonials />
-      <Contact />
-      <Footer />
+      <Suspense fallback={<SectionFallback />}>
+        <SaleSection />
+        <Products />
+        <Features />
+        <Testimonials />
+        <Contact />
+        <Footer />
+      </Suspense>
     </main>
   );
 };
