@@ -255,7 +255,6 @@ import bag243 from "@/images/bag-14.3.webp";
 import { fromTheme } from "tailwind-merge";
 
 const products = [
-  
   {
     id: 32,
     name: "Bolsa Baú Preta- Luce Douce",
@@ -388,6 +387,7 @@ const products = [
     id: 3,
     name: " PROMOÇÃO-Bolsa Baú + CARTEIRA  EM COURO LEGÍTIMO ",
     price: "R$ 135,00",
+    walletPrice: "59,90",
     description:
       "Bolsa formato Baú (Bowling Bag) bege com alça de mão Scrunchie. O grande diferencial é a alça curta com efeito franzido ou trançado, que traz uma tendência de moda atual e conforto ao carregar. Acompanha alça transversal longa removível e ajustável, permitindo o uso a tiracolo ou cruzada.Carteira com design minimalista que segue a mesma cor e material da bolsa para um visual conjunto (matching set). Tamanho compacto ideal para cartões, documentos e notas, com fecho de aba e botão de pressão.Esse conjunto é ideal para ocasiões casuais ou eventos sociais que pedem um acessório com estética moderna e sofisticada.",
     media: [
@@ -398,11 +398,25 @@ const products = [
       // { type: "video", src: "" },
     ],
   },
+  {
+    id: 42,
+    name: "PROMOÇÃO- Bolsa Baú + Carteira Croco em Couro Legítimo",
+    price: "R$ 135,00",
+    walletPrice: "59,90",
+    description:
+      " Bolsa formato Baú (Bowling Bag) preta com alça de mão Scrunchie. O grande diferencial é a alça curta com efeito franzido ou trançado, que traz uma tendência de moda atual e conforto ao carregar. Acompanha alça transversal longa removível e ajustável, permitindo o uso a tiracolo ou cruzada no corpo para maior praticidade.SOBRE O KIT:Dica de Estilo:Essa combinação é ideal para um visual Urban Chic. Você pode usar esse kit comu um conjunto de alfaiataria (blazer e calça) para um ar profissional. Jeans de lavagem escura e uma camisa branca para um evento casual elegante.Vestidos fluidos, onde a estrutura da bolsa ajuda a equilibrar a leveza da roupa.🖤 ",
+    media: [
+      { type: "image", src: bag186 },
+      { type: "image", src: bag187 },
+      { type: "image", src: bag188 },
+      // { type: "video", src: "/videos/opt-bag-1.1.mp4" },
+    ],
+  },
 
   {
     id: 100,
     name: "Bolsa Baú Preta + Carteira",
-    walletPrice: "59,00",
+    walletPrice: "59,90",
     price: "R$ 99,90",
     description:
       "Bolsa pequena em couro sintético estruturada com acabamento clássico e sofisticado, ideal para ambientes corporativos ou eventos casuais elegantes. Acompanha alça de mão personalizada com um lenço removível estampado, que adiciona um toque moderno e feminino ao acessório. Confeccionada em material sintético (PU) com textura que imita o couro granulado, oferecendo durabilidade e um toque macio. Possui fechamento principal por zíper, repartição únic, acompanha uma alça transversal ajustável para diferentes formas de uso.Carteira Feminina:Modelo compacto e retangular, seguindo a mesma textura e cor da bolsa para formar um conjunto harmonioso. Aba frontal com botão de pressão interno, garantindo segurança aos itens pessoais",
@@ -414,19 +428,7 @@ const products = [
       // { type: "video", src: "/videos/opt-bag-1.1.mp4" },
     ],
   },
-  {
-    id: 42,
-    name: "PROMOÇÃO- Bolsa Baú + Carteira Croco em Couro Legítimo",
-    price: "R$ 135,00",
-    description:
-      " Bolsa formato Baú (Bowling Bag) preta com alça de mão Scrunchie. O grande diferencial é a alça curta com efeito franzido ou trançado, que traz uma tendência de moda atual e conforto ao carregar. Acompanha alça transversal longa removível e ajustável, permitindo o uso a tiracolo ou cruzada no corpo para maior praticidade.SOBRE O KIT:Dica de Estilo:Essa combinação é ideal para um visual Urban Chic. Você pode usar esse kit comu um conjunto de alfaiataria (blazer e calça) para um ar profissional. Jeans de lavagem escura e uma camisa branca para um evento casual elegante.Vestidos fluidos, onde a estrutura da bolsa ajuda a equilibrar a leveza da roupa.🖤 ",
-    media: [
-      { type: "image", src: bag186 },
-      { type: "image", src: bag187 },
-      { type: "image", src: bag188 },
-      // { type: "video", src: "/videos/opt-bag-1.1.mp4" },
-    ],
-  },
+
   {
     id: 101,
     name: "Bolsa Tote + Carteira",
