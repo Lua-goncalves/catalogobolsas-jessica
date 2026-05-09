@@ -255,62 +255,7 @@ import bag243 from "@/images/bag-14.3.webp";
 import { fromTheme } from "tailwind-merge";
 
 const products = [
-  {
-    id: 2,
-    name: "Bolsa Scrunchie",
-    price: "R$ 135,00",
-    description:
-      "Modelo elegante em couro sintético, com alça de mão franzida (ou plissada) e alça transversal que une estilo e praticidade.Disponível nas cores preta e bege.",
-    media: [
-      { type: "image", src: bag2 },
-      { type: "image", src: bag3 },
-      { type: "image", src: bag61 },
-      { type: "image", src: bag4 },
-      { type: "image", src: bag62 },
-      { type: "image", src: bag5 },
-      { type: "image", src: bag176 },
-      { type: "image", src: bag177 },
-      { type: "image", src: bag178 },
-      { type: "image", src: bag179 },
-      
-      // { type: "image", src: bag181 },
-      // { type: "image", src: bag184 },
-      // { type: "image", src: bag185 },
-      // { type: "image", src: bag182 },
-      // { type: "image", src: bag180 },
-      // { type: "image", src: bag183 },
-      { type: "video", src: "/videos/opt-bag2.2.mp4" },
-    ],
-  },
-  // {
-  //   id: 53,
-  //   name: "Bolsa Tote Média Marrom",
-  //   price: "R$ 140,00 ",
-  //   description:
-  //     "Bolsa estilo tote, em couro sintético, tamanho médio, com design estruturado e elegante. Possui alças superiores fixas e detalhes metálicos dourados, que acrescentam sofisticação ao visual.Acompanha alça transversal longa ajustável e removível, permitindo o uso no ombro ou de forma transversal.Acessórios:Inclui uma pequena bolsa circular acessória, presa por corrente dourada, ideal para uso como porta-moedas ou chaveiro, agregando charme e funcionalidade ao conjunto.",
-  //   media: [
-  //
-
-  //     // { type: "video", src: "" },
-  //   ],
-  // },
-
-  // {
-  //   id: 50,
-  //   name: "Bolsa Pequena Chica Fiore – Caqui",
-  //   price: "R$ 140,00",
-  //   description:
-  //     "Bolsa pequena confeccionada em material sintético PU (Poliuretano) premium, reconhecido por sua resistência, flexibilidade e fácil limpeza, além de não rachar ou descascar com facilidade. Possui design moderno e sofisticado, com acabamento liso e tonalidade caqui/nude (marrom claro), versátil e elegante.Os detalhes minimalistas e o chaveiro decorativo em formato de árvore de Natal (ou similar) acrescentam charme ao acessório.Características:	•	Marca: Chica Fiore•	Material: PU premium	•	Cor: Caqui (nude/marrom claro)	•	Alças: Dupla de mão + alça longa ajustável e removível	•	Uso: Bolsa de mão, ombro ou transversal	•	Interior: Divisórias e bolsos internos, alguns com zíper, para melhor organizaçãoFuncional e elegante, é ideal para carregar itens essenciais como carteira, celular e chaves, adaptando-se a diversas ocasiões.",
-  //   media: [
-  //
-  //     { type: "image", src: bag204 },
-  //
-  //{ type: "image", src: bag78 },
-
-  //     { type: "video", src: "/videos/opt-bag-78.mp4" },
-  //   ],
-  // },
-  //
+  
   {
     id: 32,
     name: "Bolsa Baú Preta- Luce Douce",
@@ -410,6 +355,33 @@ const products = [
       // { type: "video", src: "/videos/opt-bag5.1.mp4" },
       // { type: "video", src: "/videos/opt-bag5.2.mp4" },
       // { type: "video", src: "/videos/opt-bag5.mp4" },
+    ],
+  },
+  {
+    id: 2,
+    name: "Bolsa Scrunchie",
+    price: "R$ 135,00",
+    description:
+      "Modelo elegante em couro sintético, com alça de mão franzida (ou plissada) e alça transversal que une estilo e praticidade.Disponível nas cores preta e bege.",
+    media: [
+      { type: "image", src: bag2 },
+      { type: "image", src: bag3 },
+      { type: "image", src: bag61 },
+      { type: "image", src: bag4 },
+      { type: "image", src: bag62 },
+      { type: "image", src: bag5 },
+      { type: "image", src: bag176 },
+      { type: "image", src: bag177 },
+      { type: "image", src: bag178 },
+      { type: "image", src: bag179 },
+
+      // { type: "image", src: bag181 },
+      // { type: "image", src: bag184 },
+      // { type: "image", src: bag185 },
+      // { type: "image", src: bag182 },
+      // { type: "image", src: bag180 },
+      // { type: "image", src: bag183 },
+      { type: "video", src: "/videos/opt-bag2.2.mp4" },
     ],
   },
   {
