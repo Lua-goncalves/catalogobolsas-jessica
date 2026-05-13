@@ -17,8 +17,9 @@ import bag5 from "@/images/bag-48.webp";
 import bag6 from "@/images/bag-48.1.webp";
 import bag7 from "@/images/bag-48.2.jpeg";
 import bag51 from "@/images/bag-36.webp";
-import bag52 from "@/images/bag-36.1.webp";
+//import bag52 from "@/images/bag-36.1.webp";
 import bag53 from "@/images/bag-37.webp";
+const bag5Video = "/public/videos/opt-bag-9.6.mp4";
 
 const saleProducts = [
   {
@@ -32,12 +33,13 @@ const saleProducts = [
   },
   {
     id: "sale-1",
-    name: "KIT BOLSA CROCO 🐊",
-    oldPrice: "R$ 299,90",
-    price: "R$ 229,00",
+    name: "Bolsa em Couro Sintético- Estilo Croco + Nécessaire ",
+    oldPrice: "R$ 150,00",
+    price: "R$ 99,00",
     description:
-      "Combo exclusivo: bolsa em couro sintético de alta qualidade acompanhada de carteira em couro legítimo. Acabamento sofisticado, espaçosa e versátil para o dia a dia. Edição limitada — últimas unidades em queima de estoque.",
-    images: [bag51, bag52, bag53],
+      "Combo exclusivo: bolsa em couro sintético de alta qualidade acompanhada de nécessaire. Acabamento sofisticado, espaçosa e versátil para o dia a dia. Edição limitada — últimas unidades em queima de estoque.",
+    images: [bag51, bag53],
+    video: bag5Video,
   },
   {
     id: "sale-2",
@@ -107,6 +109,24 @@ const SaleSection = () => {
                       </div>
                     </CarouselItem>
                   ))}
+                  {product.video && (
+                    <CarouselItem>
+                      <div
+                        className="relative aspect-square cursor-pointer bg-black"
+                        onClick={() => handleWhatsAppClick(product.name)}
+                      >
+                        <video
+                          src={product.video}
+                          autoPlay
+                          loop
+                          muted
+                          playsInline
+                          preload="none"
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                    </CarouselItem>
+                  )}
                 </CarouselContent>
                 <CarouselPrevious className="left-2" />
                 <CarouselNext className="right-2" />

@@ -309,7 +309,7 @@ const products = [
       { type: "image", src: bag72 },
       { type: "image", src: bag49 },
       { type: "image", src: bag48 },
-      // { type: "video", src: "/videos/opt-bag21.3.mp4" },
+     { type: "video", src: "/videos/opt-bag-9.1.mp4" },
     ],
   },
 
@@ -381,6 +381,7 @@ const products = [
       // { type: "image", src: bag180 },
       // { type: "image", src: bag183 },
       { type: "video", src: "/videos/opt-bag2.2.mp4" },
+      { type: "video", src: "/videos/opt-bag-9.3.mp4" },
     ],
   },
   {
@@ -395,7 +396,6 @@ const products = [
       { type: "image", src: bag63 },
       { type: "image", src: bag7 },
       { type: "image", src: bag8 },
-      // { type: "video", src: "" },
     ],
   },
   {
@@ -409,7 +409,7 @@ const products = [
       { type: "image", src: bag186 },
       { type: "image", src: bag187 },
       { type: "image", src: bag188 },
-      // { type: "video", src: "/videos/opt-bag-1.1.mp4" },
+     { type: "video", src: "/videos/opt-bag-9.mp4" },
     ],
   },
 
@@ -425,7 +425,7 @@ const products = [
       { type: "image", src: bag228 },
       { type: "image", src: bag229 },
       { type: "image", src: bag230 },
-      // { type: "video", src: "/videos/opt-bag-1.1.mp4" },
+       { type: "video", src: "/videos/opt-bag-9.2.mp4" },
     ],
   },
 
@@ -512,7 +512,7 @@ const products = [
       " Bolsa Tote média couro sintético, com design estruturado e clássico, sendo um modelo versátil para o uso diário ou eventos sociais. Possui alças duplas fixas para ser carregada na mão ou no ombro. Acompanhauma alça transversal removível e regulável para maior praticidade. ",
     media: [
       { type: "image", src: bag46 },
-      //{ type: "video", src: "/videos/opt-bag23.1.mp4" },
+      { type: "video", src: "/videos/opt-bag-9.5.mp4" },
     ],
   },
   {
@@ -525,7 +525,7 @@ const products = [
       { type: "image", src: bag31 },
       { type: "image", src: bag59 },
 
-      // { type: "video", src: "/videos/opt-bag16.1.mp4" },
+      { type: "video", src: "/videos/opt-bag-9.4.mp4" },
     ],
   },
   {
@@ -552,7 +552,7 @@ const products = [
       { type: "image", src: bag50 },
       { type: "image", src: bag22 },
       { type: "image", src: bag21 },
-      { type: "video", src: "/videos/opt-bag-8.1.mp4" },
+      //{ type: "video", src: "/videos/opt-bag-8.1.mp4" },
     ],
   },
   {
@@ -929,20 +929,20 @@ const products = [
       // { type: "video", src: "/videos/bag-8.1.mp4" },
     ],
   },
-  {
-    id: 25,
-    name: "Carteira em Couro Legítimo",
-    price: "R$ 105,00",
-    description:
-      "CARTEIRA EM COURO LEGÍTIMO apresenta um acabamento clássico em textura croco (que imita a pele de crocodilo), sendo um acessório versátil que pode ser utilizado tanto como carteira quanto como bolsa de mão ou clutch.",
-    media: [
-      { type: "image", src: bag54 },
-      { type: "image", src: bag55 },
-      { type: "image", src: bag76 },
+  // {
+  //   id: 25,
+  //   name: "Carteira em Couro Legítimo",
+  //   price: "R$ 105,00",
+  //   description:
+  //     "CARTEIRA EM COURO LEGÍTIMO apresenta um acabamento clássico em textura croco (que imita a pele de crocodilo), sendo um acessório versátil que pode ser utilizado tanto como carteira quanto como bolsa de mão ou clutch.",
+  //   media: [
+  //     { type: "image", src: bag54 },
+  //     { type: "image", src: bag55 },
+  //     { type: "image", src: bag76 },
 
-      // { type: "video", src: "/videos/bag-8.1.mp4" },
-    ],
-  },
+  //     // { type: "video", src: "/videos/bag-8.1.mp4" },
+  //   ],
+  // },
   {
     id: 40,
     name: "Promoção- Carteiras femininas variadas",
