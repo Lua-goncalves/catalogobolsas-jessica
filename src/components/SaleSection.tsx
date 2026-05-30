@@ -17,6 +17,21 @@ import bag5 from "@/images/bag-48.webp";
 import bag6 from "@/images/bag-48.1.webp";
 import bag7 from "@/images/bag-48.2.jpeg";
 import bag51 from "@/images/bag-36.webp";
+import bag8 from "@/images/bag-76.webp";
+import bag9 from "@/images/bag-76.1.webp";
+import bag10 from "@/images/bag-78.webp";
+import bag11 from "@/images/bag-78.1.webp";
+import bag12 from "@/images/bag-78.2.webp";
+import bag13 from "@/images/bag-9.webp";
+import bag14 from "@/images/bag-9.1.webp";
+import bag15 from "@/images/bag-9.2.webp";
+import bag16 from "@/images/bag-10.webp";
+import bag17 from "@/images/bag-10.1.webp";
+import bag18 from "@/images/bag-10.2.webp";
+import bag19 from "@/images/bag-11.webp";
+import bag20 from "@/images/bag-11.1.webp";
+import bag21 from "@/images/bag-11.2.webp";
+import bag22 from "@/images/bag-11.3.webp";
 //import bag52 from "@/images/bag-36.1.webp";
 import bag53 from "@/images/bag-37.webp";
 const bag5Video = "/public/videos/opt-bag-9.6.mp4";
@@ -49,6 +64,51 @@ const saleProducts = [
     description:
       "Conjunto premium com bolsa em couro sintético resistente e carteira em couro legítimo. Design atemporal, perfeito para presentear ou renovar seu visual. Promoção válida enquanto durarem os estoques.",
     images: [bag1, bag2, bag3, bag4],
+  },
+
+  {
+    id: "sale-4",
+    name: "Bolsa Tote Pequena",
+    oldPrice: "R$ 150,90",
+    price: "R$ 99,00",
+    description:
+      "Bolsa Tote pequena, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões. ",
+    images: [bag8, bag9],
+  },
+  {
+    id: "sale-5",
+    name: "Bolsa Tote Média",
+    oldPrice: "R$ 180,00",
+    price: "R$ 129,00",
+    description:
+      "Bolsa Tote média, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões",
+    images: [bag10, bag11, bag12],
+  },
+  {
+    id: "sale-6",
+    name: "Bolsa Tote Pequena",
+    oldPrice: "R$ 150,90",
+    price: "R$ 99,00",
+    description:
+      " Bolsa Tote pequena, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões. ",
+    images: [bag13, bag14, bag15],
+  },
+
+  {
+    id: "sale-7",
+    name: "BOLSA TOTE GRANDE, MÉDIA E PEQUENA 🧡🖤",
+    price: " P R$ 99,00 - M R$ 129,00 -  G R$ 149,00",
+
+    images: [bag16, bag17, bag18],
+  },
+  {
+    id: "sale-8",
+    name: "BOLSA TOTE MÉDIA, BASE FIRME 🖤",
+    oldPrice: "R$ 180,00",
+    price: "R$ 139,90",
+    // description:
+    //   " Bolsa Tote pequena, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões. ",
+    images: [bag19, bag20, bag21, bag22],
   },
 ];
 

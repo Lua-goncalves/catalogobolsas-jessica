@@ -774,22 +774,22 @@ const products = [
     ],
   },
   //
-  {
-    id: 4,
-    name: "Bolsa de Couro Sintético",
-    price: "R$ 99,00 a R$ 149,00",
-    description:
-      " Peça atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões.Disponível nos tamanhos pequeno R$ 99,00 , médio R$ 129,00 e grande R$ 149,00 e também na cor preta.",
-    media: [
-      { type: "image", src: bag9 },
-      { type: "image", src: bag10 },
-      { type: "image", src: bag64 },
-      { type: "image", src: bag11 },
-      //{ type: "image", src: bag246 },
-      { type: "video", src: "/videos/opt-bag4.1.mp4" },
-      { type: "video", src: "/videos/opt-bag4.mp4" },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   name: "Bolsa de Couro Sintético",
+  //   price: "R$ 99,00 a R$ 149,00",
+  //   description:
+  //     " Peça atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões.Disponível nos tamanhos pequeno R$ 99,00 , médio R$ 129,00 e grande R$ 149,00 e também na cor preta.",
+  //   media: [
+  //     { type: "image", src: bag9 },
+  //     { type: "image", src: bag10 },
+  //     { type: "image", src: bag64 },
+  //     { type: "image", src: bag11 },
+  //     //{ type: "image", src: bag246 },
+  //     { type: "video", src: "/videos/opt-bag4.1.mp4" },
+  //     { type: "video", src: "/videos/opt-bag4.mp4" },
+  //   ],
+  // },
 
   {
     id: 7,
@@ -846,36 +846,36 @@ const products = [
     ],
   },
 
-  {
-    id: 19,
-    name: "Bolsa Tote",
-    price: "R$ 139,90",
-    description:
-      "Modelo espaçoso e prático, ideal para o dia a dia. Possui design moderno e funcional, perfeito para carregar todos os seus itens com estilo e elegância.Disponível nas cores marrom e preta.",
-    media: [
-      { type: "image", src: bag38 },
-      { type: "image", src: bag69 },
-      { type: "image", src: bag39 },
-      { type: "image", src: bag40 },
-      { type: "video", src: "/videos/opt-bag19.1.mp4" },
-    ],
-  },
+  // {
+  //   id: 19,
+  //   name: "Bolsa Tote",
+  //   price: "R$ 139,90",
+  //   description:
+  //     "Modelo espaçoso e prático, ideal para o dia a dia. Possui design moderno e funcional, perfeito para carregar todos os seus itens com estilo e elegância.Disponível nas cores marrom e preta.",
+  //   media: [
+  //     { type: "image", src: bag38 },
+  //     { type: "image", src: bag69 },
+  //     { type: "image", src: bag39 },
+  //     { type: "image", src: bag40 },
+  //     { type: "video", src: "/videos/opt-bag19.1.mp4" },
+  //   ],
+  // },
 
-  {
-    id: 48,
-    name: "Bolsa Tote Média Chica Fiore – Creme",
-    price: "R$ 140,00 ",
-    description:
-      "Bolsa tote média em poliuretano (PU), na cor creme/bege, da marca Chica Fiore. Possui design clássico e estruturado, sendo espaçosa, prática e versátil — ideal para o dia a dia, trabalho ou estudos.Detalhes da Bolsa:•	Marca: Chica Fiore•	Modelo: Tote (bolsa de mão/ombro)•	Material: Poliuretano (PU)•	Cor: Creme/Bege•	Alças: Dupla de mão/ombro + alça transversal removível e ajustável•	Acompanha: Pequena carteira/porta-objetos destacávelFuncional e elegante, é perfeita para quem busca organização e estilo em um único acessório.",
-    media: [
-      { type: "image", src: bag195 },
-      { type: "image", src: bag196 },
-      { type: "image", src: bag197 },
-      { type: "image", src: bag198 },
+  // {
+  //   id: 48,
+  //   name: "Bolsa Tote Média Chica Fiore – Creme",
+  //   price: "R$ 140,00 ",
+  //   description:
+  //     "Bolsa tote média em poliuretano (PU), na cor creme/bege, da marca Chica Fiore. Possui design clássico e estruturado, sendo espaçosa, prática e versátil — ideal para o dia a dia, trabalho ou estudos.Detalhes da Bolsa:•	Marca: Chica Fiore•	Modelo: Tote (bolsa de mão/ombro)•	Material: Poliuretano (PU)•	Cor: Creme/Bege•	Alças: Dupla de mão/ombro + alça transversal removível e ajustável•	Acompanha: Pequena carteira/porta-objetos destacávelFuncional e elegante, é perfeita para quem busca organização e estilo em um único acessório.",
+  //   media: [
+  //     { type: "image", src: bag195 },
+  //     { type: "image", src: bag196 },
+  //     { type: "image", src: bag197 },
+  //     { type: "image", src: bag198 },
 
-      { type: "video", src: "/videos/opt-bag-76.mp4" },
-    ],
-  },
+  //     { type: "video", src: "/videos/opt-bag-76.mp4" },
+  //   ],
+  // },
   {
     id: 6,
     name: "Mochila Marrom Média",
