@@ -96,10 +96,17 @@ const saleProducts = [
 
   {
     id: "sale-7",
+    name: "BOLSA TOTE GRANDE E MÉDIA  🧡🖤",
+    price: " P R$ 99,00 - M R$ 129,00",
+
+    images: [ bag17, bag18],
+  },
+  {
+    id: "sale-9",
     name: "BOLSA TOTE GRANDE, MÉDIA E PEQUENA 🧡🖤",
     price: " P R$ 99,00 - M R$ 129,00 -  G R$ 149,00",
 
-    images: [bag16, bag17, bag18],
+    images: [bag16,],
   },
   {
     id: "sale-8",
@@ -108,7 +115,7 @@ const saleProducts = [
     price: "R$ 139,90",
     // description:
     //   " Bolsa Tote pequena, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões. ",
-    images: [bag19, bag20, bag21, bag22],
+    images: [bag20, bag21, bag22],
   },
 ];
 
