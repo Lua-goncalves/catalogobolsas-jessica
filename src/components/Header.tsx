@@ -19,14 +19,14 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed p-8 top-0 left-0 right-0 z-50 bg-background/95 bg-gradient-to-r backdrop-blur-sm border-b border-border shadow-sm">
+    <header className="fixed py-8 pl-0 pr-4 top-0 left-0 right-0 z-50 bg-background/95 bg-gradient-to-r backdrop-blur-sm border-b border-border shadow-sm">
       <div className=" ">
         <div className="flex items-center justify-between h-12">
           {/* Logo Space */}
           <div className="flex items-center ml-0">
             <div className="w-40 h-20 bg-gradient-to-r rounded flex  justify-center">
-              <img className="h-[90px] w-auto mr-3" src="/logo.jpeg" alt="" />
-            <p className=" flex whitespace-nowrap mt-8 text-lg text-gray-800 font-light ">Lua Bolsas</p>
+              <img className="h-[90px] w-auto mr-3" src="/logo.webp" alt="" />
+            {/* <p className=" flex whitespace-nowrap mt-8 text-lg text-gray-800 font-light ">Madame Louise</p> */}
             </div>
           </div>
 

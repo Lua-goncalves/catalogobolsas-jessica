@@ -37,7 +37,7 @@ const Footer = () => {
             Feito com <Heart className="w-3 h-4 sm:w-4 sm:h-4 fill-current text-gold" /> para mulheres que valorizam qualidade
           </p>
           <p className="mt-2 text-sm">
-            © 2025 Lua Bolsas. Todos os direitos reservados.
+            © 2025 Madame Louise. Todos os direitos reservados.
           </p>
         </div>
       </div>
