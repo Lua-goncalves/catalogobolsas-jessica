@@ -413,21 +413,21 @@ const products = [
     ],
   },
 
-  {
-    id: 100,
-    name: "Bolsa Baú Preta + Carteira",
-    walletPrice: "59,90",
-    price: "R$ 99,90",
-    description:
-      "Bolsa pequena em couro sintético estruturada com acabamento clássico e sofisticado, ideal para ambientes corporativos ou eventos casuais elegantes. Acompanha alça de mão personalizada com um lenço removível estampado, que adiciona um toque moderno e feminino ao acessório. Confeccionada em material sintético (PU) com textura que imita o couro granulado, oferecendo durabilidade e um toque macio. Possui fechamento principal por zíper, repartição únic, acompanha uma alça transversal ajustável para diferentes formas de uso.Carteira Feminina:Modelo compacto e retangular, seguindo a mesma textura e cor da bolsa para formar um conjunto harmonioso. Aba frontal com botão de pressão interno, garantindo segurança aos itens pessoais",
-    media: [
-      { type: "image", src: bag231 },
-      { type: "image", src: bag228 },
-      { type: "image", src: bag229 },
-      { type: "image", src: bag230 },
-       { type: "video", src: "/videos/opt-bag-9.2.mp4" },
-    ],
-  },
+  // {
+  //   id: 100,
+  //   name: "Bolsa Baú Preta + Carteira",
+  //   walletPrice: "59,90",
+  //   price: "R$ 99,90",
+  //   description:
+  //     "Bolsa pequena em couro sintético estruturada com acabamento clássico e sofisticado, ideal para ambientes corporativos ou eventos casuais elegantes. Acompanha alça de mão personalizada com um lenço removível estampado, que adiciona um toque moderno e feminino ao acessório. Confeccionada em material sintético (PU) com textura que imita o couro granulado, oferecendo durabilidade e um toque macio. Possui fechamento principal por zíper, repartição únic, acompanha uma alça transversal ajustável para diferentes formas de uso.Carteira Feminina:Modelo compacto e retangular, seguindo a mesma textura e cor da bolsa para formar um conjunto harmonioso. Aba frontal com botão de pressão interno, garantindo segurança aos itens pessoais",
+  //   media: [
+  //     { type: "image", src: bag231 },
+  //     { type: "image", src: bag228 },
+  //     { type: "image", src: bag229 },
+  //     { type: "image", src: bag230 },
+  //      { type: "video", src: "/videos/opt-bag-9.2.mp4" },
+  //   ],
+  // },
 
   {
     id: 101,
@@ -444,21 +444,21 @@ const products = [
       // { type: "video", src: "/videos/opt-bag-1.1.mp4" },
     ],
   },
-  {
-    id: 102,
-    name: "Bolsa + Carteira",
-    walletPrice: "59,90",
-    price: "R$ 149,90",
-    description:
-      " Conjunto de bolsa e carteira preto, couro sintético, da marca Chica Fiore, apresenta um design clássico e estruturado, ideal para uso executivo ou ocasiões formais.A bolsa principal possui um formato de tote estruturada, com as seguintes características comuns a modelos similares da marca: Confeccionada em poliuretano (couro tecnológico), o que oferece resistência e facilidade de limpeza.Alças: Possui alças de mão fixas e frequentemente acompanha uma alça transversal removível e ajustável para maior versatilidade.Interior: Forrada com tecido personalizado, contando com divisórias internas e bolsos com zíper para organização de itens como celulares e documentos. Acompanha porta-moedas removível.Características da CarteiraA carteira que acompanha o conjunto segue o estilo clutch.Pode ser usada como carteira de mão ou adaptada com uma alça de pulso removível com compartimentos internos para cartões, cédulas e, em alguns modelos, um porta-moedas integrado.",
-    media: [
-      { type: "image", src: bag236 },
-      { type: "image", src: bag237 },
-      { type: "image", src: bag238 },
-      { type: "image", src: bag239 },
-      // { type: "video", src: "/videos/opt-bag-1.1.mp4" },
-    ],
-  },
+  // {
+  //   id: 102,
+  //   name: "Bolsa + Carteira",
+  //   walletPrice: "59,90",
+  //   price: "R$ 149,90",
+  //   description:
+  //     " Conjunto de bolsa e carteira preto, couro sintético, da marca Chica Fiore, apresenta um design clássico e estruturado, ideal para uso executivo ou ocasiões formais.A bolsa principal possui um formato de tote estruturada, com as seguintes características comuns a modelos similares da marca: Confeccionada em poliuretano (couro tecnológico), o que oferece resistência e facilidade de limpeza.Alças: Possui alças de mão fixas e frequentemente acompanha uma alça transversal removível e ajustável para maior versatilidade.Interior: Forrada com tecido personalizado, contando com divisórias internas e bolsos com zíper para organização de itens como celulares e documentos. Acompanha porta-moedas removível.Características da CarteiraA carteira que acompanha o conjunto segue o estilo clutch.Pode ser usada como carteira de mão ou adaptada com uma alça de pulso removível com compartimentos internos para cartões, cédulas e, em alguns modelos, um porta-moedas integrado.",
+  //   media: [
+  //     { type: "image", src: bag236 },
+  //     { type: "image", src: bag237 },
+  //     { type: "image", src: bag238 },
+  //     { type: "image", src: bag239 },
+  //     // { type: "video", src: "/videos/opt-bag-1.1.mp4" },
+  //   ],
+  // },
   {
     id: 103,
     name: "Bolsa+ Carteira",
@@ -645,22 +645,22 @@ const products = [
     ],
   },
 
-  {
-    id: 37,
-    name: "Bolsa Tiracolo, Modelo Especial - Ideal para Presente",
-    price: "R$ 69,90",
-    // description:
-    //   "Bolsa tiracolo de estilo clássico e versátil, ideal para uso durante o dia ou à noite. Confeccionada em couro sintético, possui fecho em metal e alça de corrente preta que adiciona um toque moderno e elegante.Disponível nas cores branco, bege, caramelo e creme.",
-    media: [
-      { type: "image", src: bag147 },
-      { type: "image", src: bag146 },
-      { type: "image", src: bag148 },
-      { type: "image", src: bag149 },
-      { type: "image", src: bag150 },
+  // {
+  //   id: 37,
+  //   name: "Bolsa Tiracolo, Modelo Especial - Ideal para Presente",
+  //   price: "R$ 69,90",
+  //   // description:
+  //   //   "Bolsa tiracolo de estilo clássico e versátil, ideal para uso durante o dia ou à noite. Confeccionada em couro sintético, possui fecho em metal e alça de corrente preta que adiciona um toque moderno e elegante.Disponível nas cores branco, bege, caramelo e creme.",
+  //   media: [
+  //     { type: "image", src: bag147 },
+  //     { type: "image", src: bag146 },
+  //     { type: "image", src: bag148 },
+  //     { type: "image", src: bag149 },
+  //     { type: "image", src: bag150 },
 
-      // { type: "video", src: "" },
-    ],
-  },
+  //     // { type: "video", src: "" },
+  //   ],
+  // },
 
   {
     id: 39,
@@ -791,19 +791,19 @@ const products = [
   //   ],
   // },
 
-  {
-    id: 7,
-    name: "Bolsa Hobo Grande",
-    price: "R$ 139,00",
-    description:
-      "Bolsa Hobo de design curvado na parte superior, com alça de ombro ajustável, zíperes laterais com puxadores decorativos e detalhe de metal dourado na parte frontal. Disponível nas cores prata metálico e marrom, combina estilo e praticidade para o dia a dia.",
-    media: [
-      { type: "image", src: bag18 },
-      { type: "image", src: bag65 },
-      { type: "image", src: bag19 },
-      { type: "video", src: "/videos/opt-bag7.1.mp4" },
-    ],
-  },
+  // {
+  //   id: 7,
+  //   name: "Bolsa Hobo Grande",
+  //   price: "R$ 139,00",
+  //   description:
+  //     "Bolsa Hobo de design curvado na parte superior, com alça de ombro ajustável, zíperes laterais com puxadores decorativos e detalhe de metal dourado na parte frontal. Disponível nas cores prata metálico e marrom, combina estilo e praticidade para o dia a dia.",
+  //   media: [
+  //     { type: "image", src: bag18 },
+  //     { type: "image", src: bag65 },
+  //     { type: "image", src: bag19 },
+  //     { type: "video", src: "/videos/opt-bag7.1.mp4" },
+  //   ],
+  // },
   {
     id: 29,
     name: "Bolsa Meia-Lua",
@@ -943,56 +943,56 @@ const products = [
   //     // { type: "video", src: "/videos/bag-8.1.mp4" },
   //   ],
   // },
-  {
-    id: 40,
-    name: "Promoção- Carteiras femininas variadas",
-    price: "R$ 59,90",
-    description:
-      "Carteiras confeccionadas em couro sintético (poliuretano/P.U.) de alta qualidade.",
-    media: [
-      { type: "image", src: bag134 },
-      { type: "image", src: bag135 },
-      { type: "image", src: bag136 },
-      { type: "image", src: bag137 },
-      { type: "image", src: bag159 },
-      { type: "image", src: bag160 },
-      { type: "image", src: bag161 },
-      { type: "image", src: bag167 },
-      { type: "image", src: bag245 },
-      { type: "image", src: bag226 },
-      { type: "image", src: bag227 },
-      { type: "image", src: bag211 },
-      { type: "image", src: bag202 },
-      { type: "image", src: bag203 },
+  // {
+  //   id: 40,
+  //   name: "Promoção- Carteiras femininas variadas",
+  //   price: "R$ 59,90",
+  //   description:
+  //     "Carteiras confeccionadas em couro sintético (poliuretano/P.U.) de alta qualidade.",
+  //   media: [
+  //     { type: "image", src: bag134 },
+  //     { type: "image", src: bag135 },
+  //     { type: "image", src: bag136 },
+  //     { type: "image", src: bag137 },
+  //     { type: "image", src: bag159 },
+  //     { type: "image", src: bag160 },
+  //     { type: "image", src: bag161 },
+  //     { type: "image", src: bag167 },
+  //     { type: "image", src: bag245 },
+  //     { type: "image", src: bag226 },
+  //     { type: "image", src: bag227 },
+  //     { type: "image", src: bag211 },
+  //     { type: "image", src: bag202 },
+  //     { type: "image", src: bag203 },
 
-      // { type: "video", src: "/videos/bag2.2.mp4" },
-    ],
-  },
-  {
-    id: 34,
-    name: "Promoção- Carteiras femininas variadas Chica Fiore",
-    price: "R$ 59,90",
-    description:
-      " Carteiras da marca Chica Fiore são confeccionada em couro sintético (poliuretano/P.U.) de alta qualidade. ",
-    media: [
-      { type: "image", src: bag131 },
-      { type: "image", src: bag132 },
-      { type: "image", src: bag133 },
-      { type: "image", src: bag162 },
-      { type: "image", src: bag163 },
-      { type: "image", src: bag164 },
-      { type: "image", src: bag165 },
-      { type: "image", src: bag166 },
-      { type: "image", src: bag169 },
-      { type: "image", src: bag170 },
-      { type: "image", src: bag206 },
-      { type: "image", src: bag207 },
-      { type: "image", src: bag208 },
-      { type: "image", src: bag209 },
-      { type: "image", src: bag205 },
-      // { type: "video", src: "/videos/bag2.2.mp4" },
-    ],
-  },
+  //     // { type: "video", src: "/videos/bag2.2.mp4" },
+  //   ],
+  // },
+  // {
+  //   id: 34,
+  //   name: "Promoção- Carteiras femininas variadas Chica Fiore",
+  //   price: "R$ 59,90",
+  //   description:
+  //     " Carteiras da marca Chica Fiore são confeccionada em couro sintético (poliuretano/P.U.) de alta qualidade. ",
+  //   media: [
+  //     { type: "image", src: bag131 },
+  //     { type: "image", src: bag132 },
+  //     { type: "image", src: bag133 },
+  //     { type: "image", src: bag162 },
+  //     { type: "image", src: bag163 },
+  //     { type: "image", src: bag164 },
+  //     { type: "image", src: bag165 },
+  //     { type: "image", src: bag166 },
+  //     { type: "image", src: bag169 },
+  //     { type: "image", src: bag170 },
+  //     { type: "image", src: bag206 },
+  //     { type: "image", src: bag207 },
+  //     { type: "image", src: bag208 },
+  //     { type: "image", src: bag209 },
+  //     { type: "image", src: bag205 },
+  //     // { type: "video", src: "/videos/bag2.2.mp4" },
+  //   ],
+  // },
 
   {
     id: 60,

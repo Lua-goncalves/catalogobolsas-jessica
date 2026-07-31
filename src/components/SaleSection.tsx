@@ -104,7 +104,7 @@ const saleProducts = [
   {
     id: "sale-9",
     name: "BOLSA TOTE GRANDE, MÉDIA E PEQUENA 🧡🖤",
-    price: " P R$ 99,00 - M R$ 129,00 -  G R$ 149,00",
+    price: " M R$ 129,00 -  G R$ 149,00",
 
     images: [bag16,],
   },
