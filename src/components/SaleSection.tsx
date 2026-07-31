@@ -84,15 +84,15 @@ const saleProducts = [
       "Bolsa Tote média, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões",
     images: [bag10, bag11, bag12],
   },
-  {
-    id: "sale-6",
-    name: "Bolsa Tote Pequena",
-    oldPrice: "R$ 150,90",
-    price: "R$ 99,00",
-    description:
-      " Bolsa Tote pequena, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões. ",
-    images: [bag13, bag14, bag15],
-  },
+  // {
+  //   id: "sale-6",
+  //   name: "Bolsa Tote Pequena",
+  //   oldPrice: "R$ 150,90",
+  //   price: "R$ 99,00",
+  //   description:
+  //     " Bolsa Tote pequena, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões. ",
+  //   images: [bag13, bag14, bag15],
+  // },
 
   {
     id: "sale-7",
