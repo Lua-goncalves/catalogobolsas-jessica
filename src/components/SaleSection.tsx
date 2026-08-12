@@ -19,22 +19,27 @@ import bag7 from "@/images/bag-48.2.jpeg";
 import bag51 from "@/images/bag-36.webp";
 import bag8 from "@/images/bag-76.webp";
 import bag9 from "@/images/bag-76.1.webp";
+import bag13 from "@/images/bag-76.2.webp";
 import bag10 from "@/images/bag-78.webp";
 import bag11 from "@/images/bag-78.1.webp";
 import bag12 from "@/images/bag-78.2.webp";
-import bag13 from "@/images/bag-9.webp";
+import bag24 from "@/images/bag-9.webp";
 import bag14 from "@/images/bag-9.1.webp";
 import bag15 from "@/images/bag-9.2.webp";
+import bag23 from "@/images/bag-9.3.webp";
 import bag16 from "@/images/bag-10.webp";
 import bag17 from "@/images/bag-10.1.webp";
 import bag18 from "@/images/bag-10.2.webp";
-import bag19 from "@/images/bag-11.webp";
+import bag19 from "@/images/bag-10.3.webp";
+import bag25 from "@/images/bag-10.4.webp";
 import bag20 from "@/images/bag-11.1.webp";
 import bag21 from "@/images/bag-11.2.webp";
 import bag22 from "@/images/bag-11.3.webp";
-//import bag52 from "@/images/bag-36.1.webp";
+import bag26 from "@/images/bag-11.webp";
+import bag27 from "@/images/bag-11.4.webp";
 import bag53 from "@/images/bag-37.webp";
 const bag5Video = "/public/videos/opt-bag-9.6.mp4";
+const bag6Video = "/public/videos/bag27-opt.mp4";
 
 const saleProducts = [
   {
@@ -44,7 +49,26 @@ const saleProducts = [
     price: "R$ 199,00",
     description:
       "Conjunto premium com bolsa em couro sintético resistente e carteira em couro legítimo. Design atemporal, perfeito para presentear ou renovar seu visual. Promoção válida enquanto durarem os estoques.",
-    images: [bag5, bag6, bag7],
+    images: [bag5],
+  },
+
+  {
+    id: "sale-2",
+    name: "Kit baby blue 💙",
+    oldPrice: "R$ 299,90",
+    price: "R$ 190,00",
+    description:
+      "Conjunto premium com bolsa em couro sintético resistente e carteira em couro legítimo. Design atemporal, perfeito para presentear ou renovar seu visual. Promoção válida enquanto durarem os estoques.",
+    images: [bag1],
+  },
+  {
+    id: "sale-7",
+    name: "Bolsa Meia-Lua",
+    oldPrice: "R$ 120,00",
+    price: "R$:95,00",
+    description:
+      " Bolsa média estilo hobo, em couro sintético, com formato de meia-lua e corpo curvado. Possui alça de ombro curta e grossa e fecho em zíper, ideal para o dia a dia por ser leve e espaçosa.Acompanha um pingente de pelúcia removível pendurado na alça, deixando o modelo mais moderno e estiloso.Cores disponíveis: Preta | Caramelo",
+    images: [bag2],
   },
   {
     id: "sale-1",
@@ -56,15 +80,6 @@ const saleProducts = [
     images: [bag51, bag53],
     video: bag5Video,
   },
-  {
-    id: "sale-2",
-    name: "Kit baby blue 💙",
-    oldPrice: "R$ 299,90",
-    price: "R$ 199,00",
-    description:
-      "Conjunto premium com bolsa em couro sintético resistente e carteira em couro legítimo. Design atemporal, perfeito para presentear ou renovar seu visual. Promoção válida enquanto durarem os estoques.",
-    images: [bag1, bag2, bag3, bag4],
-  },
 
   {
     id: "sale-4",
@@ -73,8 +88,9 @@ const saleProducts = [
     price: "R$ 99,00",
     description:
       "Bolsa Tote pequena, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões. ",
-    images: [bag8, bag9],
+    images: [bag8, bag9, bag13],
   },
+
   {
     id: "sale-5",
     name: "Bolsa Tote Média",
@@ -83,31 +99,18 @@ const saleProducts = [
     description:
       "Bolsa Tote média, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões",
     images: [bag10, bag11, bag12],
-  },
-  // {
-  //   id: "sale-6",
-  //   name: "Bolsa Tote Pequena",
-  //   oldPrice: "R$ 150,90",
-  //   price: "R$ 99,00",
-  //   description:
-  //     " Bolsa Tote pequena, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões. ",
-  //   images: [bag13, bag14, bag15],
-  // },
-
-  {
-    id: "sale-7",
-    name: "BOLSA TOTE PEQUENA E MÉDIA  🧡🖤",
-    price: " P R$ 99,00 - M R$ 129,00",
-
-    images: [ bag17, bag18],
+    video: bag6Video,
   },
   {
-    id: "sale-9",
-    name: "BOLSA TOTE GRANDE, MÉDIA E PEQUENA 🧡🖤",
-    price: " M R$ 129,00 -  G R$ 149,00",
-
-    images: [bag16,],
+    id: "sale-6",
+    name: "Bolsa Tote Média",
+    oldPrice: "R$ 180,90",
+    price: "R$ 129,00",
+    description:
+      " Bolsa Tote média, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões. ",
+    images: [bag24, bag14, bag15, bag23],
   },
+
   {
     id: "sale-8",
     name: "BOLSA TOTE MÉDIA, BASE FIRME 🖤",
@@ -115,7 +118,16 @@ const saleProducts = [
     price: "R$ 139,90",
     // description:
     //   " Bolsa Tote pequena, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões. ",
-    images: [bag20, bag21, bag22],
+    images: [bag26, bag20, bag22, bag21, bag27],
+  },
+  {
+    id: "sale-9",
+    name: "BOLSA TOTE GRANDE 🧡",
+    oldPrice: "R$ 200,00",
+    price: " R$ 149,00",
+    description:
+      " Bolsa Tote média, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões. ",
+    images: [bag17, bag25, bag16, bag18, bag19],
   },
 ];
 

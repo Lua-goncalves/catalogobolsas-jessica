@@ -18,8 +18,6 @@ import bag176 from "@/images/bag-3.2.webp";
 import bag177 from "@/images/bag-3.3.webp";
 import bag178 from "@/images/bag-3.4.webp";
 import bag179 from "@/images/bag-3.5.webp";
-import bag180 from "@/images/bag-3.6.webp";
-import bag181 from "@/images/bag-3.7.webp";
 import bag182 from "@/images/bag-3.8.webp";
 import bag183 from "@/images/bag-3.9.webp";
 import bag184 from "@/images/bag-3.10.webp";
@@ -39,8 +37,8 @@ import bag14 from "@/images/bag-12.2.webp";
 import bag15 from "@/images/bag-12.3.webp";
 import bag16 from "@/images/bag-16.webp";
 import bag17 from "@/images/bag-16.1.webp";
-import bag18 from "@/images/bag-18.jpeg";
-import bag65 from "@/images/bag-18.1.jpeg";
+import bag18 from "@/images/bag.18.webp";
+import bag65 from "@/images/bag.18.1.webp";
 import bag19 from "@/images/bag-19.jpeg";
 import bag20 from "@/images/bag-20.jpeg";
 import bag66 from "@/images/bag-20.1.jpeg";
@@ -60,6 +58,8 @@ import bag215 from "@/images/bag-27.2.webp";
 import bag29 from "@/images/bag-29.jpeg";
 import bag67 from "@/images/bag-29.1.jpeg";
 import bag30 from "@/images/bag-30.jpeg";
+import bag180 from "@/images/bag-29.2.webp";
+import bag181 from "@/images/bag-29.3.webp";
 import bag31 from "@/images/bag-57.webp";
 import bag59 from "@/images/bag-57.1.webp";
 import bag32 from "@/images/bag-32.webp";
@@ -129,6 +129,8 @@ import bag108 from "@/images/bag-61.6.webp";
 import bag109 from "@/images/bag-61.7.webp";
 import bag110 from "@/images/bag-62.webp";
 import bag111 from "@/images/bag-62.1.webp";
+import bag144 from "@/images/bag-62.2.webp"; 
+import bag206 from "@/images/bag-62.3.webp";
 import bag112 from "@/images/bag-63.webp";
 import bag113 from "@/images/bag-63.1.webp";
 import bag114 from "@/images/bag-63.2.webp";
@@ -161,7 +163,7 @@ import bag165 from "@/images/bag-67.6.webp";
 import bag166 from "@/images/bag-67.7.webp";
 import bag169 from "@/images/bag-67.8.webp";
 import bag170 from "@/images/bag-67.9.webp";
-import bag206 from "@/images/bag-67.10.webp";
+
 import bag207 from "@/images/bag-67.11.webp";
 import bag208 from "@/images/bag-67.12.webp";
 import bag209 from "@/images/bag-67.13.webp";
@@ -196,7 +198,7 @@ import bag51 from "@/images/bag-49.webp";
 import bag220 from "@/images/bag-49.1.webp";
 import bag212 from "@/images/bag-49.2.webp";
 import bag143 from "@/images/bag-49.3.webp";
-import bag144 from "@/images/bag-62.2.webp";  
+ 
 import bag146 from "@/images/bag-71.webp";
 import bag147 from "@/images/bag-71.1.webp";
 import bag148 from "@/images/bag-71.2.webp";
@@ -309,7 +311,7 @@ const products = [
       { type: "image", src: bag72 },
       { type: "image", src: bag49 },
       { type: "image", src: bag48 },
-     { type: "video", src: "/videos/opt-bag-9.1.mp4" },
+      { type: "video", src: "/videos/opt-bag-9.1.mp4" },
     ],
   },
 
@@ -409,7 +411,7 @@ const products = [
       { type: "image", src: bag186 },
       { type: "image", src: bag187 },
       { type: "image", src: bag188 },
-     { type: "video", src: "/videos/opt-bag-9.mp4" },
+      { type: "video", src: "/videos/opt-bag-9.mp4" },
     ],
   },
 
@@ -734,6 +736,8 @@ const products = [
       "Bolsa pequena e elegante em couro sintético, com aba sofisticada e alça de ombro longa e ajustável. Versátil e prática, ideal para ocasiões casuais e formais.",
     media: [
       { type: "image", src: bag29 },
+      { type: "image", src: bag180 },
+      { type: "image", src: bag181 },
       { type: "image", src: bag67 },
       { type: "image", src: bag30 },
       // { type: "video", src: "" },
@@ -755,24 +759,24 @@ const products = [
     ],
   },
 
-  {
-    id: 31,
-    name: "Bolsa Transversal Crossbody",
-    price: "R$ 90,00",
-    description:
-      "Bolsa pequena em couro sintético, na cor caramelo, com design moderno e muito funcional. Destaca-se pela alça de fita larga ajustável, que garante conforto e versatilidade no uso, podendo ser utilizada como transversal ou de ombro.Possui múltiplos compartimentos com zíperes dourados, geralmente três bolsos frontais — ideais para organizar itens essenciais como celular, carteira e documentos. Em alguns modelos, acompanha chaveiro de ursinho, que adiciona um toque charmoso e descontraído ao acessório. Disponível na cor caramelo e caqui",
-    media: [
-      { type: "image", src: bag118 },
-      { type: "image", src: bag119 },
-      { type: "image", src: bag120 },
-      { type: "image", src: bag121 },
-      { type: "image", src: bag172 },
-      { type: "image", src: bag173 },
-      { type: "image", src: bag175 },
-      { type: "image", src: bag174 },
-      // { type: "video", src: "/videos/bag2.2.mp4" },
-    ],
-  },
+  // {
+  //   id: 31,
+  //   name: "Bolsa Transversal Crossbody",
+  //   price: "R$ 90,00",
+  //   description:
+  //     "Bolsa pequena em couro sintético, na cor caramelo, com design moderno e muito funcional. Destaca-se pela alça de fita larga ajustável, que garante conforto e versatilidade no uso, podendo ser utilizada como transversal ou de ombro.Possui múltiplos compartimentos com zíperes dourados, geralmente três bolsos frontais — ideais para organizar itens essenciais como celular, carteira e documentos. Em alguns modelos, acompanha chaveiro de ursinho, que adiciona um toque charmoso e descontraído ao acessório. Disponível na cor caramelo e caqui",
+  //   media: [
+  //     { type: "image", src: bag118 },
+  //     { type: "image", src: bag119 },
+  //     { type: "image", src: bag120 },
+  //     { type: "image", src: bag121 },
+  //     { type: "image", src: bag172 },
+  //     { type: "image", src: bag173 },
+  //     { type: "image", src: bag175 },
+  //     { type: "image", src: bag174 },
+  //     // { type: "video", src: "/videos/bag2.2.mp4" },
+  //   ],
+  // },
   //
   // {
   //   id: 4,
@@ -791,19 +795,19 @@ const products = [
   //   ],
   // },
 
-  // {
-  //   id: 7,
-  //   name: "Bolsa Hobo Grande",
-  //   price: "R$ 139,00",
-  //   description:
-  //     "Bolsa Hobo de design curvado na parte superior, com alça de ombro ajustável, zíperes laterais com puxadores decorativos e detalhe de metal dourado na parte frontal. Disponível nas cores prata metálico e marrom, combina estilo e praticidade para o dia a dia.",
-  //   media: [
-  //     { type: "image", src: bag18 },
-  //     { type: "image", src: bag65 },
-  //     { type: "image", src: bag19 },
-  //     { type: "video", src: "/videos/opt-bag7.1.mp4" },
-  //   ],
-  // },
+  {
+    id: 7,
+    name: "Bolsa Hobo Grande",
+    price: "R$ 139,00",
+    description:
+      "Bolsa Hobo de design curvado na parte superior, com alça de ombro ajustável, zíperes laterais com puxadores decorativos e detalhe de metal dourado na parte frontal. Disponível nas cores prata metálico e marrom, combina estilo e praticidade para o dia a dia.",
+    media: [
+      { type: "image", src: bag18 },
+      { type: "image", src: bag65 },
+     // { type: "image", src: bag19 },
+      //{ type: "video", src: "/videos/opt-bag7.1.mp4" },
+    ],
+  },
   {
     id: 29,
     name: "Bolsa Meia-Lua",
@@ -811,10 +815,11 @@ const products = [
     description:
       " Bolsa média estilo hobo, em couro sintético, com formato de meia-lua e corpo curvado. Possui alça de ombro curta e grossa e fecho em zíper, ideal para o dia a dia por ser leve e espaçosa.Acompanha um pingente de pelúcia removível pendurado na alça, deixando o modelo mais moderno e estiloso.Cores disponíveis: Preta | Caramelo",
     media: [
-      { type: "image", src: bag144 },
       { type: "image", src: bag110 },
+      { type: "image", src: bag144 },
       { type: "image", src: bag111 },
-      { type: "video", src: "/videos/opt-bag-29.mp4" },
+      { type: "image", src: bag206 },
+      { type: "video", src: "/videos/bag28-opt.mp4" },
       //{ type: "video", src: "/videos/opt-bag62.mp4" },
       //{ type: "video", src: "/videos/opt-bag62.1.mp4" },
     ],
