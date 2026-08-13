@@ -8,9 +8,9 @@ import bag1 from "@/images/bag-1-.webp";
 import bag45 from "@/images/bag-1-1.webp";
 import bag79 from "@/images/bag-1-2.webp";
 import bag60 from "@/images/bag-1-3.webp";
-import bag2 from "@/images/bag-2.jpeg";
-import bag3 from "@/images/bag-3.jpeg";
-import bag4 from "@/images/bag-4.jpeg";
+import bag2 from "@/images/bag.2.webp";
+import bag3 from "@/images/bag-3.webp";
+import bag4 from "@/images/bag-4.webp";
 import bag5 from "@/images/bag-5.jpeg";
 import bag61 from "@/images/bag-3.1.jpeg";
 import bag62 from "@/images/bag-4.1.jpeg";
@@ -18,7 +18,7 @@ import bag176 from "@/images/bag-3.2.webp";
 import bag177 from "@/images/bag-3.3.webp";
 import bag178 from "@/images/bag-3.4.webp";
 import bag179 from "@/images/bag-3.5.webp";
-import bag182 from "@/images/bag-3.8.webp";
+
 import bag183 from "@/images/bag-3.9.webp";
 import bag184 from "@/images/bag-3.10.webp";
 import bag185 from "@/images/bag-3.11.webp";
@@ -26,11 +26,7 @@ import bag6 from "@/images/bag-6.webp";
 import bag63 from "@/images/bag-6.1.webp";
 import bag7 from "@/images/bag-6.2.webp";
 import bag8 from "@/images/bag-6.3.webp";
-import bag9 from "@/images/bag-9.jpeg";
-import bag246 from "@/images/bag-9.1.webp";
-import bag10 from "@/images/bag-10.jpeg";
 import bag64 from "@/images/bag-10.1.jpeg";
-import bag11 from "@/images/bag-11.jpeg";
 import bag12 from "@/images/bag-12.webp";
 import bag13 from "@/images/bag-12.1.webp";
 import bag14 from "@/images/bag-12.2.webp";
@@ -39,13 +35,17 @@ import bag16 from "@/images/bag-16.webp";
 import bag17 from "@/images/bag-16.1.webp";
 import bag18 from "@/images/bag.18.webp";
 import bag65 from "@/images/bag.18.1.webp";
-import bag19 from "@/images/bag-19.jpeg";
 import bag20 from "@/images/bag-20.jpeg";
 import bag66 from "@/images/bag-20.1.jpeg";
+import bag19 from "@/images/bag-20.2.webp";
+import bag11 from "@/images/bag-20.3.webp";
 import bag21 from "@/images/bag-22.webp";
 import bag22 from "@/images/bag-22.1.webp";
 import bag50 from "@/images/bag-22.2.webp";
-import bag23 from "@/images/bag-23.jpeg";
+import bag23 from "@/images/bag-23.webp";
+import bag246 from "@/images/bag-23.1.webp";
+import bag9 from "@/images/bag-23.4.webp";
+import bag10 from "@/images/bag-23.2.webp";
 import bag24 from "@/images/bag-24.webp";
 import bag25 from "@/images/bag-24.1.webp";
 import bag26 from "@/images/bag-26.webp";
@@ -54,7 +54,9 @@ import bag218 from "@/images/bag-26.2.webp";
 import bag219 from "@/images/bag-26.3.webp";
 import bag27 from "@/images/bag-27.webp";
 import bag28 from "@/images/bag-27.1.webp";
-import bag215 from "@/images/bag-27.2.webp";
+import bag215 from "@/images/bag-27.4.webp";
+import bag78 from "@/images/bag-27.3.webp";
+import bag182 from "@/images/bag-27.5.webp";
 import bag29 from "@/images/bag-29.jpeg";
 import bag67 from "@/images/bag-29.1.jpeg";
 import bag30 from "@/images/bag-30.jpeg";
@@ -82,13 +84,15 @@ import bag145 from "@/images/bag-35.7.webp";
 import bag36 from "@/images/bag-36-.webp";
 import bag68 from "@/images/bag-36-1.webp";
 import bag37 from "@/images/bag-36-2.webp";
-import bag38 from "@/images/bag-38.jpeg";
+
 import bag69 from "@/images/bag-38.1.jpeg";
 import bag39 from "@/images/bag-39.jpeg";
 import bag40 from "@/images/bag-40.jpeg";
 import bag41 from "@/images/bag-41.webp";
 import bag70 from "@/images/bag-41.1.webp";
 import bag42 from "@/images/bag-41.2.webp";
+import bag244 from "@/images/bag-41.3.webp";
+import bag38 from "@/images/bag-41.4.webp";
 import bag43 from "@/images/bag-43.webp";
 import bag44 from "@/images/bag-43.1.webp";
 import bag71 from "@/images/bag-43.2.webp";
@@ -132,8 +136,8 @@ import bag111 from "@/images/bag-62.1.webp";
 import bag144 from "@/images/bag-62.2.webp"; 
 import bag206 from "@/images/bag-62.3.webp";
 import bag112 from "@/images/bag-63.webp";
-import bag113 from "@/images/bag-63.1.webp";
-import bag114 from "@/images/bag-63.2.webp";
+import bag113 from "@/images/bag-63.webp";
+import bag114 from "@/images/bag-63.1.webp";
 import bag115 from "@/images/bag-63.3.webp";
 import bag116 from "@/images/bag-63.4.webp";
 import bag117 from "@/images/bag-63.5.webp";
@@ -180,13 +184,8 @@ import bag226 from "@/images/bag-68.8.webp";
 import bag227 from "@/images/bag-68.9.webp";
 import bag211 from "@/images/bag-68.10.webp";
 import bag202 from "@/images/bag-68.12.webp";
-import bag203 from "@/images/bag-68.11.webp";
-import bag245 from "@/images/bag-68.13.webp";
 import bag168 from "@/images/bag-69.webp";
 import bag138 from "@/images/bag-69.1.webp";
-import bag204 from "@/images/bag-83.4.webp";
-import bag78 from "@/images/bag-83.6.webp";
-import bag244 from "@/images/bag-83.5.webp";
 import bag139 from "@/images/bag-70.webp";
 import bag126 from "@/images/bag-70.1.webp";
 import bag189 from "@/images/bag-70.2.webp";
@@ -199,11 +198,13 @@ import bag220 from "@/images/bag-49.1.webp";
 import bag212 from "@/images/bag-49.2.webp";
 import bag143 from "@/images/bag-49.3.webp";
  
-import bag146 from "@/images/bag-71.webp";
-import bag147 from "@/images/bag-71.1.webp";
-import bag148 from "@/images/bag-71.2.webp";
-import bag149 from "@/images/bag-71.3.webp";
-import bag150 from "@/images/bag-71.4.webp";
+import bag146 from "@/images/bag-15.webp";
+import bag147 from "@/images/bag-15.1.webp";
+import bag148 from "@/images/bag-15.2.webp";
+import bag149 from "@/images/bag-15.3.webp";
+import bag150 from "@/images/bag-15.4.webp";
+import bag203 from "@/images/bag-15.5.webp";
+import bag245 from "@/images/bag-15.6.webp";
 import bag151 from "@/images/bag-55.webp";
 import bag171 from "@/images/bag-55.1.webp";
 import bag210 from "@/images/bag-55.2.webp";
@@ -231,12 +232,14 @@ import bag201 from "@/images/bag-77.2.webp";
 import bag213 from "@/images/bag-83.webp";
 import bag214 from "@/images/bag-83.1.webp";
 import bag216 from "@/images/bag-83.2.webp";
+import bag204 from "@/images/bag-83.4.webp";
+import bag228 from "@/images/bag-83.3.webp";
 import bag221 from "@/images/bag-82.webp";
 import bag222 from "@/images/bag-82.1.webp";
 import bag223 from "@/images/bag-82.2.webp";
 import bag224 from "@/images/bag-82.3.webp";
 import bag225 from "@/images/bag-82.4.webp";
-import bag228 from "@/images/bag-7.webp";
+
 import bag229 from "@/images/bag-7.1.webp";
 import bag230 from "@/images/bag-7.2.webp";
 import bag231 from "@/images/bag-7.3.webp";
@@ -359,33 +362,62 @@ const products = [
     ],
   },
   {
+    id: 37,
+    name: "Bolsa Scrunchie",
+    price: "R$ 135,00",
+    description:
+      " Bolsa formato Baú (Bowling Bag) bege com alça de mão Scrunchie. O grande diferencial é a alça curta com efeito franzido ou trançado, que traz uma tendência de moda atual e conforto ao carregar. Acompanha alça transversal longa removível e ajustável, permitindo o uso a tiracolo ou cruzada.",
+    media: [
+      { type: "image", src: bag147 },
+      { type: "image", src: bag146 },
+      { type: "image", src: bag148 },
+      { type: "image", src: bag149 },
+      { type: "image", src: bag150 },
+      { type: "image", src: bag203 },
+      { type: "image", src: bag245 },
+      { type: "video", src: "/videos/bag26-opt.mp4" },
+    ],
+  },
+  {
     id: 2,
     name: "Bolsa Scrunchie",
     price: "R$ 135,00",
     description:
-      "Modelo elegante em couro sintético, com alça de mão franzida (ou plissada) e alça transversal que une estilo e praticidade.Disponível nas cores preta e bege.",
+      "✨ DETALHES QUE ENCANTAM:Material Premium: Confeccionada em Poliuretano (PU) de alta qualidade, garantindo textura macia idêntica ao couro, alta durabilidade e facilidade para limpar.Alça Scrunchie: A alça de mão possui um efeito franzido super moderno e confortável.Charme Exclusivo: Acompanha um lindo lenço de cetim estampado e um pingente de correntes douradas com pérolas que dão um toque de puro luxo à peça.Estrutura Firme: Formato baú rígido que não deforma, mantendo a elegância mesmo quando a bolsa está vazia.Laterais Trabalhadas: Acabamento lateral com costuras verticais paralelas que trazem um visual único.",
     media: [
       { type: "image", src: bag2 },
-      { type: "image", src: bag3 },
-      { type: "image", src: bag61 },
-      { type: "image", src: bag4 },
-      { type: "image", src: bag62 },
-      { type: "image", src: bag5 },
-      { type: "image", src: bag176 },
-      { type: "image", src: bag177 },
-      { type: "image", src: bag178 },
-      { type: "image", src: bag179 },
 
-      // { type: "image", src: bag181 },
-      // { type: "image", src: bag184 },
-      // { type: "image", src: bag185 },
-      // { type: "image", src: bag182 },
-      // { type: "image", src: bag180 },
-      // { type: "image", src: bag183 },
-      { type: "video", src: "/videos/opt-bag2.2.mp4" },
-      { type: "video", src: "/videos/opt-bag-9.3.mp4" },
+      //{ type: "video", src: "/videos/opt-bag2.2.mp4" },
+      //{ type: "video", src: "/videos/opt-bag-9.3.mp4" },
     ],
   },
+
+  {
+    id: 50,
+    name: "Bolsa Scrunchie",
+    price: "R$ 135,00",
+    description:
+      "✨ DETALHES QUE ENCANTAM:Material Premium: Confeccionada em Poliuretano (PU) de alta qualidade, garantindo textura macia idêntica ao couro, alta durabilidade e facilidade para limpar.Alça Scrunchie: A alça de mão possui um efeito franzido super moderno e confortável.Charme Exclusivo: Acompanha um lindo lenço de cetim estampado e um pingente de correntes douradas com pérolas que dão um toque de puro luxo à peça.Estrutura Firme: Formato baú rígido que não deforma, mantendo a elegância mesmo quando a bolsa está vazia.Laterais Trabalhadas: Acabamento lateral com costuras verticais paralelas que trazem um visual único.",
+    media: [
+      { type: "image", src: bag3 },
+
+      //{ type: "video", src: "/videos/opt-bag-9.3.mp4" },
+    ],
+  },
+
+  {
+    id: 51,
+    name: "Bolsa Scrunchie",
+    price: "R$ 135,00",
+    description:
+      "✨ DETALHES QUE ENCANTAM:Material Premium: Confeccionada em Poliuretano (PU) de alta qualidade, garantindo textura macia idêntica ao couro, alta durabilidade e facilidade para limpar.Alça Scrunchie: A alça de mão possui um efeito franzido super moderno e confortável.Charme Exclusivo: Acompanha um lindo lenço de cetim estampado e um pingente de correntes douradas com pérolas que dão um toque de puro luxo à peça.Estrutura Firme: Formato baú rígido que não deforma, mantendo a elegância mesmo quando a bolsa está vazia.Laterais Trabalhadas: Acabamento lateral com costuras verticais paralelas que trazem um visual único.",
+    media: [
+      { type: "image", src: bag4 },
+
+      //{ type: "video", src: "/videos/opt-bag-9.3.mp4" },
+    ],
+  },
+
   {
     id: 3,
     name: " PROMOÇÃO-Bolsa Baú + CARTEIRA  EM COURO LEGÍTIMO ",
@@ -572,12 +604,44 @@ const products = [
     ],
   },
   {
+    id: 11,
+    name: "Bolsa de Mão Média Marrom",
+    price: "R$ 129,00",
+    description:
+      "Bolsa de formato baú, com design moderno e elegante. Possui alça de mão trançada e alça transversal ajustável, ambas na cor marrom, oferecendo estilo e praticidade para o dia a dia.",
+    media: [
+      { type: "image", src: bag9 },
+      { type: "image", src: bag23 },
+      { type: "image", src: bag246 },
+      { type: "image", src: bag10 },
+      { type: "video", src: "/videos/opt-bag-11.mp4" },
+      //{ type: "video", src: "/videos/opt-bag-11.1.mp4" },
+    ],
+  },
+  {
+    id: 29,
+    name: "Bolsa Meia-Lua",
+    price: "R$ 120,00",
+    description:
+      " Bolsa média estilo hobo, em couro sintético, com formato de meia-lua e corpo curvado. Possui alça de ombro curta e grossa e fecho em zíper, ideal para o dia a dia por ser leve e espaçosa.Acompanha um pingente de pelúcia removível pendurado na alça, deixando o modelo mais moderno e estiloso.",
+    media: [
+      { type: "image", src: bag110 },
+      { type: "image", src: bag144 },
+      { type: "image", src: bag111 },
+      { type: "image", src: bag206 },
+      { type: "video", src: "/videos/bag28-opt.mp4" },
+      //{ type: "video", src: "/videos/opt-bag62.mp4" },
+      //{ type: "video", src: "/videos/opt-bag62.1.mp4" },
+    ],
+  },
+  {
     id: 55,
     name: "Bolsa Transversal",
     price: "R$ 79,90 ",
     description:
       "Bolsa transversal pequena, couro sintético com alça ajustável.",
     media: [
+      { type: "image", src: bag228 },
       { type: "image", src: bag216 },
       { type: "image", src: bag213 },
       { type: "image", src: bag214 },
@@ -593,10 +657,10 @@ const products = [
     description:
       "Bolsa transversal pequena, couro sintético com alça ajustável. ",
     media: [
+      { type: "image", src: bag78 },
       { type: "image", src: bag27 },
       { type: "image", src: bag28 },
       { type: "image", src: bag215 },
-      { type: "image", src: bag78 },
 
       // { type: "video", src: "/videos/opt-bag14.1.mp4" },
     ],
@@ -608,11 +672,11 @@ const products = [
     description:
       "Bolsa transversal pequena, couro sintético com alça ajustável.",
     media: [
+      { type: "image", src: bag38 },
       { type: "image", src: bag41 },
       { type: "image", src: bag42 },
       { type: "image", src: bag70 },
       { type: "image", src: bag244 },
-
       // { type: "video", src: "" },
     ],
   },
@@ -625,9 +689,6 @@ const products = [
       " BOLSA PEQUENA EM COURO LEGÍTIMO, modelo shoulder bag (bolsa de ombro) ou tiracolo,  unissex, valorizada por sua praticidade e design atemporal.Material confeccionado em couro bovino legítimo com acabamento macio. Interior com forro. Possui um formato retangular compacto, ideal para transportar itens essenciais como carteira, celular e chaves. Acompanha uma alça transversal ajustável, permitindo liberdade de movimento. ",
     media: [
       { type: "image", src: bag56 },
-      { type: "image", src: bag57 },
-      { type: "image", src: bag58 },
-      { type: "image", src: bag77 },
       // { type: "video", src: "/videos/bag-8.1.mp4" },
     ],
   },
@@ -639,30 +700,13 @@ const products = [
     description:
       "Bolsa transversal pequena e estruturada de cor prata metálica.",
     media: [
-      { type: "image", src: bag171 },
       { type: "image", src: bag151 },
       { type: "image", src: bag210 },
+      { type: "image", src: bag171 },
 
-      { type: "video", src: "/videos/opt-bag-39.mp4" },
+      //{ type: "video", src: "/videos/opt-bag-39.mp4" },
     ],
   },
-
-  // {
-  //   id: 37,
-  //   name: "Bolsa Tiracolo, Modelo Especial - Ideal para Presente",
-  //   price: "R$ 69,90",
-  //   // description:
-  //   //   "Bolsa tiracolo de estilo clássico e versátil, ideal para uso durante o dia ou à noite. Confeccionada em couro sintético, possui fecho em metal e alça de corrente preta que adiciona um toque moderno e elegante.Disponível nas cores branco, bege, caramelo e creme.",
-  //   media: [
-  //     { type: "image", src: bag147 },
-  //     { type: "image", src: bag146 },
-  //     { type: "image", src: bag148 },
-  //     { type: "image", src: bag149 },
-  //     { type: "image", src: bag150 },
-
-  //     // { type: "video", src: "" },
-  //   ],
-  // },
 
   {
     id: 39,
@@ -714,17 +758,12 @@ const products = [
   {
     id: 30,
     name: "Bolsa Crossbody",
-    price: "R$ 90,00",
+    price: "R$ 80,00",
     description:
       "Bolsa pequena estilo crossbody (tiracolo), com formato quadrado tipo caixa e textura matelassê (acolchoada) na parte externa. Possui fechamento com zíper duplo, garantindo praticidade e segurança.Acompanha alça de mão curta decorativa, com mistura de elos de corrente brancos e bolas verdes, além de alça transversal/ombro ajustável na cor verde (embalada separadamente) O design une elementos clássicos, como o matelassê e o formato estruturado, com detalhes modernos e despojados nas alças, tornando a peça versátil para looks casuais ou mais arrumados.",
     media: [
       { type: "image", src: bag113 },
-      { type: "image", src: bag115 },
-      { type: "image", src: bag117 },
-      { type: "image", src: bag112 },
       { type: "image", src: bag114 },
-      { type: "image", src: bag116 },
-
       { type: "video", src: "/videos/opt-bag63.mp4" },
     ],
   },
@@ -744,20 +783,20 @@ const products = [
     ],
   },
 
-  {
-    id: 49,
-    name: "Bolsa Hobo Média – Azul Marinho",
-    price: "R$ 120,00",
-    description:
-      "Bolsa hobo média, também conhecida como bolsa de ombro, na cor azul marinho. Possui formato flexível em meia-lua e alça única, garantindo conforto para o uso diário. Modelo atemporal, com acabamento soft, que permite que a bolsa se curve e se ajuste naturalmente ao corpo.Design e Funcionalidade:•Design minimalista e elegante•	Fecho em zíper para maior segurança	•	Detalhes metálicos dourados nas junções da alça•	Interior espaçoso, ideal para carregar itens essenciaisMaterial de Alta Qualidade:Confeccionada em material sintético PU (Poliuretano) premium, resistente, flexível e de fácil limpeza, não racha nem descasca com facilidade.",
-    media: [
-      { type: "image", src: bag199 },
-      { type: "image", src: bag200 },
-      { type: "image", src: bag201 },
+  // {
+  //   id: 49,
+  //   name: "Bolsa Hobo Média – Azul Marinho",
+  //   price: "R$ 120,00",
+  //   description:
+  //     "Bolsa hobo média, também conhecida como bolsa de ombro, na cor azul marinho. Possui formato flexível em meia-lua e alça única, garantindo conforto para o uso diário. Modelo atemporal, com acabamento soft, que permite que a bolsa se curve e se ajuste naturalmente ao corpo.Design e Funcionalidade:•Design minimalista e elegante•	Fecho em zíper para maior segurança	•	Detalhes metálicos dourados nas junções da alça•	Interior espaçoso, ideal para carregar itens essenciaisMaterial de Alta Qualidade:Confeccionada em material sintético PU (Poliuretano) premium, resistente, flexível e de fácil limpeza, não racha nem descasca com facilidade.",
+  //   media: [
+  //     { type: "image", src: bag199 },
+  //     { type: "image", src: bag200 },
+  //     { type: "image", src: bag201 },
 
-      // { type: "video", src: "" },
-    ],
-  },
+  //     // { type: "video", src: "" },
+  //   ],
+  // },
 
   // {
   //   id: 31,
@@ -804,24 +843,8 @@ const products = [
     media: [
       { type: "image", src: bag18 },
       { type: "image", src: bag65 },
-     // { type: "image", src: bag19 },
+      // { type: "image", src: bag19 },
       //{ type: "video", src: "/videos/opt-bag7.1.mp4" },
-    ],
-  },
-  {
-    id: 29,
-    name: "Bolsa Meia-Lua",
-    price: "R$ 120,00",
-    description:
-      " Bolsa média estilo hobo, em couro sintético, com formato de meia-lua e corpo curvado. Possui alça de ombro curta e grossa e fecho em zíper, ideal para o dia a dia por ser leve e espaçosa.Acompanha um pingente de pelúcia removível pendurado na alça, deixando o modelo mais moderno e estiloso.Cores disponíveis: Preta | Caramelo",
-    media: [
-      { type: "image", src: bag110 },
-      { type: "image", src: bag144 },
-      { type: "image", src: bag111 },
-      { type: "image", src: bag206 },
-      { type: "video", src: "/videos/bag28-opt.mp4" },
-      //{ type: "video", src: "/videos/opt-bag62.mp4" },
-      //{ type: "video", src: "/videos/opt-bag62.1.mp4" },
     ],
   },
 
@@ -832,22 +855,11 @@ const products = [
     description:
       " Bolsa grande em couro sintético, com alça de ombro trançada e detalhes dourados que acrescentam sofisticação. Elegante e espaçosa, perfeita para o dia a dia ou ocasiões especiais.",
     media: [
+      { type: "image", src: bag19 },
+      { type: "image", src: bag11 },
       { type: "image", src: bag20 },
       { type: "image", src: bag66 },
       // { type: "video", src: "" },
-    ],
-  },
-
-  {
-    id: 11,
-    name: "Bolsa de Mão Média Marrom",
-    price: "R$ 140,00",
-    description:
-      "Bolsa de formato baú, com design moderno e elegante. Possui alça de mão trançada e alça transversal ajustável, ambas na cor marrom, oferecendo estilo e praticidade para o dia a dia.",
-    media: [
-      { type: "image", src: bag23 },
-      { type: "video", src: "/videos/opt-bag-11.mp4" },
-      { type: "video", src: "/videos/opt-bag-11.1.mp4" },
     ],
   },
 

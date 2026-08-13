@@ -67,7 +67,7 @@ const saleProducts = [
     oldPrice: "R$ 120,00",
     price: "R$:95,00",
     description:
-      " Bolsa média estilo hobo, em couro sintético, com formato de meia-lua e corpo curvado. Possui alça de ombro curta e grossa e fecho em zíper, ideal para o dia a dia por ser leve e espaçosa.Acompanha um pingente de pelúcia removível pendurado na alça, deixando o modelo mais moderno e estiloso.Cores disponíveis: Preta | Caramelo",
+      " Bolsa média estilo hobo, em couro sintético, com formato de meia-lua e corpo curvado. Possui alça de ombro curta e grossa e fecho em zíper, ideal para o dia a dia por ser leve e espaçosa.Acompanha um pingente de pelúcia removível pendurado na alça, deixando o modelo mais moderno e estiloso.",
     images: [bag2],
   },
   {
@@ -110,24 +110,24 @@ const saleProducts = [
       " Bolsa Tote média, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões. ",
     images: [bag24, bag14, bag15, bag23],
   },
-
-  {
-    id: "sale-8",
-    name: "BOLSA TOTE MÉDIA, BASE FIRME 🖤",
-    oldPrice: "R$ 180,00",
-    price: "R$ 139,90",
-    // description:
-    //   " Bolsa Tote pequena, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões. ",
-    images: [bag26, bag20, bag22, bag21, bag27],
-  },
   {
     id: "sale-9",
     name: "BOLSA TOTE GRANDE 🧡",
     oldPrice: "R$ 200,00",
     price: " R$ 149,00",
     description:
-      " Bolsa Tote média, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões. ",
+      " Bolsa Tote grande, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões. ",
     images: [bag17, bag25, bag16, bag18, bag19],
+  },
+
+  {
+    id: "sale-8",
+    name: "BOLSA TOTE MÉDIA, BASE FIRME 🖤",
+    oldPrice: "R$ 180,00",
+    price: "R$ 139,90",
+     description:
+     " Bolsa de ombro feminina em tamanho médio, confeccionada em material de alta durabilidade com acabamento refinado. Modelo ideal para o dia a dia, unindo amplo espaço interno a um design externo limpo e elegante. Possui alças duplas fixas e detalhe em pingente removível na base da alça. Uma peça atemporal essencial para compor qualquer guarda-roupa. ",
+    images: [bag26, bag20, bag22, bag21, bag27],
   },
 ];
 
