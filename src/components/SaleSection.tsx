@@ -39,7 +39,7 @@ import bag26 from "@/images/bag-11.webp";
 import bag27 from "@/images/bag-11.4.webp";
 import bag53 from "@/images/bag-37.webp";
 const bag5Video = "/public/videos/opt-bag-9.6.mp4";
-const bag6Video = "/public/videos/bag-29-opt.mp4";
+const bag6Video = "/public/videos/bag.29-opt.mp4";
 
 const saleProducts = [
   {
