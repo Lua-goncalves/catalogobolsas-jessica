@@ -106,6 +106,8 @@ import bag52 from "@/images/bag-50.webp";
 import bag53 from "@/images/bag-50.1.webp";
 import bag73 from "@/images/bag-50.2.webp";
 import bag74 from "@/images/bag-50.3.webp";
+import bag229 from "@/images/bag-50.4.webp";
+import bag230 from "@/images/bag-50.5.webp";
 import bag54 from "@/images/bag-52.webp";
 import bag55 from "@/images/bag-52.1.webp";
 import bag76 from "@/images/bag-52.2.webp";
@@ -181,11 +183,13 @@ import bag160 from "@/images/bag-68.5.webp";
 import bag161 from "@/images/bag-68.6.webp";
 import bag167 from "@/images/bag-68.7.webp";
 import bag226 from "@/images/bag-68.8.webp";
-import bag227 from "@/images/bag-68.9.webp";
-import bag211 from "@/images/bag-68.10.webp";
+import bag227 from "@/images/bag-81.webp";
+import bag211 from "@/images/bag-81.1.webp";
 import bag202 from "@/images/bag-68.12.webp";
 import bag168 from "@/images/bag-69.webp";
 import bag138 from "@/images/bag-69.1.webp";
+import bag238 from "@/images/bag-69.2.webp";
+import bag239 from "@/images/bag-69.3.webp";
 import bag139 from "@/images/bag-70.webp";
 import bag126 from "@/images/bag-70.1.webp";
 import bag189 from "@/images/bag-70.2.webp";
@@ -222,13 +226,13 @@ import bag191 from "@/images/bag-79.webp";
 import bag192 from "@/images/bag-79.1.webp";
 import bag193 from "@/images/bag-79.2.webp";
 import bag194 from "@/images/bag-79.3.webp";
-import bag195 from "@/images/bag-76.webp";
-import bag196 from "@/images/bag-76.1.webp";
-import bag197 from "@/images/bag-76.2.webp";
-import bag198 from "@/images/bag-76.3.webp";
-import bag199 from "@/images/bag-77.webp";
-import bag200 from "@/images/bag-77.1.webp";
-import bag201 from "@/images/bag-77.2.webp";
+import bag195 from "@/images/bag-17.webp";
+import bag196 from "@/images/bag-17.1.webp";
+import bag197 from "@/images/bag-17.2.webp";
+import bag198 from "@/images/bag-17.3.webp";
+
+import bag200 from "@/images/bag-77.webp";
+import bag201 from "@/images/bag-77.1.webp";
 import bag213 from "@/images/bag-83.webp";
 import bag214 from "@/images/bag-83.1.webp";
 import bag216 from "@/images/bag-83.2.webp";
@@ -239,18 +243,14 @@ import bag222 from "@/images/bag-82.1.webp";
 import bag223 from "@/images/bag-82.2.webp";
 import bag224 from "@/images/bag-82.3.webp";
 import bag225 from "@/images/bag-82.4.webp";
-
-import bag229 from "@/images/bag-7.1.webp";
-import bag230 from "@/images/bag-7.2.webp";
-import bag231 from "@/images/bag-7.3.webp";
+import bag231 from "@/images/bag-80.webp";
+import bag199 from "@/images/bag-80.1.webp";
 import bag232 from "@/images/bag-8.webp";
 import bag233 from "@/images/bag-8.1.webp";
 import bag234 from "@/images/bag-8.2.webp";
 import bag235 from "@/images/bag-8.3.webp";
 import bag236 from "@/images/bag-13.webp";
 import bag237 from "@/images/bag-13.1.webp";
-import bag238 from "@/images/bag-13.2.webp";
-import bag239 from "@/images/bag-13.3.webp";
 import bag240 from "@/images/bag-14.webp";
 import bag241 from "@/images/bag-14.1.webp";
 import bag242 from "@/images/bag-14.2.webp";
@@ -918,34 +918,6 @@ const products = [
     ],
   },
 
-  {
-    id: 36,
-    name: "Carteira de Mão Artesanal Couro Legítimo",
-    price: "R$ 105,00",
-    description:
-      "Carteira de mão artesanal EM COURO LEGÍTIMO com design funcional e estilo rústico elegante.  Confeccionada inteiramente em couro legítimo, o que garante durabilidade e resistência superiores.",
-    media: [
-      { type: "image", src: bag168 },
-      { type: "image", src: bag138 },
-
-      // { type: "video", src: "/videos/bag2.2.mp4" },
-    ],
-  },
-  {
-    id: 24,
-    name: "Carteira em Couro Legítimo BABY BLUE UNISSEX ",
-    price: "R$ 99,00",
-    description:
-      "Confeccionada em couro bovino legítimo com textura levemente granulada (floater), o que garante durabilidade e toque macio.",
-    media: [
-      { type: "image", src: bag73 },
-      { type: "image", src: bag74 },
-      { type: "image", src: bag52 },
-      { type: "image", src: bag53 },
-
-      // { type: "video", src: "/videos/bag-8.1.mp4" },
-    ],
-  },
   // {
   //   id: 25,
   //   name: "Carteira em Couro Legítimo",
@@ -1011,6 +983,117 @@ const products = [
   //   ],
   // },
 
+  {
+    id: 58,
+    name: "CARTEIRA COMPACTA COURO LEGÍTIMO",
+    price: "R$ 59,00",
+    //description:
+    //"Carteira de mão artesanal EM COURO LEGÍTIMO com design funcional e estilo rústico elegante.  Confeccionada inteiramente em couro legítimo, o que garante durabilidade e resistência superiores.",
+    media: [
+      { type: "image", src: bag231 },
+      { type: "image", src: bag199 },
+
+      // { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+  {
+    id: 59,
+    name: "Carteira Compacta em Couro Sintético",
+    price: "R$ 59,90",
+    //description:
+    //"Carteira de mão artesanal EM COURO LEGÍTIMO com design funcional e estilo rústico elegante.  Confeccionada inteiramente em couro legítimo, o que garante durabilidade e resistência superiores.",
+    media: [
+      { type: "image", src: bag227 },
+      { type: "image", src: bag211 },
+
+      // { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+  {
+    id: 57,
+    name: "Carteira Compacta em Couro Sintético",
+    price: "R$ 59,90",
+    //description:
+    //"Carteira de mão artesanal EM COURO LEGÍTIMO com design funcional e estilo rústico elegante.  Confeccionada inteiramente em couro legítimo, o que garante durabilidade e resistência superiores.",
+    media: [
+      { type: "image", src: bag200 },
+      { type: "image", src: bag201 },
+
+      // { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+  {
+    id: 55,
+    name: "CARTEIRA COMPACTA COURO LEGÍTIMO",
+    price: "R$ 45,00",
+    //description:
+    //"Carteira de mão artesanal EM COURO LEGÍTIMO com design funcional e estilo rústico elegante.  Confeccionada inteiramente em couro legítimo, o que garante durabilidade e resistência superiores.",
+    media: [
+      { type: "image", src: bag236 },
+      { type: "image", src: bag237 },
+
+      // { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+  {
+    id: 36,
+    name: "CARTEIRA DE MÃO ARTESANAL COURO LEGÍTIMO",
+    price: "R$ 105,00",
+    description:
+      "Carteira de mão artesanal EM COURO LEGÍTIMO com design funcional e estilo rústico elegante.  Confeccionada inteiramente em couro legítimo, o que garante durabilidade e resistência superiores.",
+    media: [
+      { type: "image", src: bag238 },
+      { type: "image", src: bag239 },
+      { type: "image", src: bag168 },
+      { type: "image", src: bag138 },
+
+      // { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
+  {
+    id: 24,
+    name: "CARTEIRA EM COURO LEGÍTIMO BABY BLUE UNISSEX ",
+    price: "R$ 99,00",
+    description:
+      "Confeccionada em couro bovino legítimo com textura levemente granulada (floater), o que garante durabilidade e toque macio.",
+    media: [
+      { type: "image", src: bag229 },
+      { type: "image", src: bag230 },
+      { type: "image", src: bag73 },
+      { type: "image", src: bag74 },
+
+      // { type: "video", src: "/videos/bag-8.1.mp4" },
+    ],
+  },
+  {
+    id: 25,
+    name: "CARTEIRA EM COURO LEGÍTIMO BABY BLUE UNISSEX ",
+    price: "R$ 99,00",
+    description:
+      "Confeccionada em couro bovino legítimo com textura levemente granulada (floater), o que garante durabilidade e toque macio.",
+    media: [
+      { type: "image", src: bag52 },
+      { type: "image", src: bag53 },
+
+      // { type: "video", src: "/videos/bag-8.1.mp4" },
+    ],
+  },
+
+  {
+    id: 56,
+    name: "Carteira Média em Couro Sintético",
+    price: "R$ 59,90",
+    description:
+      "Carteira de mão artesanal EM COURO LEGÍTIMO com design funcional e estilo rústico elegante.  Confeccionada inteiramente em couro legítimo, o que garante durabilidade e resistência superiores.",
+    media: [
+      { type: "image", src: bag195 },
+      { type: "image", src: bag196 },
+      { type: "image", src: bag197 },
+      { type: "image", src: bag198 },
+
+      // { type: "video", src: "/videos/bag2.2.mp4" },
+    ],
+  },
   {
     id: 60,
     name: "Mala de Mão Viagem/Esportiva",
