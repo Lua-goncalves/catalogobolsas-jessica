@@ -104,6 +104,8 @@ import bag48 from "@/images/bag-47-2.webp";
 import bag49 from "@/images/bag-47-3.webp";
 import bag52 from "@/images/bag-50.webp";
 import bag53 from "@/images/bag-50.1.webp";
+import bag167 from "@/images/bag-50.6.webp";
+import bag226 from "@/images/bag-50.7.webp";
 import bag73 from "@/images/bag-50.2.webp";
 import bag74 from "@/images/bag-50.3.webp";
 import bag229 from "@/images/bag-50.4.webp";
@@ -181,8 +183,6 @@ import bag137 from "@/images/bag-68.3.webp";
 import bag159 from "@/images/bag-68.4.webp";
 import bag160 from "@/images/bag-68.5.webp";
 import bag161 from "@/images/bag-68.6.webp";
-import bag167 from "@/images/bag-68.7.webp";
-import bag226 from "@/images/bag-68.8.webp";
 import bag227 from "@/images/bag-81.webp";
 import bag211 from "@/images/bag-81.1.webp";
 import bag202 from "@/images/bag-68.12.webp";
@@ -1072,6 +1072,8 @@ const products = [
     description:
       "Confeccionada em couro bovino legítimo com textura levemente granulada (floater), o que garante durabilidade e toque macio.",
     media: [
+      { type: "image", src: bag167 },
+      { type: "image", src: bag226 },
       { type: "image", src: bag52 },
       { type: "image", src: bag53 },
 
