@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
+import MediaLightbox from "@/components/MediaLightbox";
+
 import collectionImage from "@/images/bag-1.1.webp";
 import bag1 from "@/images/bag-1-.webp";
 import bag45 from "@/images/bag-1-1.webp";
@@ -1170,6 +1172,11 @@ const products = [
 
 const Products = () => {
   const [expandedProduct, setExpandedProduct] = useState<number | null>(null);
+  const [lightbox, setLightbox] = useState<{
+    images: string[];
+    index: number;
+    name: string;
+  } | null>(null);
 
   const handleWhatsAppClick = (productName: string) => {
     const message = encodeURIComponent(`Olá! Tenho interesse na ${productName}`);
@@ -1211,14 +1218,72 @@ const Products = () => {
             >
               {/* Carousel */}
               <Carousel className="w-full">
+             <CarouselContent>
+            {product.media.map((media, mediaIndex) => {
+            const imageItems = product.media.filter(
+             (item) => item.type === "image"
+          );
+
+      const imageIndex = imageItems.findIndex(
+        (item) => item.src === media.src
+      );
+
+      return (
+        <CarouselItem key={mediaIndex}>
+          <div
+            className="relative aspect-square"
+            onClick={() => {
+              if (media.type === "image") {
+                setLightbox({
+                  images: imageItems.map((item) => item.src),
+                  index: imageIndex,
+                  name: product.name,
+                });
+              }
+            }}
+          >
+            {media.type === "image" ? (
+              <img
+                src={media.src}
+                alt={`${product.name} - imagem ${mediaIndex + 1}`}
+                loading="lazy"
+                decoding="async"
+                className="w-full h-full object-cover transition-transform duration-300 hover:scale-105 cursor-zoom-in"
+              />
+            ) : (
+              <video
+                src={media.src}
+                className="w-full h-full object-cover"
+                controls
+              />
+            )}
+          </div>
+        </CarouselItem>
+      );
+    })}
+  </CarouselContent>
+
+  <CarouselPrevious className="left-2" />
+  <CarouselNext className="right-2" />
+</Carousel>
+
+              {/* <Carousel className="w-full">
                 <CarouselContent>
-                  {product.media.map((media, index) => (
-                    <CarouselItem key={index}>
+                  {(product.images || []).map((image, imgIndex) => (
+                    <CarouselItem key={imgIndex}>
                       <div
-                        className="relative aspect-square cursor-pointer"
+                         className="relative aspect-square cursor-pointer"
+                         onClick={() =>
+                           media.type === "image" &&
+                           handleWhatsAppClick(product.name)
+                         }
+                        className="relative aspect-square cursor-zoom-in"
                         onClick={() =>
-                          media.type === "image" &&
-                          handleWhatsAppClick(product.name)
+                          setLightbox({
+                            images: product.images || [],
+                            index: imgIndex,
+                            name: product.name,
+                          })
                         }
                       >
                         {media.type === "image" ? (
@@ -1242,7 +1307,7 @@ const Products = () => {
                 </CarouselContent>
                 <CarouselPrevious className="left-2" />
                 <CarouselNext className="right-2" />
-              </Carousel>
+              </Carousel> */}
 
               {/* Content */}
               <div className="p-6 space-y-4">
@@ -1298,6 +1363,15 @@ const Products = () => {
           ))}
         </div>
       </div>
+
+          <MediaLightbox
+        open={!!lightbox}
+        onOpenChange={(o) => !o && setLightbox(null)}
+        items={(lightbox?.images ?? []).map((src) => ({ type: "image" as const, src }))}
+        startIndex={lightbox?.index ?? 0}
+        title={lightbox?.name ?? ""}
+      />
+
     </section>
   );
 };

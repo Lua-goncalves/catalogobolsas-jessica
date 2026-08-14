@@ -9,6 +9,8 @@ import {
 } from "@/components/ui/carousel";
 import { ChevronDown, ChevronUp, Flame } from "lucide-react";
 import { useState } from "react";
+import MediaLightbox, { type LightboxItem } from "@/components/MediaLightbox";
+
 import bag1 from "@/images/bag-47.webp";
 import bag2 from "@/images/bag-47.1.webp";
 import bag3 from "@/images/bag-47.2.jpeg";
@@ -133,7 +135,13 @@ const saleProducts = [
 
 const SaleSection = () => {
   const [expanded, setExpanded] = useState<string | null>(null);
+   const [lightbox, setLightbox] = useState<{ items: LightboxItem[]; index: number; name: string } | null>(null);
 
+    const openLightbox = (product: (typeof saleProducts)[number], index: number) => {
+    const items: LightboxItem[] = product.images.map((src) => ({ type: "image" as const, src }));
+    if (product.video) items.push({ type: "video", src: product.video });
+    setLightbox({ items, index, name: product.name });
+  };
   const handleWhatsAppClick = (productName: string) => {
     const message = encodeURIComponent(
       `Olá! Tenho interesse na promoção de QUEIMA DE ESTOQUE: ${productName}`,
@@ -175,8 +183,10 @@ const SaleSection = () => {
                   {product.images.map((image, imgIndex) => (
                     <CarouselItem key={imgIndex}>
                       <div
-                        className="relative aspect-square cursor-pointer"
-                        onClick={() => handleWhatsAppClick(product.name)}
+                        // className="relative aspect-square cursor-pointer"
+                        // onClick={() => handleWhatsAppClick(product.name)}
+                        className="relative aspect-square cursor-zoom-in"
+                        onClick={() => openLightbox(product, imgIndex)}
                       >
                         <img
                           src={image}
@@ -191,8 +201,11 @@ const SaleSection = () => {
                   {product.video && (
                     <CarouselItem>
                       <div
-                        className="relative aspect-square cursor-pointer bg-black"
-                        onClick={() => handleWhatsAppClick(product.name)}
+                        // className="relative aspect-square cursor-pointer bg-black"
+                        // onClick={() => handleWhatsAppClick(product.name)}
+                         className="relative aspect-square cursor-zoom-in bg-black"
+                        onClick={() => openLightbox(product, product.images.length)}
+
                       >
                         <video
                           src={product.video}
@@ -260,6 +273,14 @@ const SaleSection = () => {
           ))}
         </div>
       </div>
+        <MediaLightbox
+        open={!!lightbox}
+        onOpenChange={(o) => !o && setLightbox(null)}
+        items={lightbox?.items ?? []}
+        startIndex={lightbox?.index ?? 0}
+        title={lightbox?.name ?? ""}
+        />
+
     </section>
   );
 };
