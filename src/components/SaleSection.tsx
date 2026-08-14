@@ -90,7 +90,7 @@ const saleProducts = [
     price: "R$ 99,00",
     description:
       "Bolsa Tote pequena, acessório atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões. ",
-    images: [bag8, bag9, bag13],
+    images: [bag9, bag8, bag13],
   },
 
   {
