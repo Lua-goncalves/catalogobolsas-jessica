@@ -20,7 +20,6 @@ import bag176 from "@/images/bag-3.2.webp";
 import bag177 from "@/images/bag-3.3.webp";
 import bag178 from "@/images/bag-3.4.webp";
 import bag179 from "@/images/bag-3.5.webp";
-
 import bag183 from "@/images/bag-3.9.webp";
 import bag184 from "@/images/bag-3.10.webp";
 import bag185 from "@/images/bag-3.11.webp";
@@ -28,6 +27,21 @@ import bag6 from "@/images/bag-6.webp";
 import bag63 from "@/images/bag-6.1.webp";
 import bag7 from "@/images/bag-6.2.webp";
 import bag8 from "@/images/bag-6.3.webp";
+import bag250 from "@/images/bag-6.4.webp";
+import bag251 from "@/images/bag-6.5.webp";
+import bag252 from "@/images/bag-6.6.webp";
+import bag253 from "@/images/bag-6.7.webp";
+import bag254 from "@/images/bag-6.8.webp";
+import bag255 from "@/images/bag-6.9.webp";
+import bag256 from "@/images/bag-6.10.webp";
+import bag257 from "@/images/bag-6.11.webp";
+import bag258 from "@/images/bag-6.12.webp";
+import bag259 from "@/images/bag-6.13.webp";
+import bag260 from "@/images/bag-6.14.webp";
+import bag261 from "@/images/bag-6.15.webp";
+import bag262 from "@/images/bag-6.16.webp";
+import bag263 from "@/images/bag-6.17.webp";
+import bag146 from "@/images/bag-15.webp";
 import bag64 from "@/images/bag-10.1.jpeg";
 import bag12 from "@/images/bag-12.webp";
 import bag13 from "@/images/bag-12.1.webp";
@@ -86,7 +100,6 @@ import bag145 from "@/images/bag-35.7.webp";
 import bag36 from "@/images/bag-36-.webp";
 import bag68 from "@/images/bag-36-1.webp";
 import bag37 from "@/images/bag-36-2.webp";
-
 import bag69 from "@/images/bag-38.1.jpeg";
 import bag39 from "@/images/bag-39.jpeg";
 import bag40 from "@/images/bag-40.jpeg";
@@ -173,7 +186,6 @@ import bag165 from "@/images/bag-67.6.webp";
 import bag166 from "@/images/bag-67.7.webp";
 import bag169 from "@/images/bag-67.8.webp";
 import bag170 from "@/images/bag-67.9.webp";
-
 import bag207 from "@/images/bag-67.11.webp";
 import bag208 from "@/images/bag-67.12.webp";
 import bag209 from "@/images/bag-67.13.webp";
@@ -203,8 +215,6 @@ import bag51 from "@/images/bag-49.webp";
 import bag220 from "@/images/bag-49.1.webp";
 import bag212 from "@/images/bag-49.2.webp";
 import bag143 from "@/images/bag-49.3.webp";
- 
-import bag146 from "@/images/bag-15.webp";
 import bag147 from "@/images/bag-15.1.webp";
 import bag148 from "@/images/bag-15.2.webp";
 import bag149 from "@/images/bag-15.3.webp";
@@ -228,11 +238,12 @@ import bag191 from "@/images/bag-79.webp";
 import bag192 from "@/images/bag-79.1.webp";
 import bag193 from "@/images/bag-79.2.webp";
 import bag194 from "@/images/bag-79.3.webp";
+import bag277 from "@/images/bag-79.4.webp";
+import bag278 from "@/images/bag-79.5.webp";
 import bag195 from "@/images/bag-17.webp";
 import bag196 from "@/images/bag-17.1.webp";
 import bag197 from "@/images/bag-17.2.webp";
 import bag198 from "@/images/bag-17.3.webp";
-
 import bag200 from "@/images/bag-77.webp";
 import bag201 from "@/images/bag-77.1.webp";
 import bag213 from "@/images/bag-83.webp";
@@ -257,13 +268,29 @@ import bag240 from "@/images/bag-14.webp";
 import bag241 from "@/images/bag-14.1.webp";
 import bag242 from "@/images/bag-14.2.webp";
 import bag243 from "@/images/bag-14.3.webp";
+import bag264 from "@/images/bag-25.webp";
+import bag265 from "@/images/bag-25.1.webp";
+import bag266 from "@/images/bag-25.2.webp";
+import bag267 from "@/images/bag-25.3.webp";
+import bag268 from "@/images/bag-25.4.webp";
+import bag269 from "@/images/bag-25.5.webp";
+import bag270 from "@/images/bag-28.webp";
+import bag271 from "@/images/bag-28.1.webp";
+import bag272 from "@/images/bag-28.2.webp";
+import bag273 from "@/images/bag-28.3.webp";
+import bag274 from "@/images/bag-28.4.webp";
+import bag275 from "@/images/bag-28.5.webp";
+import bag276 from "@/images/bag-31.webp";
+
 
 
 import { fromTheme } from "tailwind-merge";
 
 const products = [
+ 
+
   {
-    id: 32,
+    id: 1,
     name: "Bolsa Baú Preta- Luce Douce",
     price: "R$ 99,00",
     description:
@@ -278,7 +305,7 @@ const products = [
   },
 
   {
-    id: 33,
+    id: 2,
     name: "Bolsa Baú Caramelo Luce Douce",
     price: "R$ 99,00",
     description:
@@ -292,7 +319,7 @@ const products = [
     ],
   },
   {
-    id: 37,
+    id: 3,
     name: "Bolsa Baú Vinho",
     price: "R$ 99,00",
     description:
@@ -306,7 +333,7 @@ const products = [
     ],
   },
   {
-    id: 21,
+    id: 4,
     name: "Bolsa Baú",
     price: "R$ 99,00",
     description:
@@ -321,7 +348,7 @@ const products = [
   },
 
   {
-    id: 18,
+    id: 5,
     name: "Bolsa Baú",
     price: "R$ 99,00",
     description:
@@ -334,7 +361,7 @@ const products = [
     ],
   },
   {
-    id: 1,
+    id: 6,
     name: "Bolsa Baú",
     price: "R$ 99,00",
     description:
@@ -364,24 +391,22 @@ const products = [
     ],
   },
   {
-    id: 37,
+    id: 6,
     name: "Bolsa Scrunchie",
     price: "R$ 135,00",
     description:
-      " Bolsa formato Baú (Bowling Bag) bege com alça de mão Scrunchie. O grande diferencial é a alça curta com efeito franzido ou trançado, que traz uma tendência de moda atual e conforto ao carregar. Acompanha alça transversal longa removível e ajustável, permitindo o uso a tiracolo ou cruzada.",
+      "Bolsa formato Baú (Bowling Bag) bege com alça de mão Scrunchie. O grande diferencial é a alça curta com efeito franzido ou trançado, que traz uma tendência de moda atual e conforto ao carregar. Acompanha alça transversal longa removível e ajustável, permitindo o uso a tiracolo ou cruzada.",
     media: [
       { type: "image", src: bag147 },
-      { type: "image", src: bag146 },
       { type: "image", src: bag148 },
       { type: "image", src: bag149 },
       { type: "image", src: bag150 },
       { type: "image", src: bag203 },
-      { type: "image", src: bag245 },
       { type: "video", src: "/videos/bag26-opt.mp4" },
     ],
   },
   {
-    id: 2,
+    id: 7,
     name: "Bolsa Scrunchie",
     price: "R$ 135,00",
     description:
@@ -395,7 +420,7 @@ const products = [
   },
 
   {
-    id: 50,
+    id: 8,
     name: "Bolsa Scrunchie",
     price: "R$ 135,00",
     description:
@@ -408,7 +433,7 @@ const products = [
   },
 
   {
-    id: 51,
+    id: 9,
     name: "Bolsa Scrunchie",
     price: "R$ 135,00",
     description:
@@ -419,54 +444,8 @@ const products = [
       //{ type: "video", src: "/videos/opt-bag-9.3.mp4" },
     ],
   },
-
   {
-    id: 3,
-    name: " PROMOÇÃO-Bolsa Baú + CARTEIRA  EM COURO LEGÍTIMO ",
-    price: "R$ 135,00",
-    walletPrice: "59,90",
-    description:
-      "Bolsa formato Baú (Bowling Bag) bege com alça de mão Scrunchie. O grande diferencial é a alça curta com efeito franzido ou trançado, que traz uma tendência de moda atual e conforto ao carregar. Acompanha alça transversal longa removível e ajustável, permitindo o uso a tiracolo ou cruzada.Carteira com design minimalista que segue a mesma cor e material da bolsa para um visual conjunto (matching set). Tamanho compacto ideal para cartões, documentos e notas, com fecho de aba e botão de pressão.Esse conjunto é ideal para ocasiões casuais ou eventos sociais que pedem um acessório com estética moderna e sofisticada.",
-    media: [
-      { type: "image", src: bag6 },
-      { type: "image", src: bag63 },
-      { type: "image", src: bag7 },
-      { type: "image", src: bag8 },
-    ],
-  },
-  {
-    id: 42,
-    name: "PROMOÇÃO- Bolsa Baú + Carteira Croco em Couro Legítimo",
-    price: "R$ 135,00",
-    walletPrice: "59,90",
-    description:
-      " Bolsa formato Baú (Bowling Bag) preta com alça de mão Scrunchie. O grande diferencial é a alça curta com efeito franzido ou trançado, que traz uma tendência de moda atual e conforto ao carregar. Acompanha alça transversal longa removível e ajustável, permitindo o uso a tiracolo ou cruzada no corpo para maior praticidade.SOBRE O KIT:Dica de Estilo:Essa combinação é ideal para um visual Urban Chic. Você pode usar esse kit comu um conjunto de alfaiataria (blazer e calça) para um ar profissional. Jeans de lavagem escura e uma camisa branca para um evento casual elegante.Vestidos fluidos, onde a estrutura da bolsa ajuda a equilibrar a leveza da roupa.🖤 ",
-    media: [
-      { type: "image", src: bag186 },
-      { type: "image", src: bag187 },
-      { type: "image", src: bag188 },
-      { type: "video", src: "/videos/opt-bag-9.mp4" },
-    ],
-  },
-
-  // {
-  //   id: 100,
-  //   name: "Bolsa Baú Preta + Carteira",
-  //   walletPrice: "59,90",
-  //   price: "R$ 99,90",
-  //   description:
-  //     "Bolsa pequena em couro sintético estruturada com acabamento clássico e sofisticado, ideal para ambientes corporativos ou eventos casuais elegantes. Acompanha alça de mão personalizada com um lenço removível estampado, que adiciona um toque moderno e feminino ao acessório. Confeccionada em material sintético (PU) com textura que imita o couro granulado, oferecendo durabilidade e um toque macio. Possui fechamento principal por zíper, repartição únic, acompanha uma alça transversal ajustável para diferentes formas de uso.Carteira Feminina:Modelo compacto e retangular, seguindo a mesma textura e cor da bolsa para formar um conjunto harmonioso. Aba frontal com botão de pressão interno, garantindo segurança aos itens pessoais",
-  //   media: [
-  //     { type: "image", src: bag231 },
-  //     { type: "image", src: bag228 },
-  //     { type: "image", src: bag229 },
-  //     { type: "image", src: bag230 },
-  //      { type: "video", src: "/videos/opt-bag-9.2.mp4" },
-  //   ],
-  // },
-
-  {
-    id: 101,
+    id: 10,
     name: "Bolsa Tote + Carteira",
     walletPrice: "59,90",
     price: "R$ 149,90",
@@ -480,23 +459,9 @@ const products = [
       // { type: "video", src: "/videos/opt-bag-1.1.mp4" },
     ],
   },
-  // {
-  //   id: 102,
-  //   name: "Bolsa + Carteira",
-  //   walletPrice: "59,90",
-  //   price: "R$ 149,90",
-  //   description:
-  //     " Conjunto de bolsa e carteira preto, couro sintético, da marca Chica Fiore, apresenta um design clássico e estruturado, ideal para uso executivo ou ocasiões formais.A bolsa principal possui um formato de tote estruturada, com as seguintes características comuns a modelos similares da marca: Confeccionada em poliuretano (couro tecnológico), o que oferece resistência e facilidade de limpeza.Alças: Possui alças de mão fixas e frequentemente acompanha uma alça transversal removível e ajustável para maior versatilidade.Interior: Forrada com tecido personalizado, contando com divisórias internas e bolsos com zíper para organização de itens como celulares e documentos. Acompanha porta-moedas removível.Características da CarteiraA carteira que acompanha o conjunto segue o estilo clutch.Pode ser usada como carteira de mão ou adaptada com uma alça de pulso removível com compartimentos internos para cartões, cédulas e, em alguns modelos, um porta-moedas integrado.",
-  //   media: [
-  //     { type: "image", src: bag236 },
-  //     { type: "image", src: bag237 },
-  //     { type: "image", src: bag238 },
-  //     { type: "image", src: bag239 },
-  //     // { type: "video", src: "/videos/opt-bag-1.1.mp4" },
-  //   ],
-  // },
+  
   {
-    id: 103,
+    id: 11,
     name: "Bolsa+ Carteira",
     walletPrice: "59,90",
     price: "149,90",
@@ -512,7 +477,7 @@ const products = [
   },
 
   {
-    id: 13,
+    id: 12,
     name: "Bolsa Tote Média Preta",
     price: "R$ 125,00",
     description:
@@ -527,7 +492,7 @@ const products = [
     ],
   },
   {
-    id: 54,
+    id: 13,
     name: "Bolsa Tote Média",
     price: "R$ 159,00 ",
     description:
@@ -541,7 +506,7 @@ const products = [
     ],
   },
   {
-    id: 23,
+    id: 14,
     name: "Bolsa Tote Média",
     price: "R$ 149,90",
     description:
@@ -552,7 +517,7 @@ const products = [
     ],
   },
   {
-    id: 16,
+    id: 15,
     name: "Bolsa Tote Média",
     price: "R$ 149,90",
     description:
@@ -565,7 +530,7 @@ const products = [
     ],
   },
   {
-    id: 22,
+    id: 16,
     name: "Bolsa Tote Média",
     price: "R$ 149,90",
     description:
@@ -579,7 +544,7 @@ const products = [
     ],
   },
   {
-    id: 8,
+    id: 17,
     name: "Bolsa Tote Média",
     price: "R$ 159,00",
     description:
@@ -592,7 +557,7 @@ const products = [
     ],
   },
   {
-    id: 10,
+    id: 18,
     name: "Bolsa Tote Média Marrom",
     price: "R$ 125,00",
     description:
@@ -606,7 +571,7 @@ const products = [
     ],
   },
   {
-    id: 11,
+    id: 19,
     name: "Bolsa de Mão Média Marrom",
     price: "R$ 129,00",
     description:
@@ -621,7 +586,7 @@ const products = [
     ],
   },
   {
-    id: 29,
+    id: 20,
     name: "Bolsa Meia-Lua",
     price: "R$ 120,00",
     description:
@@ -637,7 +602,48 @@ const products = [
     ],
   },
   {
-    id: 55,
+    id: 21,
+    name: "Bolsa Hobo grande | Cores: Caramelo e Preto ",
+    price: "R$ 149,00",
+    description:
+      "Sofisticação, espaço e versatilidade em um único acessório, sendo a escolha perfeita para o dia a dia da mulher moderna. Seu design estruturado em estilo hobo ganha um toque contemporâneo com costuras diagonais em relevo e detalhes drapeados nas alças.Sistema 2 em 1: Use como bolsa de ombro ou transversal graças à alça auxiliar ajustável.Acessório Extra: Inclui um charmoso mini porta-moedas em corrente dourada que pode ser usado junto ou separado.Design Inteligente: Recortes pespontados modernos e ferragens com acabamento dourado reluzente.Espaço Amplo: Perfeita para carregar tudo o que você precisa no dia a dia de forma organizada.",
+    media: [
+      { type: "image", src: bag16 },
+      { type: "image", src: bag17 },
+      
+    ],
+  },
+
+  {
+    id: 22,
+    name: "Bolsa Hobo Grande",
+    price: "R$ 139,00",
+    description:
+      "Bolsa Hobo de design curvado na parte superior, com alça de ombro ajustável, zíperes laterais com puxadores decorativos e detalhe de metal dourado na parte frontal. Disponível nas cores prata metálico e marrom, combina estilo e praticidade para o dia a dia.",
+    media: [
+      { type: "image", src: bag18 },
+      { type: "image", src: bag65 },
+      // { type: "image", src: bag19 },
+      //{ type: "video", src: "/videos/opt-bag7.1.mp4" },
+    ],
+  },
+
+  {
+    id: 23,
+    name: "Bolsa Hobo Preta",
+    price: "R$ 139,00",
+    description:
+      " Bolsa grande em couro sintético, com alça de ombro trançada e detalhes dourados que acrescentam sofisticação. Elegante e espaçosa, perfeita para o dia a dia ou ocasiões especiais.",
+    media: [
+      { type: "image", src: bag19 },
+      { type: "image", src: bag11 },
+      { type: "image", src: bag20 },
+      { type: "image", src: bag66 },
+      // { type: "video", src: "" },
+    ],
+  },
+  {
+    id: 24,
     name: "Bolsa Transversal",
     price: "R$ 79,90 ",
     description:
@@ -653,7 +659,7 @@ const products = [
     ],
   },
   {
-    id: 14,
+    id: 25,
     name: "Bolsa Transversal",
     price: "R$ 79,90",
     description:
@@ -668,7 +674,7 @@ const products = [
     ],
   },
   {
-    id: 20,
+    id: 26,
     name: "Bolsa Transversal",
     price: "R$ 79,90",
     description:
@@ -682,9 +688,95 @@ const products = [
       // { type: "video", src: "" },
     ],
   },
+   
 
   {
-    id: 26,
+    id: 27,
+    name: "Bolsa Transversal Preta Acolchoada 🖤",
+    price: "R$ 79,00",
+    description:
+      "O modelo se destaca pelo seu formato compacto estilo mini bag, possuindo dois compartimentos principais com fechamento em zíper e um bolso frontal com costura em relevo chevron. Alça removível e ajustável. Possui forro interno. ",
+    media: [
+      { type: "image", src: bag276 },
+      
+      
+    ],
+  },
+
+  {
+    id: 28,
+    name: "Bolsa Tiracolo Clássica com Carteira",
+    price: "R$ 79,00",
+    description:
+      "Perfeito para a mulher moderna que busca um acessório versátil para o dia a dia ou para ocasiões especiais. Este kit combina o charme de uma bolsa estruturada com a funcionalidade de uma carteira compacta.Material: Sintético premium com textura suave de alta durabilidade.Ferragens: Acabamento dourado com banho de alta qualidade.Fechamento: Aba com encaixe firme na bolsa; zíper reforçado na carteira.Alça curta de mão: Perfeita para carregar de forma elegante no antebraço ou nas mãos. ",
+    media: [
+      { type: "image", src: bag270 },
+      { type: "image", src: bag271 },
+      { type: "image", src: bag272 },
+    
+    ],
+  },
+  {
+    id: 29,
+    name: "Kit Bolsa Transversal Triomphe + Carteira nas cores marrom e preto 🤎🖤",
+    price: "R$ 79,00",
+    description:
+      "Design: Modelo estruturado com o icônico fecho frontal em metal envelhecido que remete à alta costura.Material: Sintético liso (Poliuretano/PU) com costuras reforçadas nas bordas.Sistema Removível por Mosquetões: Ela possui ganchos metálicos (mosquetões) dourados nas duas pontas. Isso permite que você a retire completamente quando preferir carregar a bolsa apenas na mão (como uma clutch de festa) ou prenda-a facilmente nas argolas laterais da bolsa para o uso diário.Uso: Ideal para quem busca um visual elegante de cara de rica gastando pouco. ",
+      media: [
+      { type: "image", src: bag264 },
+      { type: "image", src: bag265 },
+      { type: "image", src: bag266 },
+      { type: "image", src: bag267 },
+      { type: "image", src: bag268 },
+      { type: "image", src: bag269 },
+      { type: "video", src: "/videos/bag-25-opt.mp4" },
+    ],
+  },
+
+{
+    id: 30,
+    name: " ☀️ Mini Bolsa Transversal Summer Vibes | Cores Sortidas ",
+    price: "R$ 79,00",
+    description:
+      "O acabamento em patchwork eleva o nível da peça, transformando uma bolsa básica em um item de pura sofisticação. Detalhes Técnicos: Material: Couro sintético (PU) de alta qualidade e acabamento texturizado.Fechamento: Botão magnético de alta pressão (prático e seguro).Tipo de alça: Transversal / Tiracolo (fixa e regulável).Estilo: Casual chic / Retrô moderno / Chic sofisticado ",
+    media: [
+       { type: "image", src: bag263 },
+      { type: "image", src: bag6 },
+      { type: "image", src: bag63 },
+       { type: "image", src: bag8 },
+      { type: "image", src: bag7 },
+      { type: "image", src: bag250 },
+      { type: "image", src: bag251 },
+      { type: "image", src: bag252 },
+      { type: "image", src: bag253 },
+      { type: "image", src: bag254 },
+      { type: "image", src: bag255 },
+      { type: "image", src: bag256 },
+      { type: "image", src: bag257 },
+      { type: "image", src: bag258 },
+      { type: "image", src: bag259 },
+      { type: "image", src: bag260 },
+      { type: "image", src: bag261 },
+      { type: "image", src: bag262 },
+      { type: "video", src: "/videos/bag-6-opt.mp4" },
+    ],
+  },
+  {
+    id: 31,
+    name: "KIT BOLSA + CARTEIRA 🖤🖤✨",
+    price: "R$ 79,00",
+    description:
+      "Se você ama um visual moderno, elegante e super prático, esse kit Bo foi feito para você! Destaques do Kit: Bolsa Estruturada: Preta, com um brilho acetinado lindo e um fecho dourado minimalista que é pura sofisticação.Alça Ajustável e Removível: Transforme sua bolsa transversal em uma clutch elegante de mão em segundos!Carteira: Compacta, com zíper dourado, ideal para levar seus cartões com total segurança. ",
+    media: [
+      { type: "image", src: bag186 },
+      { type: "image", src: bag187 },
+      { type: "image", src: bag188 },
+    { type: "video", src: "/videos/bag-75-opt.mp4" },
+    ],
+  },
+
+  {
+    id: 32,
     name: "Bolsa Pequena- Couro Legítimo",
     price: "R$ 149,00",
     description:
@@ -696,7 +788,7 @@ const products = [
   },
 
   {
-    id: 39,
+    id: 33,
     name: "Promoção- Bolsa Transversal",
     price: "R$ 89,90",
     description:
@@ -711,7 +803,7 @@ const products = [
   },
 
   {
-    id: 39,
+    id: 34,
     name: "Bolsa Tiracolo Modelo Especial, Alça Removível - Ideal para Presente",
     price: "R$ 69,90",
     // description:
@@ -730,7 +822,7 @@ const products = [
   },
 
   {
-    id: 17,
+    id: 35,
     name: "Bolsa Tiracolo em Couro Sintético",
     price: "R$ 59,90",
     description:
@@ -758,7 +850,7 @@ const products = [
   },
 
   {
-    id: 30,
+    id: 36,
     name: "Bolsa Crossbody",
     price: "R$ 80,00",
     description:
@@ -770,7 +862,7 @@ const products = [
     ],
   },
   {
-    id: 15,
+    id: 37,
     name: "Bolsa Preta Compacta",
     price: "R$ 120,00",
     description:
@@ -785,130 +877,9 @@ const products = [
     ],
   },
 
-  // {
-  //   id: 49,
-  //   name: "Bolsa Hobo Média – Azul Marinho",
-  //   price: "R$ 120,00",
-  //   description:
-  //     "Bolsa hobo média, também conhecida como bolsa de ombro, na cor azul marinho. Possui formato flexível em meia-lua e alça única, garantindo conforto para o uso diário. Modelo atemporal, com acabamento soft, que permite que a bolsa se curve e se ajuste naturalmente ao corpo.Design e Funcionalidade:•Design minimalista e elegante•	Fecho em zíper para maior segurança	•	Detalhes metálicos dourados nas junções da alça•	Interior espaçoso, ideal para carregar itens essenciaisMaterial de Alta Qualidade:Confeccionada em material sintético PU (Poliuretano) premium, resistente, flexível e de fácil limpeza, não racha nem descasca com facilidade.",
-  //   media: [
-  //     { type: "image", src: bag199 },
-  //     { type: "image", src: bag200 },
-  //     { type: "image", src: bag201 },
-
-  //     // { type: "video", src: "" },
-  //   ],
-  // },
-
-  // {
-  //   id: 31,
-  //   name: "Bolsa Transversal Crossbody",
-  //   price: "R$ 90,00",
-  //   description:
-  //     "Bolsa pequena em couro sintético, na cor caramelo, com design moderno e muito funcional. Destaca-se pela alça de fita larga ajustável, que garante conforto e versatilidade no uso, podendo ser utilizada como transversal ou de ombro.Possui múltiplos compartimentos com zíperes dourados, geralmente três bolsos frontais — ideais para organizar itens essenciais como celular, carteira e documentos. Em alguns modelos, acompanha chaveiro de ursinho, que adiciona um toque charmoso e descontraído ao acessório. Disponível na cor caramelo e caqui",
-  //   media: [
-  //     { type: "image", src: bag118 },
-  //     { type: "image", src: bag119 },
-  //     { type: "image", src: bag120 },
-  //     { type: "image", src: bag121 },
-  //     { type: "image", src: bag172 },
-  //     { type: "image", src: bag173 },
-  //     { type: "image", src: bag175 },
-  //     { type: "image", src: bag174 },
-  //     // { type: "video", src: "/videos/bag2.2.mp4" },
-  //   ],
-  // },
-  //
-  // {
-  //   id: 4,
-  //   name: "Bolsa de Couro Sintético",
-  //   price: "R$ 99,00 a R$ 149,00",
-  //   description:
-  //     " Peça atemporal que combina facilmente com diversos estilos, do casual ao formal. Versátil e elegante, é ideal para diferentes ocasiões.Disponível nos tamanhos pequeno R$ 99,00 , médio R$ 129,00 e grande R$ 149,00 e também na cor preta.",
-  //   media: [
-  //     { type: "image", src: bag9 },
-  //     { type: "image", src: bag10 },
-  //     { type: "image", src: bag64 },
-  //     { type: "image", src: bag11 },
-  //     //{ type: "image", src: bag246 },
-  //     { type: "video", src: "/videos/opt-bag4.1.mp4" },
-  //     { type: "video", src: "/videos/opt-bag4.mp4" },
-  //   ],
-  // },
 
   {
-    id: 7,
-    name: "Bolsa Hobo Grande",
-    price: "R$ 139,00",
-    description:
-      "Bolsa Hobo de design curvado na parte superior, com alça de ombro ajustável, zíperes laterais com puxadores decorativos e detalhe de metal dourado na parte frontal. Disponível nas cores prata metálico e marrom, combina estilo e praticidade para o dia a dia.",
-    media: [
-      { type: "image", src: bag18 },
-      { type: "image", src: bag65 },
-      // { type: "image", src: bag19 },
-      //{ type: "video", src: "/videos/opt-bag7.1.mp4" },
-    ],
-  },
-
-  {
-    id: 9,
-    name: "Bolsa Hobo Preta",
-    price: "R$ 139,00",
-    description:
-      " Bolsa grande em couro sintético, com alça de ombro trançada e detalhes dourados que acrescentam sofisticação. Elegante e espaçosa, perfeita para o dia a dia ou ocasiões especiais.",
-    media: [
-      { type: "image", src: bag19 },
-      { type: "image", src: bag11 },
-      { type: "image", src: bag20 },
-      { type: "image", src: bag66 },
-      // { type: "video", src: "" },
-    ],
-  },
-
-  // {
-  //   id: 19,
-  //   name: "Bolsa Tote",
-  //   price: "R$ 139,90",
-  //   description:
-  //     "Modelo espaçoso e prático, ideal para o dia a dia. Possui design moderno e funcional, perfeito para carregar todos os seus itens com estilo e elegância.Disponível nas cores marrom e preta.",
-  //   media: [
-  //     { type: "image", src: bag38 },
-  //     { type: "image", src: bag69 },
-  //     { type: "image", src: bag39 },
-  //     { type: "image", src: bag40 },
-  //     { type: "video", src: "/videos/opt-bag19.1.mp4" },
-  //   ],
-  // },
-
-  // {
-  //   id: 48,
-  //   name: "Bolsa Tote Média Chica Fiore – Creme",
-  //   price: "R$ 140,00 ",
-  //   description:
-  //     "Bolsa tote média em poliuretano (PU), na cor creme/bege, da marca Chica Fiore. Possui design clássico e estruturado, sendo espaçosa, prática e versátil — ideal para o dia a dia, trabalho ou estudos.Detalhes da Bolsa:•	Marca: Chica Fiore•	Modelo: Tote (bolsa de mão/ombro)•	Material: Poliuretano (PU)•	Cor: Creme/Bege•	Alças: Dupla de mão/ombro + alça transversal removível e ajustável•	Acompanha: Pequena carteira/porta-objetos destacávelFuncional e elegante, é perfeita para quem busca organização e estilo em um único acessório.",
-  //   media: [
-  //     { type: "image", src: bag195 },
-  //     { type: "image", src: bag196 },
-  //     { type: "image", src: bag197 },
-  //     { type: "image", src: bag198 },
-
-  //     { type: "video", src: "/videos/opt-bag-76.mp4" },
-  //   ],
-  // },
-  {
-    id: 6,
-    name: "Mochila Marrom Média",
-    price: "R$ 149,00",
-    description:
-      "Mochila marrom média, possui um acabamento em material sintético com textura granulada (estilo pebble) e detalhes metálicos em dourado.Funcionalidade: O modelo conta com um compartimento principal espaçoso e bolsos frontais com fechamento em zíper, ideais para organizar itens de rápido acesso.",
-    media: [
-      { type: "image", src: bag16 },
-      { type: "image", src: bag17 },
-      // { type: "video", src: "/videos/opt-bag6.1.mp4" },
-    ],
-  },
-  {
-    id: 12,
+    id: 38,
     name: "Mochila Bege Média",
     price: "R$ 149,00",
     description:
@@ -920,73 +891,9 @@ const products = [
     ],
   },
 
-  // {
-  //   id: 25,
-  //   name: "Carteira em Couro Legítimo",
-  //   price: "R$ 105,00",
-  //   description:
-  //     "CARTEIRA EM COURO LEGÍTIMO apresenta um acabamento clássico em textura croco (que imita a pele de crocodilo), sendo um acessório versátil que pode ser utilizado tanto como carteira quanto como bolsa de mão ou clutch.",
-  //   media: [
-  //     { type: "image", src: bag54 },
-  //     { type: "image", src: bag55 },
-  //     { type: "image", src: bag76 },
-
-  //     // { type: "video", src: "/videos/bag-8.1.mp4" },
-  //   ],
-  // },
-  // {
-  //   id: 40,
-  //   name: "Promoção- Carteiras femininas variadas",
-  //   price: "R$ 59,90",
-  //   description:
-  //     "Carteiras confeccionadas em couro sintético (poliuretano/P.U.) de alta qualidade.",
-  //   media: [
-  //     { type: "image", src: bag134 },
-  //     { type: "image", src: bag135 },
-  //     { type: "image", src: bag136 },
-  //     { type: "image", src: bag137 },
-  //     { type: "image", src: bag159 },
-  //     { type: "image", src: bag160 },
-  //     { type: "image", src: bag161 },
-  //     { type: "image", src: bag167 },
-  //     { type: "image", src: bag245 },
-  //     { type: "image", src: bag226 },
-  //     { type: "image", src: bag227 },
-  //     { type: "image", src: bag211 },
-  //     { type: "image", src: bag202 },
-  //     { type: "image", src: bag203 },
-
-  //     // { type: "video", src: "/videos/bag2.2.mp4" },
-  //   ],
-  // },
-  // {
-  //   id: 34,
-  //   name: "Promoção- Carteiras femininas variadas Chica Fiore",
-  //   price: "R$ 59,90",
-  //   description:
-  //     " Carteiras da marca Chica Fiore são confeccionada em couro sintético (poliuretano/P.U.) de alta qualidade. ",
-  //   media: [
-  //     { type: "image", src: bag131 },
-  //     { type: "image", src: bag132 },
-  //     { type: "image", src: bag133 },
-  //     { type: "image", src: bag162 },
-  //     { type: "image", src: bag163 },
-  //     { type: "image", src: bag164 },
-  //     { type: "image", src: bag165 },
-  //     { type: "image", src: bag166 },
-  //     { type: "image", src: bag169 },
-  //     { type: "image", src: bag170 },
-  //     { type: "image", src: bag206 },
-  //     { type: "image", src: bag207 },
-  //     { type: "image", src: bag208 },
-  //     { type: "image", src: bag209 },
-  //     { type: "image", src: bag205 },
-  //     // { type: "video", src: "/videos/bag2.2.mp4" },
-  //   ],
-  // },
 
   {
-    id: 58,
+    id: 39,
     name: "CARTEIRA COMPACTA COURO LEGÍTIMO",
     price: "R$ 59,00",
     //description:
@@ -999,7 +906,7 @@ const products = [
     ],
   },
   {
-    id: 59,
+    id: 40,
     name: "Carteira Compacta em Couro Sintético",
     price: "R$ 59,90",
     //description:
@@ -1012,7 +919,7 @@ const products = [
     ],
   },
   {
-    id: 57,
+    id: 41,
     name: "Carteira Compacta em Couro Sintético",
     price: "R$ 59,90",
     //description:
@@ -1025,7 +932,7 @@ const products = [
     ],
   },
   {
-    id: 55,
+    id: 42,
     name: "CARTEIRA COMPACTA COURO LEGÍTIMO",
     price: "R$ 45,00",
     //description:
@@ -1038,7 +945,7 @@ const products = [
     ],
   },
   {
-    id: 36,
+    id: 43,
     name: "CARTEIRA DE MÃO ARTESANAL COURO LEGÍTIMO",
     price: "R$ 105,00",
     description:
@@ -1053,7 +960,7 @@ const products = [
     ],
   },
   {
-    id: 24,
+    id: 44,
     name: "CARTEIRA EM COURO LEGÍTIMO BABY BLUE UNISSEX ",
     price: "R$ 99,00",
     description:
@@ -1068,7 +975,7 @@ const products = [
     ],
   },
   {
-    id: 25,
+    id: 45,
     name: "CARTEIRA EM COURO LEGÍTIMO BABY BLUE UNISSEX ",
     price: "R$ 99,00",
     description:
@@ -1084,7 +991,7 @@ const products = [
   },
 
   {
-    id: 56,
+    id: 46,
     name: "Carteira Média em Couro Sintético",
     price: "R$ 59,90",
     description:
@@ -1099,7 +1006,25 @@ const products = [
     ],
   },
   {
-    id: 60,
+    id: 47,
+    name: "Mala de Bordo Com Alça Transversal Removível ",
+    price: "R$ 89,90",
+     description:
+    "Viaje com a sofisticação que você merece. Nossa bolsa de viagem une a beleza estética do acabamento em textura lisa clássica à funcionalidade que o viajante moderno precisa. Com alças de mão reforçadas e uma alça tiracolo regulável e removível, ela se adapta perfeitamente ao seu ritmo. O compartimento principal amplo facilita o acesso rápido às suas roupas e acessórios, tornando-a a escolha definitiva para finais de semana, viagens a negócios ou como complemento de bagagem.",
+    media: [
+      { type: "image", src: bag191 },
+      { type: "image", src: bag193 },
+      { type: "image", src: bag192 },
+      { type: "image", src: bag194 },
+      { type: "image", src: bag277 },
+      { type: "image", src: bag278 },
+
+      // { type: "video", src: "" },
+    ],
+  },
+
+  {
+    id: 48,
     name: "Mala de Mão Viagem/Esportiva",
     price: "R$ 99,00",
     description:
@@ -1115,7 +1040,7 @@ const products = [
     ],
   },
   {
-    id: 27,
+    id: 49,
     name: "Mala T60",
     price: "R$ 89,90",
     description:
@@ -1135,7 +1060,7 @@ const products = [
     ],
   },
   {
-    id: 28,
+    id: 50,
     name: "Mala Zaoqiu",
     price: "R$ 89,90",
     description:
@@ -1153,21 +1078,7 @@ const products = [
     ],
   },
 
-  {
-    id: 47,
-    name: "Mala de Mão, Courino",
-    price: "R$ 89,90",
-    // description:
-    //   "Bolsa tiracolo de estilo clássico e versátil, ideal para uso durante o dia ou à noite. Confeccionada em couro sintético, possui fecho em metal e alça de corrente preta que adiciona um toque moderno e elegante.Disponível nas cores branco, bege, caramelo e creme.",
-    media: [
-      { type: "image", src: bag193 },
-      { type: "image", src: bag191 },
-      { type: "image", src: bag192 },
-      { type: "image", src: bag194 },
-
-      // { type: "video", src: "" },
-    ],
-  },
+  
 ];
 
 const Products = () => {
